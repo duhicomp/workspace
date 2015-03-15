@@ -1,0 +1,261 @@
+2014-11-23 21:47:03,460 root         DEBUG    p1 PID=11640
+2014-11-23 21:47:03,461 root         DEBUG    p2 PID=10772
+2014-11-23 21:47:03,461 root         DEBUG    p3 PID=8096
+2014-11-23 21:47:03,618 root         DEBUG    list_dir	 in the list_dir  function
+2014-11-23 21:47:03,618 root         DEBUG    list_dir	 Working Directory=D:\Movies
+2014-11-23 21:47:03,618 root         DEBUG    list_dir	 About to walk rootdir=D:\Movies
+2014-11-23 21:47:03,621 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:03,621 root         DEBUG    Hashing the file:D:\Movies\Eddie Izzard - Dressed To Kill.avi
+2014-11-23 21:47:03,621 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:03,621 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\Eddie Izzard - Dressed To Kill.avi
+2014-11-23 21:47:03,621 root         DEBUG    list_dir	 exiting the list_dir() function
+2014-11-23 21:47:03,624 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:03,624 root         DEBUG    Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr.mkv
+2014-11-23 21:47:03,624 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:03,624 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr.mkv
+2014-11-23 21:47:10,362 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,364 root         DEBUG    PID:***11640*** exit code:0
+2014-11-23 21:47:10,364 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\Eddie Izzard - Dressed To Kill.avi =7819a518ad4ba8ac167f6ef8c1ba1aff7079e174a8c50a1bce9a55da
+2014-11-23 21:47:10,364 root         DEBUG    returned hash value:7819a518ad4ba8ac167f6ef8c1ba1aff7079e174a8c50a1bce9a55da
+2014-11-23 21:47:10,364 root         DEBUG    result line1	789039104	D:\Movies\Eddie Izzard - Dressed To Kill.avi	7819a518ad4ba8ac167f6ef8c1ba1aff7079e174a8c50a1bce9a55da	0:00:06.742000
+2014-11-23 21:47:10,364 root         DEBUG    done Hashing the file:D:\Movies\Eddie Izzard - Dressed To Kill.avi
+2014-11-23 21:47:10,365 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,365 root         DEBUG    Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr_sample.mkv
+2014-11-23 21:47:10,365 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,365 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr_sample.mkv
+2014-11-23 21:47:10,427 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,427 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr_sample.mkv =01719461d31e24e9bd37881fed39946912dde4f0f47260b30bc6a0b8
+2014-11-23 21:47:10,427 root         DEBUG    returned hash value:01719461d31e24e9bd37881fed39946912dde4f0f47260b30bc6a0b8
+2014-11-23 21:47:10,427 root         DEBUG    result line2	7523583	D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr_sample.mkv	01719461d31e24e9bd37881fed39946912dde4f0f47260b30bc6a0b8	0:00:00.063000
+2014-11-23 21:47:10,427 root         DEBUG    done Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr_sample.mkv
+2014-11-23 21:47:10,427 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,427 root         DEBUG    Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\poster.jpg
+2014-11-23 21:47:10,427 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,427 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\poster.jpg
+2014-11-23 21:47:10,427 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,427 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\poster.jpg =f2d6c31c75e80f2ea7d0f294e9a932f9f15cab1d4d69442ae3089ab1
+2014-11-23 21:47:10,427 root         DEBUG    returned hash value:f2d6c31c75e80f2ea7d0f294e9a932f9f15cab1d4d69442ae3089ab1
+2014-11-23 21:47:10,428 root         DEBUG    result line3	70986	D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\poster.jpg	f2d6c31c75e80f2ea7d0f294e9a932f9f15cab1d4d69442ae3089ab1	0:00:00.001000
+2014-11-23 21:47:10,428 root         DEBUG    done Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\poster.jpg
+2014-11-23 21:47:10,428 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,428 root         DEBUG    Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\sujaidr.txt
+2014-11-23 21:47:10,428 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,428 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\sujaidr.txt
+2014-11-23 21:47:10,428 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,430 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\sujaidr.txt =e4d3d793ae78b0b253add82309e42a6a2846ef0af04b8d13306bb489
+2014-11-23 21:47:10,430 root         DEBUG    returned hash value:e4d3d793ae78b0b253add82309e42a6a2846ef0af04b8d13306bb489
+2014-11-23 21:47:10,430 root         DEBUG    result line4	392	D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\sujaidr.txt	e4d3d793ae78b0b253add82309e42a6a2846ef0af04b8d13306bb489	0:00:00
+2014-11-23 21:47:10,430 root         DEBUG    done Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\sujaidr.txt
+2014-11-23 21:47:10,430 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,430 root         DEBUG    Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Torrent downloaded from AhaShare.com.txt
+2014-11-23 21:47:10,430 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,430 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Torrent downloaded from AhaShare.com.txt
+2014-11-23 21:47:10,430 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,430 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Torrent downloaded from AhaShare.com.txt =5e25e52571c62ce98b47db4390d118540d80a24d01f824159eafea09
+2014-11-23 21:47:10,430 root         DEBUG    returned hash value:5e25e52571c62ce98b47db4390d118540d80a24d01f824159eafea09
+2014-11-23 21:47:10,430 root         DEBUG    result line5	59	D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Torrent downloaded from AhaShare.com.txt	5e25e52571c62ce98b47db4390d118540d80a24d01f824159eafea09	0:00:00
+2014-11-23 21:47:10,430 root         DEBUG    done Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Torrent downloaded from AhaShare.com.txt
+2014-11-23 21:47:10,430 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,430 root         DEBUG    Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Torrent Downloaded from SilverTorrents.me.txt
+2014-11-23 21:47:10,431 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,431 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Torrent Downloaded from SilverTorrents.me.txt
+2014-11-23 21:47:10,431 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,431 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Torrent Downloaded from SilverTorrents.me.txt =b13f3ea23bca830e15b1f532f8ab634368126ad9c1d82cda5e6d67b6
+2014-11-23 21:47:10,431 root         DEBUG    returned hash value:b13f3ea23bca830e15b1f532f8ab634368126ad9c1d82cda5e6d67b6
+2014-11-23 21:47:10,431 root         DEBUG    result line6	41	D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Torrent Downloaded from SilverTorrents.me.txt	b13f3ea23bca830e15b1f532f8ab634368126ad9c1d82cda5e6d67b6	0:00:00.001000
+2014-11-23 21:47:10,433 root         DEBUG    done Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Torrent Downloaded from SilverTorrents.me.txt
+2014-11-23 21:47:10,433 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,433 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Demonoid.com.txt
+2014-11-23 21:47:10,433 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,433 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Demonoid.com.txt
+2014-11-23 21:47:10,433 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,433 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Demonoid.com.txt =7032b012e93ffb39db1ed47e30fddc51b36bfb368d9657c5d993ecfb
+2014-11-23 21:47:10,433 root         DEBUG    returned hash value:7032b012e93ffb39db1ed47e30fddc51b36bfb368d9657c5d993ecfb
+2014-11-23 21:47:10,434 root         DEBUG    result line7	47	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Demonoid.com.txt	7032b012e93ffb39db1ed47e30fddc51b36bfb368d9657c5d993ecfb	0:00:00
+2014-11-23 21:47:10,434 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Demonoid.com.txt
+2014-11-23 21:47:10,434 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,434 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Kingdom RG Please read.nfo
+2014-11-23 21:47:10,434 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,434 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Kingdom RG Please read.nfo
+2014-11-23 21:47:10,434 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,434 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Kingdom RG Please read.nfo =1c20ad2043f39588aabdae22de7720e8472a899442fe2cc40a54e7cf
+2014-11-23 21:47:10,434 root         DEBUG    returned hash value:1c20ad2043f39588aabdae22de7720e8472a899442fe2cc40a54e7cf
+2014-11-23 21:47:10,434 root         DEBUG    result line8	13414	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Kingdom RG Please read.nfo	1c20ad2043f39588aabdae22de7720e8472a899442fe2cc40a54e7cf	0:00:00.001000
+2014-11-23 21:47:10,434 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Kingdom RG Please read.nfo
+2014-11-23 21:47:10,434 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,434 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\tracked_by_h33t_com.txt
+2014-11-23 21:47:10,434 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,436 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\tracked_by_h33t_com.txt
+2014-11-23 21:47:10,436 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,436 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\tracked_by_h33t_com.txt =773b98ac747990968005c716eba6c9cc6ebee0dc05fb10419a7834b0
+2014-11-23 21:47:10,436 root         DEBUG    returned hash value:773b98ac747990968005c716eba6c9cc6ebee0dc05fb10419a7834b0
+2014-11-23 21:47:10,436 root         DEBUG    result line9	23	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\tracked_by_h33t_com.txt	773b98ac747990968005c716eba6c9cc6ebee0dc05fb10419a7834b0	0:00:00
+2014-11-23 21:47:10,436 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\tracked_by_h33t_com.txt
+2014-11-23 21:47:10,436 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,437 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Che Part 1.mp4
+2014-11-23 21:47:10,437 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,437 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Che Part 1.mp4
+2014-11-23 21:47:10,779 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,779 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr.mkv =a2e8e89985ae3a98efa25f16532b0e21c9ea8b26d4c1a628edf43805
+2014-11-23 21:47:10,780 root         DEBUG    returned hash value:a2e8e89985ae3a98efa25f16532b0e21c9ea8b26d4c1a628edf43805
+2014-11-23 21:47:10,780 root         DEBUG    result line1	833833356	D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr.mkv	a2e8e89985ae3a98efa25f16532b0e21c9ea8b26d4c1a628edf43805	0:00:07.156000
+2014-11-23 21:47:10,780 root         DEBUG    done Hashing the file:D:\Movies\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr\Dressed To Kill 1980 unrated 720p BRrip_ sUN_sujaidr.mkv
+2014-11-23 21:47:10,780 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,780 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Che Part One.jpg
+2014-11-23 21:47:10,782 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,782 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Che Part One.jpg
+2014-11-23 21:47:10,782 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,782 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Che Part One.jpg =ff121dfc2e4919f50c85db760ae29939df341def39f2aa4e380afc30
+2014-11-23 21:47:10,782 root         DEBUG    returned hash value:ff121dfc2e4919f50c85db760ae29939df341def39f2aa4e380afc30
+2014-11-23 21:47:10,782 root         DEBUG    result line2	81360	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Che Part One.jpg	ff121dfc2e4919f50c85db760ae29939df341def39f2aa4e380afc30	0:00:00.001000
+2014-11-23 21:47:10,782 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Che Part One.jpg
+2014-11-23 21:47:10,782 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,782 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Kingdom RG Please read.nfo
+2014-11-23 21:47:10,783 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,783 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Kingdom RG Please read.nfo
+2014-11-23 21:47:10,783 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,783 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Kingdom RG Please read.nfo =558b9db5eb4f84598d9f45e2d4a2713d59addf9dc6f5bd78f271c75e
+2014-11-23 21:47:10,783 root         DEBUG    returned hash value:558b9db5eb4f84598d9f45e2d4a2713d59addf9dc6f5bd78f271c75e
+2014-11-23 21:47:10,785 root         DEBUG    result line3	13202	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Kingdom RG Please read.nfo	558b9db5eb4f84598d9f45e2d4a2713d59addf9dc6f5bd78f271c75e	0:00:00.001000
+2014-11-23 21:47:10,785 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Kingdom RG Please read.nfo
+2014-11-23 21:47:10,785 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,785 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Che Part 1 Sample.mp4
+2014-11-23 21:47:10,785 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,786 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Che Part 1 Sample.mp4
+2014-11-23 21:47:10,940 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,940 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Che Part 1 Sample.mp4 =eac643000815e1fffb717eea40e1086c3609679a2ad083c74f0b2d99
+2014-11-23 21:47:10,940 root         DEBUG    returned hash value:eac643000815e1fffb717eea40e1086c3609679a2ad083c74f0b2d99
+2014-11-23 21:47:10,940 root         DEBUG    result line4	19213019	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Che Part 1 Sample.mp4	eac643000815e1fffb717eea40e1086c3609679a2ad083c74f0b2d99	0:00:00.158000
+2014-11-23 21:47:10,941 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Che Part 1 Sample.mp4
+2014-11-23 21:47:10,941 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,941 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 1 Sample Eng.srt
+2014-11-23 21:47:10,941 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,941 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 1 Sample Eng.srt
+2014-11-23 21:47:10,943 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,943 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 1 Sample Eng.srt =77ba71226626c523ebeaa635fdc033e7317ddf1edb740f8b7f6bce43
+2014-11-23 21:47:10,943 root         DEBUG    returned hash value:77ba71226626c523ebeaa635fdc033e7317ddf1edb740f8b7f6bce43
+2014-11-23 21:47:10,943 root         DEBUG    result line5	251	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 1 Sample Eng.srt	77ba71226626c523ebeaa635fdc033e7317ddf1edb740f8b7f6bce43	0:00:00
+2014-11-23 21:47:10,944 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 1 Sample Eng.srt
+2014-11-23 21:47:10,944 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,944 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 1 Sample Rom.srt
+2014-11-23 21:47:10,944 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,944 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 1 Sample Rom.srt
+2014-11-23 21:47:10,944 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,944 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 1 Sample Rom.srt =ff2fb3a888a865846ab1f77cc5492a787317fe994f29ec47bf841094
+2014-11-23 21:47:10,944 root         DEBUG    returned hash value:ff2fb3a888a865846ab1f77cc5492a787317fe994f29ec47bf841094
+2014-11-23 21:47:10,944 root         DEBUG    result line6	218	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 1 Sample Rom.srt	ff2fb3a888a865846ab1f77cc5492a787317fe994f29ec47bf841094	0:00:00.001000
+2014-11-23 21:47:10,944 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 1 Sample Rom.srt
+2014-11-23 21:47:10,944 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,944 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Eng.srt
+2014-11-23 21:47:10,946 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,946 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Eng.srt
+2014-11-23 21:47:10,946 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,946 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Eng.srt =00d0fd57194b724ce46e752a7bc0697301ec3a992d35dceb35ef7709
+2014-11-23 21:47:10,946 root         DEBUG    returned hash value:00d0fd57194b724ce46e752a7bc0697301ec3a992d35dceb35ef7709
+2014-11-23 21:47:10,946 root         DEBUG    result line7	91583	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Eng.srt	00d0fd57194b724ce46e752a7bc0697301ec3a992d35dceb35ef7709	0:00:00.001000
+2014-11-23 21:47:10,947 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Eng.srt
+2014-11-23 21:47:10,947 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,947 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Rom.srt
+2014-11-23 21:47:10,947 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,947 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Rom.srt
+2014-11-23 21:47:10,947 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,947 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Rom.srt =91be54f3f972959bf724cbfbadd5f51478e2551837f91c379c5840ab
+2014-11-23 21:47:10,947 root         DEBUG    returned hash value:91be54f3f972959bf724cbfbadd5f51478e2551837f91c379c5840ab
+2014-11-23 21:47:10,947 root         DEBUG    result line8	111178	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Rom.srt	91be54f3f972959bf724cbfbadd5f51478e2551837f91c379c5840ab	0:00:00.001000
+2014-11-23 21:47:10,947 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Rom.srt
+2014-11-23 21:47:10,947 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,947 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Spa.srt
+2014-11-23 21:47:10,947 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,948 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Spa.srt
+2014-11-23 21:47:10,948 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,948 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Spa.srt =557687c3d60eddf2a3d867872c98d23e5376da45eec154dd8c2d9334
+2014-11-23 21:47:10,948 root         DEBUG    returned hash value:557687c3d60eddf2a3d867872c98d23e5376da45eec154dd8c2d9334
+2014-11-23 21:47:10,948 root         DEBUG    result line9	117711	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Spa.srt	557687c3d60eddf2a3d867872c98d23e5376da45eec154dd8c2d9334	0:00:00.002000
+2014-11-23 21:47:10,948 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 1 Spa.srt
+2014-11-23 21:47:10,948 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:10,950 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Che Part 2.mp4
+2014-11-23 21:47:10,950 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:10,950 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Che Part 2.mp4
+2014-11-23 21:47:29,505 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,506 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Che Part 1.mp4 =889cd43054d10d37b6a30ee09bad1d7a642effca9161c6849363447f
+2014-11-23 21:47:29,506 root         DEBUG    returned hash value:889cd43054d10d37b6a30ee09bad1d7a642effca9161c6849363447f
+2014-11-23 21:47:29,506 root         DEBUG    result line10	2258004230	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Che Part 1.mp4	889cd43054d10d37b6a30ee09bad1d7a642effca9161c6849363447f	0:00:19.073000
+2014-11-23 21:47:29,506 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part One 2008 BRRip H264 5.1 ch-SecretMyth\Che Part 1.mp4
+2014-11-23 21:47:29,506 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:29,506 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Che Part Two.jpg
+2014-11-23 21:47:29,506 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,506 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Che Part Two.jpg
+2014-11-23 21:47:29,507 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,507 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Che Part Two.jpg =d2be1c3f3b7eac32139f5c03042bcd906d5b1241fbc2ab33c8e12ea7
+2014-11-23 21:47:29,509 root         DEBUG    returned hash value:d2be1c3f3b7eac32139f5c03042bcd906d5b1241fbc2ab33c8e12ea7
+2014-11-23 21:47:29,509 root         DEBUG    result line11	269944	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Che Part Two.jpg	d2be1c3f3b7eac32139f5c03042bcd906d5b1241fbc2ab33c8e12ea7	0:00:00.002000
+2014-11-23 21:47:29,509 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Che Part Two.jpg
+2014-11-23 21:47:29,509 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:29,509 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Kingdom RG Please read.nfo
+2014-11-23 21:47:29,509 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,509 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Kingdom RG Please read.nfo
+2014-11-23 21:47:29,509 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,509 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Kingdom RG Please read.nfo =b9fa8ae662f1179d245b49ac8acec049eb560fb1a23c5fa9d87b5f2a
+2014-11-23 21:47:29,509 root         DEBUG    returned hash value:b9fa8ae662f1179d245b49ac8acec049eb560fb1a23c5fa9d87b5f2a
+2014-11-23 21:47:29,509 root         DEBUG    result line12	13202	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Kingdom RG Please read.nfo	b9fa8ae662f1179d245b49ac8acec049eb560fb1a23c5fa9d87b5f2a	0:00:00.001000
+2014-11-23 21:47:29,509 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Kingdom RG Please read.nfo
+2014-11-23 21:47:29,509 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:29,509 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Che Part 2 Sample.mp4
+2014-11-23 21:47:29,510 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,510 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Che Part 2 Sample.mp4
+2014-11-23 21:47:29,671 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,673 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Che Part 2 Sample.mp4 =85e162012595994a5c6ebc3995a096724c657250909fbf6dee981836
+2014-11-23 21:47:29,673 root         DEBUG    returned hash value:85e162012595994a5c6ebc3995a096724c657250909fbf6dee981836
+2014-11-23 21:47:29,673 root         DEBUG    result line13	19434261	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Che Part 2 Sample.mp4	85e162012595994a5c6ebc3995a096724c657250909fbf6dee981836	0:00:00.163000
+2014-11-23 21:47:29,674 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Che Part 2 Sample.mp4
+2014-11-23 21:47:29,674 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:29,674 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 2 Sample Eng.srt
+2014-11-23 21:47:29,674 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,674 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 2 Sample Eng.srt
+2014-11-23 21:47:29,674 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,674 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 2 Sample Eng.srt =1559c6174bcc9fbf16d05febed3d9278fcd194c9e42e1c595800d616
+2014-11-23 21:47:29,674 root         DEBUG    returned hash value:1559c6174bcc9fbf16d05febed3d9278fcd194c9e42e1c595800d616
+2014-11-23 21:47:29,674 root         DEBUG    result line14	648	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 2 Sample Eng.srt	1559c6174bcc9fbf16d05febed3d9278fcd194c9e42e1c595800d616	0:00:00
+2014-11-23 21:47:29,676 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 2 Sample Eng.srt
+2014-11-23 21:47:29,676 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:29,676 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 2 Sample Rom.srt
+2014-11-23 21:47:29,676 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,676 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 2 Sample Rom.srt
+2014-11-23 21:47:29,677 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,677 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 2 Sample Rom.srt =33a865d4dc017794d4a3d0794749e2cb139b84ce01797b952349d478
+2014-11-23 21:47:29,677 root         DEBUG    returned hash value:33a865d4dc017794d4a3d0794749e2cb139b84ce01797b952349d478
+2014-11-23 21:47:29,677 root         DEBUG    result line15	654	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 2 Sample Rom.srt	33a865d4dc017794d4a3d0794749e2cb139b84ce01797b952349d478	0:00:00.001000
+2014-11-23 21:47:29,677 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Sample\Sample Subs\Che Part 2 Sample Rom.srt
+2014-11-23 21:47:29,677 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:29,677 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Eng.srt
+2014-11-23 21:47:29,677 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,677 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Eng.srt
+2014-11-23 21:47:29,677 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,678 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Eng.srt =abf090db752976b632b1fe2349f7dcf82e3be8a76c7264b7dbba1c3f
+2014-11-23 21:47:29,678 root         DEBUG    returned hash value:abf090db752976b632b1fe2349f7dcf82e3be8a76c7264b7dbba1c3f
+2014-11-23 21:47:29,678 root         DEBUG    result line16	82840	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Eng.srt	abf090db752976b632b1fe2349f7dcf82e3be8a76c7264b7dbba1c3f	0:00:00.002000
+2014-11-23 21:47:29,678 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Eng.srt
+2014-11-23 21:47:29,678 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:29,680 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Rom.srt
+2014-11-23 21:47:29,680 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,680 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Rom.srt
+2014-11-23 21:47:29,680 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,680 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Rom.srt =9273111ee0475288299456d13b5aa16dc427966a9da2c067aaf7b9d6
+2014-11-23 21:47:29,680 root         DEBUG    returned hash value:9273111ee0475288299456d13b5aa16dc427966a9da2c067aaf7b9d6
+2014-11-23 21:47:29,680 root         DEBUG    result line17	84290	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Rom.srt	9273111ee0475288299456d13b5aa16dc427966a9da2c067aaf7b9d6	0:00:00.001000
+2014-11-23 21:47:29,680 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Rom.srt
+2014-11-23 21:47:29,680 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:29,680 root         DEBUG    Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Spa.srt
+2014-11-23 21:47:29,680 root         DEBUG    calc_hash:	 in the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,680 root         DEBUG    calc_hash	 Trying to open file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Spa.srt
+2014-11-23 21:47:29,680 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:29,681 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Spa.srt =811655aa9077a386364d56ec450950f9469765f6ae7f38aa984eea67
+2014-11-23 21:47:29,681 root         DEBUG    returned hash value:811655aa9077a386364d56ec450950f9469765f6ae7f38aa984eea67
+2014-11-23 21:47:29,681 root         DEBUG    result line18	88474	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Spa.srt	811655aa9077a386364d56ec450950f9469765f6ae7f38aa984eea67	0:00:00.002000
+2014-11-23 21:47:29,681 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Subs\Che Part 2 Spa.srt
+2014-11-23 21:47:29,681 root         DEBUG    reading a file path from the queue
+2014-11-23 21:47:30,072 root         DEBUG    calc_hash	 Exiting the calc_hash() function, this should be called for each file
+2014-11-23 21:47:30,072 root         DEBUG    calc_hash	 hexdigest for fileD:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Che Part 2.mp4 =c08b3060721ed37121f247f4093ae5706ed83dc2924b7137c709d23e
+2014-11-23 21:47:30,072 root         DEBUG    returned hash value:c08b3060721ed37121f247f4093ae5706ed83dc2924b7137c709d23e
+2014-11-23 21:47:30,072 root         DEBUG    result line10	2257925893	D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Che Part 2.mp4	c08b3060721ed37121f247f4093ae5706ed83dc2924b7137c709d23e	0:00:19.125000
+2014-11-23 21:47:30,072 root         DEBUG    done Hashing the file:D:\Movies\To_Del\Che Part One & Two 2008 Box Set BRRip H264 5.1 ch-SecretMyth (Kingdom-Release)\Che Part Two 2008 BRRip H264 5.1 ch-SecretMyth\Che Part 2.mp4
