@@ -1,9 +1,0 @@
-INFO:root:Calling clean_designer_jobs()
-INFO:root:app to clean: DS
-INFO:root:in the app directory:D:\Test_Folder\DS
-INFO:root:Evaluation the Folder: D:\Test_Folder\DS\jobs\Test_job_Folder_1
-INFO:root:Folder Creation Time is: Thu Feb 05 18:05:45 2015
-INFO:root:The Time difference between now, and creation date is=1025823.31151sec
-INFO:root:in case you are wondering, that is=11.8729549943days)
-INFO:root:Deleting the Folder: D:\Test_Folder\DS\jobs\Test_job_Folder_1
-INFO:root:something went wrong when trying to call clean_designer_jobs()
