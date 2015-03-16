@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Packet>
+  <Documents/>
+  <Inserts>
+    <Insert>
+      <Id>aec7f9dc-5b4c-40e5-a630-680e356f5c56</Id>
+      <DefaultSlot>3</DefaultSlot>
+      <Rank>1</Rank>
+      <ShortDescription>BUMP STK</ShortDescription>
+      <LongDescription>Bumper Sticker</LongDescription>
+      <Name>Bumper Sticker</Name>
+      <TypeIdentifier>460bd646-7794-4f61-a31f-5d69e785da11</TypeIdentifier>
+    </Insert>
+    <Insert>
+      <Id>2eb523ed-1fe5-40ed-86b3-8b69f4aa8da3</Id>
+      <DefaultSlot>5</DefaultSlot>
+      <Rank>1</Rank>
+      <ShortDescription>RET SERV</ShortDescription>
+      <LongDescription>Return Service Envelope #9</LongDescription>
+      <Name>Return Service Envelope #9</Name>
+      <TypeIdentifier>cd0925ee-fb73-4a9d-b8f5-561862c5ad25</TypeIdentifier>
+    </Insert>
+    <Insert>
+      <Id>64cb12fc-4b1d-444b-9087-d294e0882e4d</Id>
+      <DefaultSlot>1</DefaultSlot>
+      <Rank>1</Rank>
+      <ShortDescription>MOBK1008</ShortDescription>
+      <LongDescription>Policy Book</LongDescription>
+      <Name>Policy Book</Name>
+      <TypeIdentifier>eb9f981a-ad55-4d56-8928-4bea615b9dec</TypeIdentifier>
+    </Insert>
+  </Inserts>
+  <DeliveryAddresses>
+    <DeliveryAddress>
+      <Id>a718fffa-ab24-4f98-9536-cadea2cba2c9</Id>
+      <Addressee>NINJA MIKE</Addressee>
+      <PrimaryAddress>894 ALTA AVE</PrimaryAddress>
+      <SecondaryAddress></SecondaryAddress>
+      <City>PEVELY</City>
+      <State>MO</State>
+      <Zip>63070</Zip>
+      <DeliveryMatchesMailingAddress>true</DeliveryMatchesMailingAddress>
+      <SerialNumber>234567890</SerialNumber>
+      <RoutingCode>63070000000</RoutingCode>
+    </DeliveryAddress>
+  </DeliveryAddresses>
+  <Id>e8134b5c-b9af-4221-a9fg4-z351-nodocs</Id>
+  <PolicyIdentifier>113179</PolicyIdentifier>
+  <State>MO</State>
+  <MasterId>8986544</MasterId>
+  <JobType>255</JobType>
+  <Database>PPRINT3</Database>
+  <SpanishLanguage>false</SpanishLanguage>
+  <InsertPageCountEquivalent>20</InsertPageCountEquivalent>
+  <BarcodeID>12</BarcodeID>
+  <ServiceTypeID>702</ServiceTypeID>
+  <MailerID>123456</MailerID>
+</Packet>
