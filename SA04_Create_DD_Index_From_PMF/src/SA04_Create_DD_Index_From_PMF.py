@@ -14,7 +14,7 @@ def set_logging():
     logger.setLevel(logging.DEBUG)
     log_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     
-    log_filename = '../log/add_podcast_' + cur_date_s 
+    log_filename = '../resources/out/generate_param_' + cur_date_s 
     fh = logging.FileHandler(log_filename )
     fh.setLevel(logging.DEBUG)
     fh.setFormatter(log_formatter)
@@ -26,11 +26,19 @@ def set_logging():
     #logger.addHandler(fh)
     return logger
     
-def parse_pmf(self,logger):
+def parse_pmf(pmf_logger):
     indir= "../resources/in"
     for pmf_file in os.listdir(indir):
-        logger.info("Parsing input PMF file:" + os.path.join(indir,pmf_file))
+        pmf_logger.info("Parsing input PMF file:" + os.path.join(indir,pmf_file))
         pmf_tree = ET.parse(os.path.join(indir,pmf_file))
+        pmf_root=pmf_tree.getroot()
+        #documents_root
+        #inserts_root
+        #Delivery Addresses
+        #other tags
+        for pmf_child in pmf_root:
+            pmf_logger.info("PMF TAG:" + str(pmf_child.tag) + " PMF ATTRIB:" + str(pmf_child.attrib))
+        
         
         
 
