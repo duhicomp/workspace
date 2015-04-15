@@ -3311,3 +3311,28 @@ http://www.thisamericanlife.org/radio-archives/episode/470/transcript
 2015-04-15 13:37:00,171 - root - DEBUG - ****************************************** Description URL ******************************************
 2015-04-15 13:37:00,171 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/471/the-convert
 2015-04-15 13:37:00,171 - root - DEBUG - *****************************************************************************************************
+2015-04-15 13:38:00,171 - root - DEBUG - Podcast filename:470 Show Me The Way _ This American Life.mp3
+2015-04-15 13:38:00,171 - root - DEBUG - Podcast number:470 Show Me The Way _ This American Life.mp3
+2015-04-15 13:38:00,177 - root - DEBUG - Podcast filesize:27705919
+2015-04-15 13:38:00,177 - root - DEBUG - Podcast eposide number:470
+2015-04-15 13:38:00,177 - root - DEBUG - Podcast Title:Show Me The Way
+2015-04-15 13:38:00,177 - root - DEBUG - Searching: 470 Show Me The Way _ This American Life.mp3
+2015-04-15 13:38:00,177 - root - DEBUG - search: "470 Show Me The Way _ This American Life.mp3" page# : 0
+2015-04-15 13:38:00,743 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/470/transcript', u'http://www.thisamericanlife.org/radio-archives/episode/470/show-me-the-way', u'http://www.hipiers.com/12aug.html', u'http://www.edrants.com/segundo/archive/', u'http://buildingsandfood.com/archive/2008/12', u'http://buildingsandfood.com/?c=Economics', u'http://www.wsj.com/articles/SB10001424127887323854904578637850049098298', u'http://en.wikipedia.org/wiki/Juggalo']
+2015-04-15 13:38:00,743 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'470', u'transcript']
+2015-04-15 13:38:00,743 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 13:38:00,743 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/470/transcript
+2015-04-15 13:38:00,744 - root - DEBUG - *****************************************************************************************************
+2015-04-15 13:39:00,744 - root - DEBUG - Podcast filename:475 Send a Message _ This American Life.mp3
+2015-04-15 13:39:00,744 - root - DEBUG - Podcast number:475 Send a Message _ This American Life.mp3
+2015-04-15 13:39:00,747 - root - DEBUG - Podcast filesize:27697769
+2015-04-15 13:39:00,747 - root - DEBUG - Podcast eposide number:475
+2015-04-15 13:39:00,749 - root - DEBUG - Podcast Title:Send a Message
+2015-04-15 13:39:00,749 - root - DEBUG - Searching: 475 Send a Message _ This American Life.mp3
+2015-04-15 13:39:00,749 - root - DEBUG - search: "475 Send a Message _ This American Life.mp3" page# : 0
+2015-04-15 13:39:01,558 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/contributors/dave-hill', u'http://www.thisamericanlife.org/radio-archives/episode/475/send-a-message', u'http://www.afpnet.org/files/ContentDocuments/PEW Research_Cell Phone Use_sep 2010.pdf', u'http://www.pewinternet.org/files/old-media/Files/Reports/2010/PIP_Mobile_Access_2010.pdf', u'http://www.pewinternet.org/files/old-media/Files/Reports/2009/Wireless-Internet-Use-With-Topline.pdf', u'http://www.amazon.com/Black-Belt-Patriotism-Reawaken-America/dp/0805464360', u'https://twitter.com/nkaczmarek11', u'http://www.desiringgod.org/biographies/j-gresham-machens-response-to-modernism']
+2015-04-15 13:39:01,558 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'contributors', u'dave-hill']
+2015-04-15 13:39:01,559 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'475', u'send-a-message']
+2015-04-15 13:39:01,559 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 13:39:01,559 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/475/send-a-message
+2015-04-15 13:39:01,559 - root - DEBUG - *****************************************************************************************************
