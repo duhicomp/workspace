@@ -1,0 +1,25 @@
+﻿Sefas Work stuff, look if it will work on you personal PC
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	new file:   Job_Folder_Clean/resources/clean_designer_job_dir_log.log
+#	new file:   Job_Folder_Clean/resources/clean_designer_jobdir
+#	new file:   Job_Folder_Clean/src/Job_Folder_Clean.py
+#	new file:   Python_Text_Editor/src/python_src_editor.py
+#	new file:   SA04_Create_DD_Index_From_PMF/resources/in/a3379697-6280-4e36-a802-a4620497c062.xml
+#	new file:   SA04_Create_DD_Index_From_PMF/resources/in/bad_a3379697-6280-4e36-a802-a4620497c062.xml
+#	new file:   SA04_Create_DD_Index_From_PMF/resources/in/c121d5ee-59db-4e1c-abe7-af5873ff081b.xml
+#	new file:   SA04_Create_DD_Index_From_PMF/resources/in/e8134b5c-b9af-4221-a9-ko-bad-jobtype.xml
+#	new file:   SA04_Create_DD_Index_From_PMF/resources/in/e8134b5c-b9af-4221-a98c-e42b33de17bc.xml
+#	new file:   SA04_Create_DD_Index_From_PMF/resources/in/e8134b5c-b9af-4221-a9fg4-z351-nodocs.xml
+#	new file:   SA04_Create_DD_Index_From_PMF/src/SA04_Create_DD_Index_From_PMF.py
+#	new file:   extract_times_benchmark/src/extract_time.py
+#	new file:   index_definition/resources/LM04_master_index_def
+#	new file:   index_definition/resources/master_def.cmd
+#	new file:   index_definition/src/index_def_gen.py
+#
+# Untracked files:
+#	4v2yilyd.kml.txt
+#
+
