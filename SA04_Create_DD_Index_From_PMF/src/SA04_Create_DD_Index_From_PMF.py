@@ -23,7 +23,7 @@ def set_logging():
     ch.setFormatter(log_formatter)
     
     logger.addHandler(ch)
-    logger.addHandler(fh)
+    #logger.addHandler(fh)
     return logger
     
 def parse_pmf(self,logger):
