@@ -25,6 +25,9 @@ def set_logging():
     logger.addHandler(ch)
     #logger.addHandler(fh)
     return logger
+
+def check_pmf(pmf_logger):
+    return
     
 def parse_pmf(pmf_logger):
     indir= "../resources/in"
@@ -37,12 +40,26 @@ def parse_pmf(pmf_logger):
         #Delivery Addresses
         #other tags
         for pmf_child in pmf_root:
-            pmf_logger.info("PMF TAG:" + str(pmf_child.tag) + " PMF ATTRIB:" + str(pmf_child.attrib))
-        
-        
+            #pmf_logger.info("PMF TAG:" + pmf_child.tag + " PMF Text:" + str(pmf_child.text))
+            if pmf_child.tag == "Documents":
+                pmf_documents_root = pmf_child
+                for pmf_documents_document_tag in pmf_documents_root:
+                    pmf_documents_document_root = pmf_documents_document_tag
+                    for  pmf_documents_document_tag in pmf_documents_document_root:
+                        pmf_logger.info("DOCUMENT TAG:" + pmf_documents_document_tag.tag + " DOCUMENT Text:" + str(pmf_documents_document_tag.text))
+                    
+                    
+            if pmf_child.tag == "Inserts":
+                pmf_inserts_root = pmf_child
+                for pmf_insertes_Insert_tag in pmf_inserts_root:
+                    pmf_inserts_insert_root = pmf_inserts_insert_tag    
+            if pmf_child.tag == "DeliveryAddresses":
+                pmf_Inserts_root = pmf_child
+                    
         
 
 if __name__ == "__main__":
     mylogger = set_logging()
+    check_pmf(mylogger)
     parse_pmf(mylogger)
     
