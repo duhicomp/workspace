@@ -3573,3 +3573,363 @@ http://www.thisamericanlife.org/radio-archives/episode/470/transcript
 2015-04-15 13:59:12,999 - root - DEBUG - ++++++++++++++++++++++++++++++++++++++++++++++ Searched files ++++++++++++++++++++++++++++++++++++++++++++++
 2015-04-15 13:59:12,999 - root - DEBUG - ['463 Mortal Vs_ Venial _ This American Life.mp3', '465 What Happened At Dos Erres _ This American Life.mp3', '460 Retraction _ This American Life.mp3', '474 Back to School _ This American Life.mp3', '482 Lights Camera Christmas _ This American Life.mp3', '467 Americans in China _ This American Life.mp3', '480 Animal Sacrifice _ This American Life.mp3', '471 The Convert _ This American Life.mp3', '470 Show Me The Way _ This American Life.mp3', '475 Send a Message _ This American Life.mp3', '454 Mr. Daisey and the Apple Factory (Retracted) _  This American Life.mp3', '478 Red State Blue State _ This American Life.mp3', '462 Own Worst Enemy _ This American Life.mp3', '479 Little War on the Prairie _ This American Life.mp3', '466 Blackjack _ This American Life.mp3', '476 What Doesnt Kill You _ This American Life.mp3', '456 Reap What You Sow _ This American Life.mp3', '473 Loopholes _ This American Life.mp3', '458 Play the Part _ This American Life.mp3', '481 This Week _ This American Life.mp3', '459 What Kind of Country _ This American Life.mp3', '477 Getting Away With It _ This American Life.mp3', '457 What I Did For Love _ This American Life.mp3', '468 Switcheroo _ This American Life.mp3', '472 Our Friend David _ This American Life.mp3', '461 Take the Money and Run for Office _ This American Life.mp3', '455 Continental Breakup _ This American Life.mp3', '464 Invisible Made Visible _ This American Life.mp3', '469 Hiding in Plain Sight _ This American Life.mp3']
 2015-04-15 13:59:12,999 - root - DEBUG - ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2015-04-15 15:19:59,160 - root - DEBUG - about to list the directory: \\Test_centos\raid5\Podcasts\This American Life - 2012 - Complete Season - Episodes 454-482
+2015-04-15 15:19:59,167 - root - DEBUG - ['463 Mortal Vs_ Venial _ This American Life.mp3', '465 What Happened At Dos Erres _ This American Life.mp3', '460 Retraction _ This American Life.mp3', '474 Back to School _ This American Life.mp3', '482 Lights Camera Christmas _ This American Life.mp3', '467 Americans in China _ This American Life.mp3', '480 Animal Sacrifice _ This American Life.mp3', '471 The Convert _ This American Life.mp3', '470 Show Me The Way _ This American Life.mp3', '475 Send a Message _ This American Life.mp3', '454 Mr. Daisey and the Apple Factory (Retracted) _  This American Life.mp3', '478 Red State Blue State _ This American Life.mp3', '462 Own Worst Enemy _ This American Life.mp3', '479 Little War on the Prairie _ This American Life.mp3', '466 Blackjack _ This American Life.mp3', '476 What Doesnt Kill You _ This American Life.mp3', '456 Reap What You Sow _ This American Life.mp3', '473 Loopholes _ This American Life.mp3', '458 Play the Part _ This American Life.mp3', '481 This Week _ This American Life.mp3', '459 What Kind of Country _ This American Life.mp3', '477 Getting Away With It _ This American Life.mp3', '457 What I Did For Love _ This American Life.mp3', '468 Switcheroo _ This American Life.mp3', '472 Our Friend David _ This American Life.mp3', '461 Take the Money and Run for Office _ This American Life.mp3', '455 Continental Breakup _ This American Life.mp3', '464 Invisible Made Visible _ This American Life.mp3', '469 Hiding in Plain Sight _ This American Life.mp3']
+2015-04-15 15:19:59,167 - root - DEBUG - Podcast filename:463 Mortal Vs_ Venial _ This American Life.mp3
+2015-04-15 15:19:59,167 - root - DEBUG - Podcast number:463 Mortal Vs_ Venial _ This American Life.mp3
+2015-04-15 15:19:59,170 - root - DEBUG - Podcast filesize:27939558
+2015-04-15 15:19:59,170 - root - DEBUG - Podcast eposide number:463
+2015-04-15 15:19:59,170 - root - DEBUG - Podcast Title:Mortal Vs
+2015-04-15 15:19:59,170 - root - DEBUG - Searching: 463 Mortal Vs_ Venial _ This American Life.mp3
+2015-04-15 15:19:59,171 - root - DEBUG - search: "463 Mortal Vs_ Venial _ This American Life.mp3" page# : 0
+2015-04-15 15:20:00,094 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/463/transcript', u'http://www.thisamericanlife.org/radio-archives/episode/463/mortal-vs-venial', u'http://anthroview.blogspot.com/', u'http://news.nationalpost.com/sports/cfl/grey-cup-2012-argos-vs-stampeders-photos', u'http://article.wn.com/view/2014/11/21/Grabbing_Lunch_and_Picking_Favorites/', u'http://article.wn.com/view/2014/01/31/Keeping_it_real_Top_10_biopic_movies_of_all_time_n/', u'http://article.wn.com/view/2015/03/01/Premier_League_in_numbers_Rooneys_record_and_Arsenal_joy/', u'http://article.wn.com/view/2014/12/01/Is_8_Seconds_Enough_Time_to_Glimpse_the_Next_Big_Thing_in_So/']
+2015-04-15 15:20:00,095 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'463', u'transcript']
+2015-04-15 15:20:00,095 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:20:00,095 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/463/transcript
+2015-04-15 15:20:00,095 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:21:00,095 - root - DEBUG - Podcast filename:465 What Happened At Dos Erres _ This American Life.mp3
+2015-04-15 15:21:00,095 - root - DEBUG - Podcast number:465 What Happened At Dos Erres _ This American Life.mp3
+2015-04-15 15:21:00,098 - root - DEBUG - Podcast filesize:28477681
+2015-04-15 15:21:00,098 - root - DEBUG - Podcast eposide number:465
+2015-04-15 15:21:00,098 - root - DEBUG - Podcast Title:What Happened At Dos Erres
+2015-04-15 15:21:00,098 - root - DEBUG - Searching: 465 What Happened At Dos Erres _ This American Life.mp3
+2015-04-15 15:21:00,098 - root - DEBUG - search: "465 What Happened At Dos Erres _ This American Life.mp3" page# : 0
+2015-04-15 15:21:00,790 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/465/what-happened-at-dos-erres', u'http://www.thisamericanlife.org/radio-archives/episode/465/transcript', u'http://www.amazon.com/464-Invisible-Made-Visible/dp/B00864SLNA', u'http://www.amazon.com/457-What-Did-For-Love/dp/B007IVETYC', u'http://www.peabodyawards.com/award-profile/this-american-life-what-happened-at-dos-erres', u'http://carmeloruiz.blogspot.com/2012_05_01_archive.html', u'http://blogg.resume.se/nina-akestam/2012/07/19/podcasts/', u'https://kickass.to/this-american-life-2012-complete-season-episodes-454-482-t7448565.html']
+2015-04-15 15:21:00,790 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'465', u'what-happened-at-dos-erres']
+2015-04-15 15:21:00,790 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:21:00,792 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/465/what-happened-at-dos-erres
+2015-04-15 15:21:00,792 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:22:00,792 - root - DEBUG - Podcast filename:460 Retraction _ This American Life.mp3
+2015-04-15 15:22:00,792 - root - DEBUG - Podcast number:460 Retraction _ This American Life.mp3
+2015-04-15 15:22:00,796 - root - DEBUG - Podcast filesize:27735176
+2015-04-15 15:22:00,798 - root - DEBUG - Podcast eposide number:460
+2015-04-15 15:22:00,798 - root - DEBUG - Podcast Title:Retraction
+2015-04-15 15:22:00,798 - root - DEBUG - Searching: 460 Retraction _ This American Life.mp3
+2015-04-15 15:22:00,798 - root - DEBUG - search: "460 Retraction _ This American Life.mp3" page# : 0
+2015-04-15 15:22:01,611 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/460/retraction', u'http://www.theverge.com/apple/2012/3/16/2879092/mike-daisey-this-american-life-retraction-episode-460', u'http://en.wikipedia.org/wiki/This_American_Life', u'http://popupchinese.com/lessons/sinica/laffaire-daisey', u'http://academicmac.com/2012/03/', u'http://planet10tech.com/category/cool/podcasts/', u'http://planet10tech.com/2012/01/', u'https://www.grc.com/sn/sn-460.pdf']
+2015-04-15 15:22:01,611 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'460', u'retraction']
+2015-04-15 15:22:01,612 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:22:01,612 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/460/retraction
+2015-04-15 15:22:01,612 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:23:01,612 - root - DEBUG - Podcast filename:474 Back to School _ This American Life.mp3
+2015-04-15 15:23:01,612 - root - DEBUG - Podcast number:474 Back to School _ This American Life.mp3
+2015-04-15 15:23:01,617 - root - DEBUG - Podcast filesize:27514912
+2015-04-15 15:23:01,618 - root - DEBUG - Podcast eposide number:474
+2015-04-15 15:23:01,618 - root - DEBUG - Podcast Title:Back to School
+2015-04-15 15:23:01,618 - root - DEBUG - Searching: 474 Back to School _ This American Life.mp3
+2015-04-15 15:23:01,618 - root - DEBUG - search: "474 Back to School _ This American Life.mp3" page# : 0
+2015-04-15 15:23:02,461 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/474/back-to-school', u'http://www.thisamericanlife.org/radio-archives/episode/474/transcript', u'http://www.amazon.com/This-American-Life/dp/B00434Y7IU', u'http://www.amazon.com/339-Break-Up/dp/B0047XGALE', u'http://www.kungfugrippe.com/post/32221049940/grit', u'http://www.du.edu/ahss/polisci/areasofstudy/syllabus_201470_fsem1111_wilson.pdf', u'http://www.econtalk.org/archives/2012/09/paul_tough_on_h.html', u'http://teachingenglishii.blogspot.com/']
+2015-04-15 15:23:02,461 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'474', u'back-to-school']
+2015-04-15 15:23:02,463 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:23:02,463 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/474/back-to-school
+2015-04-15 15:23:02,463 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:24:02,463 - root - DEBUG - Podcast filename:482 Lights Camera Christmas _ This American Life.mp3
+2015-04-15 15:24:02,463 - root - DEBUG - Podcast number:482 Lights Camera Christmas _ This American Life.mp3
+2015-04-15 15:24:02,470 - root - DEBUG - Podcast filesize:27799751
+2015-04-15 15:24:02,470 - root - DEBUG - Podcast eposide number:482
+2015-04-15 15:24:02,470 - root - DEBUG - Podcast Title:Lights Camera Christmas
+2015-04-15 15:24:02,470 - root - DEBUG - Searching: 482 Lights Camera Christmas _ This American Life.mp3
+2015-04-15 15:24:02,470 - root - DEBUG - search: "482 Lights Camera Christmas _ This American Life.mp3" page# : 0
+2015-04-15 15:24:03,147 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/482/lights-camera-christmas', u'http://www.thisamericanlife.org/radio-archives/episode/482/transcript', u'http://podtail.com/podcast/this-american-life/', u'http://fanfare.metafilter.com/show/this-american-life', u'http://www.youtube.com/watch?v=U0pgvljyQJA', u'http://www.youtube.com/watch?v=gyPHjCdzu0A', u'http://www.youtube.com/watch?v=cWXzu7Y1LLg', u'http://www.youtube.com/watch?v=_hkWzwd0cuU']
+2015-04-15 15:24:03,147 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'482', u'lights-camera-christmas']
+2015-04-15 15:24:03,147 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:24:03,147 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/482/lights-camera-christmas
+2015-04-15 15:24:03,147 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:25:03,147 - root - DEBUG - Podcast filename:467 Americans in China _ This American Life.mp3
+2015-04-15 15:25:03,147 - root - DEBUG - Podcast number:467 Americans in China _ This American Life.mp3
+2015-04-15 15:25:03,153 - root - DEBUG - Podcast filesize:27612296
+2015-04-15 15:25:03,153 - root - DEBUG - Podcast eposide number:467
+2015-04-15 15:25:03,153 - root - DEBUG - Podcast Title:Americans in China
+2015-04-15 15:25:03,153 - root - DEBUG - Searching: 467 Americans in China _ This American Life.mp3
+2015-04-15 15:25:03,153 - root - DEBUG - search: "467 Americans in China _ This American Life.mp3" page# : 0
+2015-04-15 15:25:03,878 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/467/transcript', u'http://www.thisamericanlife.org/play_full.php?play=467', u'http://www.douban.com/group/topic/36262178/', u'http://carmeloruiz.blogspot.com/2012_06_01_archive.html', u'http://www.jmu.edu/catalog/12/cd/course_H.html', u'http://www.jmu.edu/catalog/12/cd/course_G.html', u'http://www.edrants.com/segundo/archive/', u'http://www.amazon.com/American-Hustle-Original-Picture-Soundtrack/dp/B00GXU5376']
+2015-04-15 15:25:03,880 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'467', u'transcript']
+2015-04-15 15:25:03,880 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:25:03,880 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/467/transcript
+2015-04-15 15:25:03,880 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:26:03,880 - root - DEBUG - Podcast filename:480 Animal Sacrifice _ This American Life.mp3
+2015-04-15 15:26:03,880 - root - DEBUG - Podcast number:480 Animal Sacrifice _ This American Life.mp3
+2015-04-15 15:26:03,884 - root - DEBUG - Podcast filesize:27606445
+2015-04-15 15:26:03,884 - root - DEBUG - Podcast eposide number:480
+2015-04-15 15:26:03,884 - root - DEBUG - Podcast Title:Animal Sacrifice
+2015-04-15 15:26:03,884 - root - DEBUG - Searching: 480 Animal Sacrifice _ This American Life.mp3
+2015-04-15 15:26:03,884 - root - DEBUG - search: "480 Animal Sacrifice _ This American Life.mp3" page# : 0
+2015-04-15 15:26:04,798 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/480/animal-sacrifice', u'http://www.thisamericanlife.org/radio-archives/episode/480/transcript', u'https://soundcloud.com/this-american-life/480-animal-sacrifice', u'http://www.edrants.com/segundo/archive/', u'http://www.dailymail.co.uk/sciencetech/article-3032790/Gorillas-list-Genetic-map-mountain-gorillas-revealed-time.html', u'http://suprememastertv.com/ve/?wr_id=97', u'http://suprememastertv.com/WOW-Scrolls/?wr_id=72&page=0', u'http://www.popsci.com/gadgets/article/2009-12/tech-buyers-guide-pocket-mp3-players']
+2015-04-15 15:26:04,798 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'480', u'animal-sacrifice']
+2015-04-15 15:26:04,798 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:26:04,799 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/480/animal-sacrifice
+2015-04-15 15:26:04,799 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:27:04,799 - root - DEBUG - Podcast filename:471 The Convert _ This American Life.mp3
+2015-04-15 15:27:04,799 - root - DEBUG - Podcast number:471 The Convert _ This American Life.mp3
+2015-04-15 15:27:04,803 - root - DEBUG - Podcast filesize:27744998
+2015-04-15 15:27:04,803 - root - DEBUG - Podcast eposide number:471
+2015-04-15 15:27:04,803 - root - DEBUG - Podcast Title:The Convert
+2015-04-15 15:27:04,803 - root - DEBUG - Searching: 471 The Convert _ This American Life.mp3
+2015-04-15 15:27:04,805 - root - DEBUG - search: "471 The Convert _ This American Life.mp3" page# : 0
+2015-04-15 15:27:05,369 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/471/the-convert', u'http://www.thisamericanlife.org/radio-archives/episode/427/original-recipe/recipe', u'http://www.thisamericanlife.org/radio-archives/episode/471/transcript', u'http://www.thisamericanlife.org/play_full.php?play=471', u'http://www.crimethinc.com/podcast/34/', u'http://en.wikipedia.org/wiki/Joan_Baez', u'http://www.bostonsing.org/index/', u'http://www.yourstoryhour.org/store/product/patterns-of-destiny/']
+2015-04-15 15:27:05,371 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'471', u'the-convert']
+2015-04-15 15:27:05,371 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:27:05,371 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/471/the-convert
+2015-04-15 15:27:05,371 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:28:05,371 - root - DEBUG - Podcast filename:470 Show Me The Way _ This American Life.mp3
+2015-04-15 15:28:05,371 - root - DEBUG - Podcast number:470 Show Me The Way _ This American Life.mp3
+2015-04-15 15:28:05,375 - root - DEBUG - Podcast filesize:27705919
+2015-04-15 15:28:05,375 - root - DEBUG - Podcast eposide number:470
+2015-04-15 15:28:05,375 - root - DEBUG - Podcast Title:Show Me The Way
+2015-04-15 15:28:05,375 - root - DEBUG - Searching: 470 Show Me The Way _ This American Life.mp3
+2015-04-15 15:28:05,375 - root - DEBUG - search: "470 Show Me The Way _ This American Life.mp3" page# : 0
+2015-04-15 15:28:06,030 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/470/transcript', u'http://www.thisamericanlife.org/radio-archives/episode/470/show-me-the-way', u'http://www.hipiers.com/12aug.html', u'http://www.edrants.com/segundo/archive/', u'http://buildingsandfood.com/archive/2008/12', u'http://buildingsandfood.com/?c=Economics', u'http://www.wsj.com/articles/SB10001424127887323854904578637850049098298', u'http://en.wikipedia.org/wiki/Juggalo']
+2015-04-15 15:28:06,032 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'470', u'transcript']
+2015-04-15 15:28:06,032 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:28:06,032 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/470/transcript
+2015-04-15 15:28:06,032 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:29:06,032 - root - DEBUG - Podcast filename:475 Send a Message _ This American Life.mp3
+2015-04-15 15:29:06,032 - root - DEBUG - Podcast number:475 Send a Message _ This American Life.mp3
+2015-04-15 15:29:06,038 - root - DEBUG - Podcast filesize:27697769
+2015-04-15 15:29:06,038 - root - DEBUG - Podcast eposide number:475
+2015-04-15 15:29:06,038 - root - DEBUG - Podcast Title:Send a Message
+2015-04-15 15:29:06,038 - root - DEBUG - Searching: 475 Send a Message _ This American Life.mp3
+2015-04-15 15:29:06,039 - root - DEBUG - search: "475 Send a Message _ This American Life.mp3" page# : 0
+2015-04-15 15:29:06,736 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/contributors/dave-hill', u'http://www.thisamericanlife.org/radio-archives/episode/475/send-a-message', u'http://www.afpnet.org/files/ContentDocuments/PEW Research_Cell Phone Use_sep 2010.pdf', u'http://www.pewinternet.org/files/old-media/Files/Reports/2010/PIP_Mobile_Access_2010.pdf', u'http://www.pewinternet.org/files/old-media/Files/Reports/2009/Wireless-Internet-Use-With-Topline.pdf', u'http://www.amazon.com/Black-Belt-Patriotism-Reawaken-America/dp/0805464360', u'https://twitter.com/nkaczmarek11', u'http://www.desiringgod.org/biographies/j-gresham-machens-response-to-modernism']
+2015-04-15 15:29:06,737 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'contributors', u'dave-hill']
+2015-04-15 15:29:06,737 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'475', u'send-a-message']
+2015-04-15 15:29:06,737 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:29:06,737 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/475/send-a-message
+2015-04-15 15:29:06,737 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:30:06,737 - root - DEBUG - Podcast filename:454 Mr. Daisey and the Apple Factory (Retracted) _  This American Life.mp3
+2015-04-15 15:30:06,739 - root - DEBUG - Podcast number:454 Mr. Daisey and the Apple Factory (Retracted) _  This American Life.mp3
+2015-04-15 15:30:06,742 - root - DEBUG - Podcast filesize:72779831
+2015-04-15 15:30:06,743 - root - DEBUG - Podcast eposide number:454
+2015-04-15 15:30:06,743 - root - DEBUG - Podcast Title:Mr. Daisey and the Apple Factory (Retracted)
+2015-04-15 15:30:06,743 - root - DEBUG - Searching: 454 Mr. Daisey and the Apple Factory (Retracted) _  This American Life.mp3
+2015-04-15 15:30:06,743 - root - DEBUG - search: "454 Mr. Daisey and the Apple Factory (Retracted) _  This American Life.mp3" page# : 0
+2015-04-15 15:30:07,506 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/454/mr-daisey-and-the-apple-factory', u'http://www.thisamericanlife.org/blog/2012/03/retracting-mr-daisey-and-the-apple-factory', u'https://archive.org/details/ThisAmericanLife454Mr.DaiseyAndTheAppleFactory', u'https://archive.org/details/thisamericanlife-misterdaisey', u'http://en.wikipedia.org/wiki/This_American_Life', u'http://boingboing.net/2012/01/23/mr-daisey-and-the-apple-facto.html', u'http://boingboing.net/2012/03/17/a-day-of-reckoning-for-this-am.html', u'http://anthroview.blogspot.com/']
+2015-04-15 15:30:07,506 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'454', u'mr-daisey-and-the-apple-factory']
+2015-04-15 15:30:07,506 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:30:07,506 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/454/mr-daisey-and-the-apple-factory
+2015-04-15 15:30:07,507 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:31:07,507 - root - DEBUG - Podcast filename:478 Red State Blue State _ This American Life.mp3
+2015-04-15 15:31:07,509 - root - DEBUG - Podcast number:478 Red State Blue State _ This American Life.mp3
+2015-04-15 15:31:07,512 - root - DEBUG - Podcast filesize:29684747
+2015-04-15 15:31:07,513 - root - DEBUG - Podcast eposide number:478
+2015-04-15 15:31:07,513 - root - DEBUG - Podcast Title:Red State Blue State
+2015-04-15 15:31:07,513 - root - DEBUG - Searching: 478 Red State Blue State _ This American Life.mp3
+2015-04-15 15:31:07,513 - root - DEBUG - search: "478 Red State Blue State _ This American Life.mp3" page# : 0
+2015-04-15 15:31:08,604 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/478/red-state-blue-state', u'http://www.thisamericanlife.org/radio-archives/episode/478/transcript', u'http://www.americandialect.org/Words_of_the_Year_2005.pdf', u'http://www.dailymail.co.uk/sciencetech/article-2172522/The-First-Americans-Humans-arrived-THREE-great-migrations-land-bridge-Siberia--DNA-differences-detected-today.html', u'http://en.wikipedia.org/wiki/A_State_of_Trance', u'http://en.wikipedia.org/wiki/Sydney_Johnson', u'http://www.jammiewf.com/2013/great-news-obama-hiring-behavioral-insights-team-to-nudge-you-into-state-approved-behavior/', u'http://tomohalloran.com/2014/12/08/college-professor-makes-students-recite-anti-american-pledge-allegiance/']
+2015-04-15 15:31:08,604 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'478', u'red-state-blue-state']
+2015-04-15 15:31:08,604 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:31:08,604 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/478/red-state-blue-state
+2015-04-15 15:31:08,604 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:32:08,605 - root - DEBUG - Podcast filename:462 Own Worst Enemy _ This American Life.mp3
+2015-04-15 15:32:08,605 - root - DEBUG - Podcast number:462 Own Worst Enemy _ This American Life.mp3
+2015-04-15 15:32:08,608 - root - DEBUG - Podcast filesize:28324916
+2015-04-15 15:32:08,608 - root - DEBUG - Podcast eposide number:462
+2015-04-15 15:32:08,608 - root - DEBUG - Podcast Title:Own Worst Enemy
+2015-04-15 15:32:08,609 - root - DEBUG - Searching: 462 Own Worst Enemy _ This American Life.mp3
+2015-04-15 15:32:08,609 - root - DEBUG - search: "462 Own Worst Enemy _ This American Life.mp3" page# : 0
+2015-04-15 15:32:09,119 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/contributors/the-truth', u'http://www.thisamericanlife.org/radio-archives/episode/462/own-worst-enemy', u'http://static.sdu.dk/mediafiles//9/2/E/{92E2D72E-1B1E-444E-9E9F-9337206EFC70}Film for \xc3\x98ret- En evolution af dansk taleradio_.pdf', u'http://anthroview.blogspot.com/', u'http://www.theirishstory.com/2010/03/26/book-review-england\xe2\x80\x99s-greatest-spy-\xe2\x80\x93-eamonn-de-valera-john-j-turi/', u'http://www.amazon.com/White-Girl-Problems-Babe-Walker/dp/1401324541', u'http://irishamericancivilwar.com/2012/08/16/bridget-diver-custers-female-wolverine/', u'https://www.lds.org/broadcasts/article/ces-devotionals/2011/01/truth-and-tolerance?lang=eng']
+2015-04-15 15:32:09,119 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'contributors', u'the-truth']
+2015-04-15 15:32:09,119 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'462', u'own-worst-enemy']
+2015-04-15 15:32:09,121 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:32:09,121 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/462/own-worst-enemy
+2015-04-15 15:32:09,121 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:33:09,121 - root - DEBUG - Podcast filename:479 Little War on the Prairie _ This American Life.mp3
+2015-04-15 15:33:09,121 - root - DEBUG - Podcast number:479 Little War on the Prairie _ This American Life.mp3
+2015-04-15 15:33:09,125 - root - DEBUG - Podcast filesize:29802402
+2015-04-15 15:33:09,125 - root - DEBUG - Podcast eposide number:479
+2015-04-15 15:33:09,125 - root - DEBUG - Podcast Title:Little War on the Prairie
+2015-04-15 15:33:09,125 - root - DEBUG - Searching: 479 Little War on the Prairie _ This American Life.mp3
+2015-04-15 15:33:09,125 - root - DEBUG - search: "479 Little War on the Prairie _ This American Life.mp3" page# : 0
+2015-04-15 15:33:09,844 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/479/little-war-on-the-prairie', u'http://www.thisamericanlife.org/radio-archives/episode/479/transcript', u'http://www.thisamericanlife.org/education', u'http://www.audible.com/pd/History/The-History-of-the-United-States-2nd-Edition-Audiobook/B00DIHAN68', u'http://www.audible.com/pd/Fiction/State-of-Wonder-Audiobook/B0052OUFO0', u'http://www.mediaoutlet.com/gunsmoke-mp3-dvd-complete-old-time-radio-series-p-206.html', u'http://www.frys.com/category/Outpost/Movies_Music/Movies+&+TV+Shows/', u'http://www.oldsongs.org/directory/PerformersRD.html']
+2015-04-15 15:33:09,845 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'479', u'little-war-on-the-prairie']
+2015-04-15 15:33:09,845 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:33:09,845 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/479/little-war-on-the-prairie
+2015-04-15 15:33:09,845 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:34:09,845 - root - DEBUG - Podcast filename:466 Blackjack _ This American Life.mp3
+2015-04-15 15:34:09,845 - root - DEBUG - Podcast number:466 Blackjack _ This American Life.mp3
+2015-04-15 15:34:09,849 - root - DEBUG - Podcast filesize:27738520
+2015-04-15 15:34:09,849 - root - DEBUG - Podcast eposide number:466
+2015-04-15 15:34:09,849 - root - DEBUG - Podcast Title:Blackjack
+2015-04-15 15:34:09,851 - root - DEBUG - Searching: 466 Blackjack _ This American Life.mp3
+2015-04-15 15:34:09,851 - root - DEBUG - search: "466 Blackjack _ This American Life.mp3" page# : 0
+2015-04-15 15:34:10,279 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/466/blackjack', u'http://www.thisamericanlife.org/radio-archives/episode/466/transcript', u'https://soundcloud.com/this-american-life/466-blackjack', u'http://www.amazon.com/464-Invisible-Made-Visible/dp/B00864SLNA', u'http://www.borderstories.org/blog/?cat=5', u'https://archive.org/details/audio_podcast?and[]=subject:"conspiracy"', u'https://archive.org/details/audio_podcast?and[]=subject:"media monarchy"', u'http://www.in-aer.com/Katrinas_Resources.html']
+2015-04-15 15:34:10,280 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'466', u'blackjack']
+2015-04-15 15:34:10,280 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:34:10,280 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/466/blackjack
+2015-04-15 15:34:10,280 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:35:10,280 - root - DEBUG - Podcast filename:476 What Doesnt Kill You _ This American Life.mp3
+2015-04-15 15:35:10,282 - root - DEBUG - Podcast number:476 What Doesnt Kill You _ This American Life.mp3
+2015-04-15 15:35:10,292 - root - DEBUG - Podcast filesize:27697978
+2015-04-15 15:35:10,293 - root - DEBUG - Podcast eposide number:476
+2015-04-15 15:35:10,293 - root - DEBUG - Podcast Title:What Doesnt Kill You
+2015-04-15 15:35:10,295 - root - DEBUG - Searching: 476 What Doesnt Kill You _ This American Life.mp3
+2015-04-15 15:35:10,295 - root - DEBUG - search: "476 What Doesnt Kill You _ This American Life.mp3" page# : 0
+2015-04-15 15:35:10,980 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/476/what-doesnt-kill-you', u'http://www.thisamericanlife.org/contributors/tig-notaro', u'http://www.thisamericanlife.org/education', u'http://www.youtube.com/watch?v=1E67o5fIz3E', u'http://ds106.us/2013/02/03/week-four-audio-listening/', u'http://hotpod.audio/author/frostedmoose/', u'http://www.progarchives.com/artist.asp?id=476', u'https://plus.google.com/explore/TigNotaro']
+2015-04-15 15:35:10,980 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'476', u'what-doesnt-kill-you']
+2015-04-15 15:35:10,982 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:35:10,982 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/476/what-doesnt-kill-you
+2015-04-15 15:35:10,982 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:36:10,983 - root - DEBUG - Podcast filename:456 Reap What You Sow _ This American Life.mp3
+2015-04-15 15:36:10,983 - root - DEBUG - Podcast number:456 Reap What You Sow _ This American Life.mp3
+2015-04-15 15:36:10,987 - root - DEBUG - Podcast filesize:27761508
+2015-04-15 15:36:10,987 - root - DEBUG - Podcast eposide number:456
+2015-04-15 15:36:10,987 - root - DEBUG - Podcast Title:Reap What You Sow
+2015-04-15 15:36:10,989 - root - DEBUG - Searching: 456 Reap What You Sow _ This American Life.mp3
+2015-04-15 15:36:10,989 - root - DEBUG - search: "456 Reap What You Sow _ This American Life.mp3" page# : 0
+2015-04-15 15:36:11,828 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/456/transcript', u'http://www.thisamericanlife.org/play_full.php?play=456', u'http://www.edrants.com/segundo/archive/', u'http://anthroview.blogspot.com/', u'http://www.aei.org/publication/bernie-madoff-steve-jobs-and-wall-street-greed/', u'https://archive.org/details/RonaldReagan-EncroachingControl', u'https://archive.org/details/Winston_Churchill', u'https://wfmu.org/playlists/DX']
+2015-04-15 15:36:11,829 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'456', u'transcript']
+2015-04-15 15:36:11,829 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:36:11,831 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/456/transcript
+2015-04-15 15:36:11,831 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:37:11,831 - root - DEBUG - Podcast filename:473 Loopholes _ This American Life.mp3
+2015-04-15 15:37:11,832 - root - DEBUG - Podcast number:473 Loopholes _ This American Life.mp3
+2015-04-15 15:37:11,838 - root - DEBUG - Podcast filesize:27996609
+2015-04-15 15:37:11,838 - root - DEBUG - Podcast eposide number:473
+2015-04-15 15:37:11,839 - root - DEBUG - Podcast Title:Loopholes
+2015-04-15 15:37:11,839 - root - DEBUG - Searching: 473 Loopholes _ This American Life.mp3
+2015-04-15 15:37:11,841 - root - DEBUG - search: "473 Loopholes _ This American Life.mp3" page# : 0
+2015-04-15 15:37:12,624 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/473/loopholes', u'http://www.thisamericanlife.org/radio-archives/episode/473/transcript', u'http://www.amazon.com/188-Kid-Logic/dp/B0047BXGWM', u'http://www.american.edu/sis/faculty/hanna.cfm', u'http://radiocoloradocollege.org/2013/02/citizens-for-huerfano-county-a-closer-look/', u'http://radiocoloradocollege.org/2013/06/town-hall-addresses-recreational-marijuana-in-colorado-springs/', u'https://routingbyrumor.wordpress.com/2007/12/27/new-balance-shoes-made-in-usa-yeah-right/', u'http://commlaw.cua.edu/articles/v14/Lang.pdf']
+2015-04-15 15:37:12,625 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'473', u'loopholes']
+2015-04-15 15:37:12,625 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:37:12,625 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/473/loopholes
+2015-04-15 15:37:12,625 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:38:12,625 - root - DEBUG - Podcast filename:458 Play the Part _ This American Life.mp3
+2015-04-15 15:38:12,625 - root - DEBUG - Podcast number:458 Play the Part _ This American Life.mp3
+2015-04-15 15:38:12,632 - root - DEBUG - Podcast filesize:28563153
+2015-04-15 15:38:12,634 - root - DEBUG - Podcast eposide number:458
+2015-04-15 15:38:12,634 - root - DEBUG - Podcast Title:Play the Part
+2015-04-15 15:38:12,634 - root - DEBUG - Searching: 458 Play the Part _ This American Life.mp3
+2015-04-15 15:38:12,634 - root - DEBUG - search: "458 Play the Part _ This American Life.mp3" page# : 0
+2015-04-15 15:38:13,256 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/458/transcript', u'http://www.thisamericanlife.org/education', u'http://www.thisamericanlife.org/radio-archives/episode/458/play-the-part', u'http://www.amazon.com/Duets-American-Classic-TONY-BENNETT/dp/B000H0MKGU', u'http://www.youtube.com/watch?v=Y66j_BUCBMY', u'http://www.wlu.edu/x34879.xml', u'http://www.jmu.edu/catalog/11/cd/course_H.html', u'http://jazz-on-line.com/artists/Woody_Herman.htm']
+2015-04-15 15:38:13,256 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'458', u'transcript']
+2015-04-15 15:38:13,256 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:38:13,256 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/458/transcript
+2015-04-15 15:38:13,256 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:39:13,257 - root - DEBUG - Podcast filename:481 This Week _ This American Life.mp3
+2015-04-15 15:39:13,257 - root - DEBUG - Podcast number:481 This Week _ This American Life.mp3
+2015-04-15 15:39:13,263 - root - DEBUG - Podcast filesize:27589517
+2015-04-15 15:39:13,263 - root - DEBUG - Podcast eposide number:481
+2015-04-15 15:39:13,263 - root - DEBUG - Podcast Title:This Week
+2015-04-15 15:39:13,265 - root - DEBUG - Searching: 481 This Week _ This American Life.mp3
+2015-04-15 15:39:13,265 - root - DEBUG - search: "481 This Week _ This American Life.mp3" page# : 0
+2015-04-15 15:39:14,039 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/481/this-week', u'https://www3.amherst.edu/commencement/2002/audio/audiosat.html', u'http://content.onlinejacc.org/issue.aspx?journalid=101&issueid=930611', u'http://www.youtube.com/watch?v=zNDcAWNscg8', u'http://www.jmu.edu/catalog/11/cd/course_C.html', u'http://as.vanderbilt.edu/spanish-portuguese/cv/LuisCV.pdf', u'https://www.audiobookstand.com/products.asp?genre=Religion', u'http://www.edrants.com/segundo/archive/']
+2015-04-15 15:39:14,039 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'481', u'this-week']
+2015-04-15 15:39:14,039 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:39:14,039 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/481/this-week
+2015-04-15 15:39:14,039 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:40:14,039 - root - DEBUG - Podcast filename:459 What Kind of Country _ This American Life.mp3
+2015-04-15 15:40:14,040 - root - DEBUG - Podcast number:459 What Kind of Country _ This American Life.mp3
+2015-04-15 15:40:14,048 - root - DEBUG - Podcast filesize:27638210
+2015-04-15 15:40:14,049 - root - DEBUG - Podcast eposide number:459
+2015-04-15 15:40:14,049 - root - DEBUG - Podcast Title:What Kind of Country
+2015-04-15 15:40:14,049 - root - DEBUG - Searching: 459 What Kind of Country _ This American Life.mp3
+2015-04-15 15:40:14,049 - root - DEBUG - search: "459 What Kind of Country _ This American Life.mp3" page# : 0
+2015-04-15 15:40:14,654 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/459/transcript', u'http://www.thisamericanlife.org/education', u'http://www.thisamericanlife.org/radio-archives/episode/459/what-kind-of-country', u'http://www.c-span.org/video/?c3543488/hr-459-floor-debate', u'http://rutracker.org/forum/viewtopic.php?t=3741313', u'http://www.amazon.com/The-Dumbest-Generation-Stupefies-Jeopardizes/dp/1585427128', u'http://www.billboard.com/articles/news/513484/10-songs-honoring-dr-martin-luther-king-jr', u'http://users.nber.org/~jwolfers/research.php']
+2015-04-15 15:40:14,654 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'459', u'transcript']
+2015-04-15 15:40:14,654 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:40:14,654 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/459/transcript
+2015-04-15 15:40:14,655 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:41:14,655 - root - DEBUG - Podcast filename:477 Getting Away With It _ This American Life.mp3
+2015-04-15 15:41:14,655 - root - DEBUG - Podcast number:477 Getting Away With It _ This American Life.mp3
+2015-04-15 15:41:14,660 - root - DEBUG - Podcast filesize:27941648
+2015-04-15 15:41:14,661 - root - DEBUG - Podcast eposide number:477
+2015-04-15 15:41:14,661 - root - DEBUG - Podcast Title:Getting Away With It
+2015-04-15 15:41:14,661 - root - DEBUG - Searching: 477 Getting Away With It _ This American Life.mp3
+2015-04-15 15:41:14,661 - root - DEBUG - search: "477 Getting Away With It _ This American Life.mp3" page# : 0
+2015-04-15 15:41:15,207 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/477/getting-away-with-it', u'http://www.thisamericanlife.org/radio-archives/episode/477/transcript', u'http://ds106.us/2013/02/03/week-four-audio-listening/', u'http://www.slideshare.net/HavasPR/e-uoibiz-trends03', u'http://carmeloruiz.blogspot.com/2012_10_01_archive.html', u'http://www.amazon.com/Americanah-Chimamanda-Ngozi-Adichie/dp/0307455920', u'http://www.edrants.com/segundo/archive/', u'http://enjoylifebook.com/']
+2015-04-15 15:41:15,207 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'477', u'getting-away-with-it']
+2015-04-15 15:41:15,207 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:41:15,207 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/477/getting-away-with-it
+2015-04-15 15:41:15,209 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:42:15,209 - root - DEBUG - Podcast filename:457 What I Did For Love _ This American Life.mp3
+2015-04-15 15:42:15,209 - root - DEBUG - Podcast number:457 What I Did For Love _ This American Life.mp3
+2015-04-15 15:42:15,213 - root - DEBUG - Podcast filesize:27631313
+2015-04-15 15:42:15,213 - root - DEBUG - Podcast eposide number:457
+2015-04-15 15:42:15,214 - root - DEBUG - Podcast Title:What I Did For Love
+2015-04-15 15:42:15,214 - root - DEBUG - Searching: 457 What I Did For Love _ This American Life.mp3
+2015-04-15 15:42:15,216 - root - DEBUG - search: "457 What I Did For Love _ This American Life.mp3" page# : 0
+2015-04-15 15:42:15,746 - root - DEBUG - Returned URLs from search:[u'http://www.amazon.com/457-What-Did-For-Love/dp/B007IVETYC', u'http://www.thisamericanlife.org/radio-archives/episode/457/what-i-did-for-love', u'http://www.thisamericanlife.org/play_full.php?play=457', u'http://www.reddit.com/r/serialpodcast/comments/2lr3dr/what_are_some_this_american_life_episodes_you/', u'http://www.douban.com/group/topic/36262178/', u'http://www.edrants.com/segundo/archive/', u'http://whitecoatinvestor.com/how-dave-ramsey-may-be-leading-you-astray/', u'https://english.umaine.edu/undergraduate-program/undergraduate-courses/400-level-courses/']
+2015-04-15 15:42:15,746 - root - DEBUG - Splitted url: [u'http:', u'', u'www.amazon.com', u'457-What-Did-For-Love', u'dp', u'B007IVETYC']
+2015-04-15 15:42:15,746 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'457', u'what-i-did-for-love']
+2015-04-15 15:42:15,746 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:42:15,746 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/457/what-i-did-for-love
+2015-04-15 15:42:15,747 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:43:15,747 - root - DEBUG - Podcast filename:468 Switcheroo _ This American Life.mp3
+2015-04-15 15:43:15,749 - root - DEBUG - Podcast number:468 Switcheroo _ This American Life.mp3
+2015-04-15 15:43:15,753 - root - DEBUG - Podcast filesize:30343659
+2015-04-15 15:43:15,753 - root - DEBUG - Podcast eposide number:468
+2015-04-15 15:43:15,755 - root - DEBUG - Podcast Title:Switcheroo
+2015-04-15 15:43:15,755 - root - DEBUG - Searching: 468 Switcheroo _ This American Life.mp3
+2015-04-15 15:43:15,756 - root - DEBUG - search: "468 Switcheroo _ This American Life.mp3" page# : 0
+2015-04-15 15:43:16,489 - root - DEBUG - Returned URLs from search:[u'http://www.amazon.com/464-Invisible-Made-Visible/dp/B00864SLNA', u'http://www.thisamericanlife.org/radio-archives/episode/468/transcript', u'http://www.thisamericanlife.org/contributors/etgar-keret', u'http://www.thisamericanlife.org/education', u'http://canadastreetnews.biz/powwowwow2014.htm', u'http://www.reddit.com/r/pics/comments/2oinoo/japan_was_quick_to_start_selling_these/', u'https://kickass.to/this-american-life-2012-complete-season-episodes-454-482-t7448565.html']
+2015-04-15 15:43:16,489 - root - DEBUG - Splitted url: [u'http:', u'', u'www.amazon.com', u'464-Invisible-Made-Visible', u'dp', u'B00864SLNA']
+2015-04-15 15:43:16,490 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'468', u'transcript']
+2015-04-15 15:43:16,490 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:43:16,490 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/468/transcript
+2015-04-15 15:43:16,490 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:44:16,490 - root - DEBUG - Podcast filename:472 Our Friend David _ This American Life.mp3
+2015-04-15 15:44:16,490 - root - DEBUG - Podcast number:472 Our Friend David _ This American Life.mp3
+2015-04-15 15:44:16,496 - root - DEBUG - Podcast filesize:28029629
+2015-04-15 15:44:16,496 - root - DEBUG - Podcast eposide number:472
+2015-04-15 15:44:16,496 - root - DEBUG - Podcast Title:Our Friend David
+2015-04-15 15:44:16,497 - root - DEBUG - Searching: 472 Our Friend David _ This American Life.mp3
+2015-04-15 15:44:16,497 - root - DEBUG - search: "472 Our Friend David _ This American Life.mp3" page# : 0
+2015-04-15 15:44:17,099 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/contributors/david-rakoff', u'http://www.thisamericanlife.org/radio-archives/episode/472/our-friend-david', u'http://www.thisamericanlife.org/radio-archives/episode/472/transcript', u'http://www.literallydarling.com/blog/2013/11/14/podcasts-listening/', u'http://www.amazon.com/464-Invisible-Made-Visible/dp/B00864SLNA', u'https://www.lds.org/general-conference/2011/10/the-hearts-of-the-children-shall-turn?lang=eng', u'http://divinecosmos.com/start-here/davids-blog/981-undergroundbasesnewinfo', u'http://www.peoplespharmacy.com/2015/04/09/show-988-spices-for-health/']
+2015-04-15 15:44:17,099 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'contributors', u'david-rakoff']
+2015-04-15 15:44:17,099 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'472', u'our-friend-david']
+2015-04-15 15:44:17,101 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:44:17,101 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/472/our-friend-david
+2015-04-15 15:44:17,101 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:45:17,101 - root - DEBUG - Podcast filename:461 Take the Money and Run for Office _ This American Life.mp3
+2015-04-15 15:45:17,101 - root - DEBUG - Podcast number:461 Take the Money and Run for Office _ This American Life.mp3
+2015-04-15 15:45:17,107 - root - DEBUG - Podcast filesize:27637165
+2015-04-15 15:45:17,107 - root - DEBUG - Podcast eposide number:461
+2015-04-15 15:45:17,108 - root - DEBUG - Podcast Title:Take the Money and Run for Office
+2015-04-15 15:45:17,108 - root - DEBUG - Searching: 461 Take the Money and Run for Office _ This American Life.mp3
+2015-04-15 15:45:17,108 - root - DEBUG - search: "461 Take the Money and Run for Office _ This American Life.mp3" page# : 0
+2015-04-15 15:45:17,848 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/461/take-the-money-and-run-for-office', u'http://www.thisamericanlife.org/radio-archives/episode/461/transcript', u'http://www.reddit.com/comments/1204gt', u'http://www.amazon.com/Grandma-Gatewoods-Walk-Inspiring-Appalachian/dp/1613747187', u'http://anthroview.blogspot.com/', u'http://www.edrants.com/segundo/archive/', u'http://www.dailykos.com/story/2014/09/26/1332345/-Senate-Dems-have-more-money-because-Citizens-United-is-killing-Republicans', u'http://www.c-span.org/video/?324557-1/dr-ben-carson-remarks-cpac-2015']
+2015-04-15 15:45:17,849 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'461', u'take-the-money-and-run-for-office']
+2015-04-15 15:45:17,849 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:45:17,849 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/461/take-the-money-and-run-for-office
+2015-04-15 15:45:17,851 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:46:17,851 - root - DEBUG - Podcast filename:455 Continental Breakup _ This American Life.mp3
+2015-04-15 15:46:17,851 - root - DEBUG - Podcast number:455 Continental Breakup _ This American Life.mp3
+2015-04-15 15:46:17,855 - root - DEBUG - Podcast filesize:27632776
+2015-04-15 15:46:17,855 - root - DEBUG - Podcast eposide number:455
+2015-04-15 15:46:17,857 - root - DEBUG - Podcast Title:Continental Breakup
+2015-04-15 15:46:17,857 - root - DEBUG - Searching: 455 Continental Breakup _ This American Life.mp3
+2015-04-15 15:46:17,857 - root - DEBUG - search: "455 Continental Breakup _ This American Life.mp3" page# : 0
+2015-04-15 15:46:18,703 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/455/transcript', u'http://www.thisamericanlife.org/radio-archives/episode/455/continental-breakup', u'https://soundcloud.com/ianmtaylor1/this-american-life-455', u'http://anthroview.blogspot.com/', u'http://www.dailymail.co.uk/sciencetech/article-2750705/Rosetta-maps-comets-continents-From-sheer-cliffs-deep-craters-colourful-graphic-reveals-different-terrains-67P.html', u'http://www.dailymail.co.uk/sciencetech/article-1234970/Tawa-hallae-T-Rexs-little-cousin-suggests-dinosaurs-came-South-America.html', u'http://onlinelibrary.wiley.com/doi/10.1029/2001JD001582/full', u'http://celticfolkpunk.blogspot.com/2009_08_01_archive.html']
+2015-04-15 15:46:18,704 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'455', u'transcript']
+2015-04-15 15:46:18,704 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:46:18,704 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/455/transcript
+2015-04-15 15:46:18,706 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:47:18,706 - root - DEBUG - Podcast filename:464 Invisible Made Visible _ This American Life.mp3
+2015-04-15 15:47:18,707 - root - DEBUG - Podcast number:464 Invisible Made Visible _ This American Life.mp3
+2015-04-15 15:47:18,713 - root - DEBUG - Podcast filesize:27743744
+2015-04-15 15:47:18,713 - root - DEBUG - Podcast eposide number:464
+2015-04-15 15:47:18,713 - root - DEBUG - Podcast Title:Invisible Made Visible
+2015-04-15 15:47:18,713 - root - DEBUG - Searching: 464 Invisible Made Visible _ This American Life.mp3
+2015-04-15 15:47:18,713 - root - DEBUG - search: "464 Invisible Made Visible _ This American Life.mp3" page# : 0
+2015-04-15 15:47:19,188 - root - DEBUG - Returned URLs from search:[u'http://www.amazon.com/464-Invisible-Made-Visible/dp/B00864SLNA', u'http://www.thisamericanlife.org/contributors/david-sedaris', u'http://www.thisamericanlife.org/radio-archives/episode/464/invisible-made-visible', u'http://www.thisamericanlife.org/contributors/david-rakoff', u'http://anthroview.blogspot.com/', u'http://carmeloruiz.blogspot.com/2012_05_01_archive.html', u'http://www.nabigfootsearch.com/', u'https://keystoliberty2.wordpress.com/tag/sovereignty/']
+2015-04-15 15:47:19,188 - root - DEBUG - Splitted url: [u'http:', u'', u'www.amazon.com', u'464-Invisible-Made-Visible', u'dp', u'B00864SLNA']
+2015-04-15 15:47:19,188 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'contributors', u'david-sedaris']
+2015-04-15 15:47:19,188 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'464', u'invisible-made-visible']
+2015-04-15 15:47:19,190 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:47:19,190 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/464/invisible-made-visible
+2015-04-15 15:47:19,190 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:48:19,190 - root - DEBUG - Podcast filename:469 Hiding in Plain Sight _ This American Life.mp3
+2015-04-15 15:48:19,190 - root - DEBUG - Podcast number:469 Hiding in Plain Sight _ This American Life.mp3
+2015-04-15 15:48:19,197 - root - DEBUG - Podcast filesize:27957739
+2015-04-15 15:48:19,197 - root - DEBUG - Podcast eposide number:469
+2015-04-15 15:48:19,197 - root - DEBUG - Podcast Title:Hiding in Plain Sight
+2015-04-15 15:48:19,197 - root - DEBUG - Searching: 469 Hiding in Plain Sight _ This American Life.mp3
+2015-04-15 15:48:19,197 - root - DEBUG - search: "469 Hiding in Plain Sight _ This American Life.mp3" page# : 0
+2015-04-15 15:48:19,901 - root - DEBUG - Returned URLs from search:[u'http://www.thisamericanlife.org/radio-archives/episode/469/hiding-in-plain-sight', u'http://www.thisamericanlife.org/radio-archives/episode/469/transcript', u'http://www.amazon.com/464-Invisible-Made-Visible/dp/B00864SLNA', u'http://www.manythings.org/audio/sentences/', u'http://www.hisholychurch.org/tour/', u'http://www.sociology.vt.edu/People/Faculty/Johnryancv.pdf', u'http://commonsenseatheism.com/?p=392', u'https://www.lds.org/manual/teachings-joseph-smith/chapter-41?lang=eng']
+2015-04-15 15:48:19,901 - root - DEBUG - Splitted url: [u'http:', u'', u'www.thisamericanlife.org', u'radio-archives', u'episode', u'469', u'hiding-in-plain-sight']
+2015-04-15 15:48:19,901 - root - DEBUG - ****************************************** Description URL ******************************************
+2015-04-15 15:48:19,901 - root - DEBUG - 		http://www.thisamericanlife.org/radio-archives/episode/469/hiding-in-plain-sight
+2015-04-15 15:48:19,901 - root - DEBUG - *****************************************************************************************************
+2015-04-15 15:49:19,903 - root - DEBUG - ++++++++++++++++++++++++++++++++++++++++++++++ Searched files ++++++++++++++++++++++++++++++++++++++++++++++
+2015-04-15 15:49:19,903 - root - DEBUG - ['463 Mortal Vs_ Venial _ This American Life.mp3', '465 What Happened At Dos Erres _ This American Life.mp3', '460 Retraction _ This American Life.mp3', '474 Back to School _ This American Life.mp3', '482 Lights Camera Christmas _ This American Life.mp3', '467 Americans in China _ This American Life.mp3', '480 Animal Sacrifice _ This American Life.mp3', '471 The Convert _ This American Life.mp3', '470 Show Me The Way _ This American Life.mp3', '475 Send a Message _ This American Life.mp3', '454 Mr. Daisey and the Apple Factory (Retracted) _  This American Life.mp3', '478 Red State Blue State _ This American Life.mp3', '462 Own Worst Enemy _ This American Life.mp3', '479 Little War on the Prairie _ This American Life.mp3', '466 Blackjack _ This American Life.mp3', '476 What Doesnt Kill You _ This American Life.mp3', '456 Reap What You Sow _ This American Life.mp3', '473 Loopholes _ This American Life.mp3', '458 Play the Part _ This American Life.mp3', '481 This Week _ This American Life.mp3', '459 What Kind of Country _ This American Life.mp3', '477 Getting Away With It _ This American Life.mp3', '457 What I Did For Love _ This American Life.mp3', '468 Switcheroo _ This American Life.mp3', '472 Our Friend David _ This American Life.mp3', '461 Take the Money and Run for Office _ This American Life.mp3', '455 Continental Breakup _ This American Life.mp3', '464 Invisible Made Visible _ This American Life.mp3', '469 Hiding in Plain Sight _ This American Life.mp3']
+2015-04-15 15:49:19,903 - root - DEBUG - ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
