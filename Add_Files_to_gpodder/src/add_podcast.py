@@ -3,6 +3,7 @@ Created on Mar 27, 2015
 
 @author: Duhi
 '''
+from cgitb import html
 '''
 CREATE TABLE episode (
         id INTEGER PRIMARY KEY NOT NULL,
@@ -32,24 +33,54 @@ import logging
 from pygoogle import pygoogle
 import datetime
 import time
-if __name__ == "__main__":
+import urllib2
+
+
+def get_webpage(page_url, my_logger):
     
-    cur_date_s=str(datetime.date.today()).replace("-","")
+    response = urllib2.urlopen(podcast_desc_url)
+
+    # Get the URL. This gets the real URL. 
+    my_logger("The URL is: ", response.geturl())
+    # Getting the code
+    my_logger("This gets the code: ", response.code)
+    # Get the Headers. 
+    # This returns a dictionary-like object that describes the page fetched, 
+    # particularly the headers sent by the server
+    my_logger("The Headers are: ", response.info())
+    # Get the date part of the header
+    my_logger("The Date is: ", response.info()['date'])
+    # Get the server part of the header
+    my_logger("The Server is: ", response.info()['server'])
     
-    logger = logging.getLogger()
-    logger.setLevel(logging.DEBUG)
+    pod_html = response.read()
+    return pod_html
+
+def set_logger():
+    my_logger = logging.getLogger()
+    my_logger.setLevel(logging.DEBUG)
     log_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     
     log_filename = '../log/add_podcast_' + cur_date_s 
+    
     fh = logging.FileHandler(log_filename )
     fh.setLevel(logging.DEBUG)
     fh.setFormatter(log_formatter)
+    
     ch = logging.StreamHandler()
     ch.setLevel(logging.DEBUG)
     ch.setFormatter(log_formatter)
     
-    logger.addHandler(ch)
-    logger.addHandler(fh)
+    my_logger.addHandler(ch)
+    my_logger.addHandler(fh)
+    
+    return my_logger
+
+if __name__ == "__main__":
+    
+    cur_date_s=str(datetime.date.today()).replace("-","")
+    
+    logger = set_logger() 
         
     #search_q="This American life 454"
     #search_req =pygoogle.pygoogle(log_level=logging.DEBUG,query=search_q,pages=1, hl="en")
@@ -109,8 +140,24 @@ if __name__ == "__main__":
         logger.debug("****************************************** Description URL ******************************************")
         logger.debug("\t\t"  + str(podcast_desc_url))
         logger.debug("*****************************************************************************************************")
-        #get content of search_urls[0]
-        del search_q
+        
+        pod_html = get_webpage(podcast_desc_url)
+         <img src="//hw1.thisamericanlife.org/sites/default/files/imagecache/large_square/episodes/463_lg.jpg" alt="463: Mortal Vs. Venial" title="" width="200" height="200" class="imagecache imagecache-large_square"/>      </div>
+                      <h1 class="node-title">463: Mortal Vs. Venial</h1>
+              <div class="date">Apr 27, 2012</div>
+    
+        logger.debug("****************************************** Description Page Contents: BEGIN ******************************************")
+        logger.debug("\t\t"  + str(pod_html))
+        logger.debug("****************************************** Description Page Contents: END   ******************************************")
+        #now I need to read this part of the html (pod_html)
+        #<img src="//hw1.thisamericanlife.org/sites/default/files/imagecache/large_square/episodes/463_lg.jpg" alt="463: Mortal Vs. Venial" title="" width="200" height="200" class="imagecache imagecache-large_square"/>      </div>
+        #<h1 class="node-title">463: Mortal Vs. Venial</h1>
+        #<div class="date">Apr 27, 2012</div>
+        #<div class="description">
+        #Religion makes it pretty clear what differentiates mortal sins from venial ones. Mortal are the really bad sins and venial the lesser ones. But in our everyday lives, it can be really difficult to determine just how bad we've been. This week we have stories of people trying to figure out that question.      </div>
+        
+        del search_urls
+        del pod_html
         time.sleep(60)
     logger.debug("++++++++++++++++++++++++++++++++++++++++++++++ Searched files ++++++++++++++++++++++++++++++++++++++++++++++")
     logger.debug(str(podcasts_lst))
