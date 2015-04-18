@@ -55,4 +55,4 @@ local.properties
 .target
 
 # TeXlipse plugin
-.texlipse
+.texlipse/extract_times_benchmark/
