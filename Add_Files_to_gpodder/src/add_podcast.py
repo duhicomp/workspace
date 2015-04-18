@@ -142,9 +142,9 @@ if __name__ == "__main__":
         logger.debug("*****************************************************************************************************")
         
         pod_html = get_webpage(podcast_desc_url)
-         <img src="//hw1.thisamericanlife.org/sites/default/files/imagecache/large_square/episodes/463_lg.jpg" alt="463: Mortal Vs. Venial" title="" width="200" height="200" class="imagecache imagecache-large_square"/>      </div>
-                      <h1 class="node-title">463: Mortal Vs. Venial</h1>
-              <div class="date">Apr 27, 2012</div>
+        # <img src="//hw1.thisamericanlife.org/sites/default/files/imagecache/large_square/episodes/463_lg.jpg" alt="463: Mortal Vs. Venial" title="" width="200" height="200" class="imagecache imagecache-large_square"/>      </div>
+        #              <h1 class="node-title">463: Mortal Vs. Venial</h1>
+        #      <div class="date">Apr 27, 2012</div>
     
         logger.debug("****************************************** Description Page Contents: BEGIN ******************************************")
         logger.debug("\t\t"  + str(pod_html))
