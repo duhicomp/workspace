@@ -47,12 +47,13 @@ if __name__== "__main__":
     html_parse_logger.info("Parsing The html file :" + in_html)
 
     html_soup = BeautifulSoup(html_mem)
-    html_parse_logger.info(html_soup.prettify())
-    html_soup.find(id="class")
+#     html_parse_logger.info(html_soup.prettify())
+#     html_soup.find(id="class")
     
     #<div class="date">Apr 27, 2012</div>
-    html_soup.body.  
-    html_parse_logger.info(html_soup.body.find('div', attrs={'class':'date'}).text)
+    html_soup.body.find('div',attrs={'class':'date'}).text 
+    description = html_soup.body.find('div', attrs={'class':'description'}).text
+    html_parse_logger.info(description)
     #<div class="description">
     #Religion makes it pretty clear what differentiates mortal sins from venial ones. Mortal are the really bad sins and venial the lesser ones. But in our everyday lives, it can be really difficult to determine just how bad we've been. This week we have stories of people trying to figure out that question.      </div>
     #</div>
