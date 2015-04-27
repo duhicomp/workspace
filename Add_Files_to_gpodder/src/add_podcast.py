@@ -6,56 +6,94 @@ Created on Mar 27, 2015
 from cgitb import html
 '''
 CREATE TABLE episode (
-        id INTEGER PRIMARY KEY NOT NULL,
-        podcast_id INTEGER NOT NULL,
-        title TEXT NOT NULL DEFAULT '',
-        description TEXT NOT NULL DEFAULT '',
-        url TEXT NOT NULL,
-        published INTEGER NOT NULL DEFAULT 0,
-        guid TEXT NOT NULL,
-        link TEXT NOT NULL DEFAULT '',
-        file_size INTEGER NOT NULL DEFAULT 0,
-        mime_type TEXT NOT NULL DEFAULT 'application/octet-stream',
-        state INTEGER NOT NULL DEFAULT 0,
-        is_new INTEGER NOT NULL DEFAULT 0,
-        archive INTEGER NOT NULL DEFAULT 0,
-        download_filename TEXT NULL DEFAULT NULL,
-        total_time INTEGER NOT NULL DEFAULT 0,
-        current_position INTEGER NOT NULL DEFAULT 0,
-        current_position_updated INTEGER NOT NULL DEFAULT 0,
-        last_playback INTEGER NOT NULL DEFAULT 0,
-        payment_url TEXT NULL DEFAULT NULL
+        id INTEGER PRIMARY KEY NOT NULL,                                #1
+        podcast_id INTEGER NOT NULL,                                    #2
+        title TEXT NOT NULL DEFAULT '',                                 #3   
+        description TEXT NOT NULL DEFAULT '',                           #4
+        url TEXT NOT NULL,                                              #5
+        published INTEGER NOT NULL DEFAULT 0,                           #6
+        guid TEXT NOT NULL,                                             #7
+        link TEXT NOT NULL DEFAULT '',                                  #8   
+        file_size INTEGER NOT NULL DEFAULT 0,                           #9
+        mime_type TEXT NOT NULL DEFAULT 'application/octet-stream',     #10
+        state INTEGER NOT NULL DEFAULT 0,                               #11 
+        is_new INTEGER NOT NULL DEFAULT 0,                              #12
+        archive INTEGER NOT NULL DEFAULT 0,                             #13  
+        download_filename TEXT NULL DEFAULT NULL,                       #14 
+        total_time INTEGER NOT NULL DEFAULT 0,                          #15
+        current_position INTEGER NOT NULL DEFAULT 0,                    #16
+        current_position_updated INTEGER NOT NULL DEFAULT 0,            #17
+        last_playback INTEGER NOT NULL DEFAULT 0,                       #18
+        payment_url TEXT NULL DEFAULT NULL                              #19  
     )
 '''
-
+eposide_lst=[]
+eposide_dict={
+              'id':'',                          #1 
+              'podcast_id':'',                  #2
+              'title':'',                       #3
+              'description':'',                 #4
+              'url':'',                         #5
+              'puplished':'',                   #6
+              'guid':'',                        #7
+              'link':'',                        #8
+              'file_size':'',                   #9
+              'mime_type':'audio/mpeg',         #10
+              'state':'1',                      #11
+              'is_new':'1',                     #12
+              'archive':'0',                    #13
+              'download_filename':'',           #14
+              'total_time':'',                  #15
+              'currnet_position':'0',           #16               
+              'current_position_updated':'0',   #17
+              'last_playback':'',               #18
+              'payment_url':''                  #19
+              }
 import os
 import logging
 from pygoogle import pygoogle
 import datetime
 import time
 import urllib2
-
+from bs4 import BeautifulSoup 
+import sqlite3
 
 def get_webpage(page_url, my_logger):
     
-    response = urllib2.urlopen(podcast_desc_url)
+    response = urllib2.urlopen(page_url)
 
     # Get the URL. This gets the real URL. 
-    my_logger("The URL is: ", response.geturl())
+#     my_logger("The URL is: ", response.geturl())
     # Getting the code
-    my_logger("This gets the code: ", response.code)
+#     my_logger("This gets the code: ", response.code)
     # Get the Headers. 
     # This returns a dictionary-like object that describes the page fetched, 
     # particularly the headers sent by the server
-    my_logger("The Headers are: ", response.info())
-    # Get the date part of the header
-    my_logger("The Date is: ", response.info()['date'])
+#     my_logger("The Headers are: ", response.info())
+#     Get the date part of the header
+#     my_logger("The Date is: ", response.info()['date'])
     # Get the server part of the header
-    my_logger("The Server is: ", response.info()['server'])
+#     my_logger("The Server is: ", response.info()['server'])
     
     pod_html = response.read()
     return pod_html
-
+def get_info_from_html(html_mem, html_parse_logger):
+    html_soup = BeautifulSoup(html_mem)
+#     html_parse_logger.info(html_soup.prettify())
+#     html_soup.find(id="class")
+    
+    #<div class="date">Apr 27, 2012</div>
+    
+    for div in html_soup.find_all('div', attrs='date'):
+        html_parse_logger.info(div)
+        if '2014' not in str(div) and '20152' not in str(div):
+            podcast_date= str(div).strip("</div>").strip('<div class="date">')
+            html_parse_logger.info('Podcast Date=' + podcast_date)
+    html_soup.body.find('div',attrs={'class':'date'}).text 
+    description = html_soup.body.find('div', attrs={'class':'description'}).text
+    html_parse_logger.info(description)
+    return podcast_date, description
+    
 def set_logger():
     my_logger = logging.getLogger()
     my_logger.setLevel(logging.DEBUG)
@@ -122,10 +160,7 @@ if __name__ == "__main__":
         search_q=pods
         logger.debug("Searching: " + pods)
         search_req =pygoogle.pygoogle(log_level=logging.DEBUG,query=search_q,pages=1, hl="en", my_logger=logger)
-        #logger.debug("##########################################  Search Results: BEGIN ##########################################")
-        #search_req.display_results()
-        #logger.debug("##########################################  Search Results: END   ##########################################")
-        
+      
         search_urls = search_req.get_urls()
         logger.debug("Returned URLs from search:" + str(search_urls))
         
@@ -141,14 +176,20 @@ if __name__ == "__main__":
         logger.debug("\t\t"  + str(podcast_desc_url))
         logger.debug("*****************************************************************************************************")
         
-        pod_html = get_webpage(podcast_desc_url)
+        pod_html= get_webpage(podcast_desc_url,logger)
         # <img src="//hw1.thisamericanlife.org/sites/default/files/imagecache/large_square/episodes/463_lg.jpg" alt="463: Mortal Vs. Venial" title="" width="200" height="200" class="imagecache imagecache-large_square"/>      </div>
         #              <h1 class="node-title">463: Mortal Vs. Venial</h1>
         #      <div class="date">Apr 27, 2012</div>
-    
+        
         logger.debug("****************************************** Description Page Contents: BEGIN ******************************************")
         logger.debug("\t\t"  + str(pod_html))
         logger.debug("****************************************** Description Page Contents: END   ******************************************")
+        podcast_date, podcast_description = get_info_from_html(pod_html,logger)
+        
+        logger.debug("****************************************** Description Description and Date: BEGIN ******************************************")
+        logger.debug("\t\t"  + str(podcast_description))
+        logger.debug("\t\t"  + str(podcast_date))
+        logger.debug("****************************************** Description Description and Date: END   ******************************************")
         #now I need to read this part of the html (pod_html)
         #<img src="//hw1.thisamericanlife.org/sites/default/files/imagecache/large_square/episodes/463_lg.jpg" alt="463: Mortal Vs. Venial" title="" width="200" height="200" class="imagecache imagecache-large_square"/>      </div>
         #<h1 class="node-title">463: Mortal Vs. Venial</h1>
