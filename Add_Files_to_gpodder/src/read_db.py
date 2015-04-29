@@ -32,5 +32,5 @@ if __name__ == '__main__':
     except:
         print("couldn't execute the SQL Statement: '''SELECT max(id) FROM episode''' on the database file: "  + db_file)
     finally:
-        db_cursor.close
+        db_cursor.close()
     
