@@ -1,10 +1,9 @@
-
-
 from HTMLParser import HTMLParser
 import logging
 import os
 import datetime
 from bs4 import BeautifulSoup 
+
 #from xml.dom.minidom import parse, parseString
 
 def set_logger():
@@ -47,10 +46,43 @@ if __name__== "__main__":
     html_parse_logger.info("Parsing The html file :" + in_html)
 
     html_soup = BeautifulSoup(html_mem)
-    html_parse_logger.info(html_soup.prettify())
+#     html_parse_logger.info(html_soup.prettify())
+#     html_soup.find(id="class")
+    
     #<div class="date">Apr 27, 2012</div>
+    
+    for div in html_soup.find_all('div', attrs='date'):
+        html_parse_logger.info(div)
+        if '2014' not in str(div) and '20152' not in str(div):
+            podcast_date= str(div).strip("</div>").strip('<div class="date">')
+            html_parse_logger.info('Podcast Date=' + podcast_date)
+    html_soup.body.find('div',attrs={'class':'date'}).text 
+    description = html_soup.body.find('div', attrs={'class':'description'}).text
+    html_parse_logger.info(description)
     #<div class="description">
     #Religion makes it pretty clear what differentiates mortal sins from venial ones. Mortal are the really bad sins and venial the lesser ones. But in our everyday lives, it can be really difficult to determine just how bad we've been. This week we have stories of people trying to figure out that question.      </div>
-    html_parse_logger.info(html_soup.body.find('div', attrs={'class':'date'}).text)
-    html_parse_logger.info(html_soup.body.find('div', attrs={'class':'description'}).text)
+    #</div>
+    #html_parse_logger.info(html_soup.body.find('div', attrs={'class':'description'}).text)
     
+# CREATE TABLE episode (
+#         id INTEGER PRIMARY KEY NOT NULL,
+#         podcast_id INTEGER NOT NULL,
+#         title TEXT NOT NULL DEFAULT '',
+#         description TEXT NOT NULL DEFAULT '',
+#         url TEXT NOT NULL,
+#         published INTEGER NOT NULL DEFAULT 0,
+#         guid TEXT NOT NULL,
+#         link TEXT NOT NULL DEFAULT '',
+#         file_size INTEGER NOT NULL DEFAULT 0,
+#         mime_type TEXT NOT NULL DEFAULT 'application/octet-stream',
+#         state INTEGER NOT NULL DEFAULT 0,
+#         is_new INTEGER NOT NULL DEFAULT 0,
+#         archive INTEGER NOT NULL DEFAULT 0,
+#         download_filename TEXT NULL DEFAULT NULL,
+#         total_time INTEGER NOT NULL DEFAULT 0,
+#         current_position INTEGER NOT NULL DEFAULT 0,
+#         current_position_updated INTEGER NOT NULL DEFAULT 0,
+#         last_playback INTEGER NOT NULL DEFAULT 0,
+#         payment_url TEXT NULL DEFAULT NULL
+#     )
+>>>>>>> branch 'master' of https://github.com/duhicomp/workspace.git
