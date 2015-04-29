@@ -121,7 +121,7 @@ def parse_pmf(pmf_logger):
                     for  pmf_delivery_addrs_address_tag in pmf_delivery_addresses_address_root:
                         pmf_logger.info("Delivery Address TAG:" + pmf_delivery_addrs_address_tag.tag  + " Delivery Address Text:" + str(pmf_delivery_addrs_address_tag.text))
                         if pmf_delivery_addrs_address_tag.tag in list(delivery_address_tag_dict.keys()):
-                            pmf_delivery_addresses[pmf_delivery_addrs_address_tag.tag] = pmf_delivery_addrs_address_tag.text
+                            pmf_delivery_addresses[pmf_delivery_addrs_address_tag.tag] = str(pmf_delivery_addrs_address_tag.text if pmf_delivery_addrs_address_tag.text else '-')
                             delivery_address_tag_dict[pmf_delivery_addrs_address_tag.tag] += 1
                             
                     for dict_keys in list(delivery_address_tag_dict.keys()):
@@ -143,7 +143,7 @@ def parse_pmf(pmf_logger):
         
         for dict_keys in list(pmf_tag_dict.keys()):
             if pmf_tag_dict[dict_keys] > 1:
-                raise Exception('Check the <Packet> <' + dict_keys + '> tag, more than one occurance in the same iteration' )
+                raise Exception('Check the <Packet> <' + dict_keys + '> tag, more than one  in the same iteration' )
             if pmf_tag_dict[dict_keys] == 0:
                 raise Exception('The <Packet> <' + dict_keys + '> tag is missing in the input PMF file:' + os.path.join(indir,pmf_file))
         
@@ -159,12 +159,54 @@ def parse_pmf(pmf_logger):
         del pmf_delivery_addresses
 
     return pmf_param
+
+
 def write_param_files(mon_logger, pmf_dict):
-    return
+    docs_lst = pmf_dict['docs']
+    inserts_lst = pmf_dict['inserts']
+    delivery_addresses_lst=pmf_dict['delviery_addresses']
+    cur_iter=0
+    for doc_iter in docs_lst:
+        mon_logger.info("current Document ID:" + doc_iter['Id'])
+        doc_fd=open(os.path.join('../resources/out',doc_iter['Id']+ '.param'),'w')
+        write_parameter(doc_fd,'jobtype',pmf_dict['JobType'])
+        write_parameter(doc_fd,'documentID',doc_iter['Id'])
+        write_parameter(doc_fd,'docRank',str(cur_iter))
+        cur_iter += 1
+        write_parameter(doc_fd,'documentName',doc_iter['Name'])
+        write_parameter(doc_fd,'documentType',doc_iter['ThreeByteCode'])
+        write_parameter(doc_fd,'printPreparationFormat',doc_iter['PreBatchFormat'])
+        write_parameter(doc_fd,'docPaperTypePage1',doc_iter['PaperTypePage1'])
+        write_parameter(doc_fd,'docPaperTypeOther',doc_iter['PaperTypeOther'])
+        write_parameter(doc_fd,'policystate',pmf_dict['State'])
+        write_parameter(doc_fd,'database',pmf_dict['Database'])
+
+        num_inserts = len(inserts_lst)
+        mon_logger.info("Number of Insert (Iterations):" + str(num_inserts))
+        for insert_iter in range(1,6):
+            if insert_iter < num_inserts:
+                write_parameter(doc_fd,'insert' + str(insert_iter),inserts_lst[insert_iter]['Name'])
+            else:
+                write_parameter(doc_fd,'insert' + str(insert_iter),'-')
+        
+    #TODO: job properties table reader 
+    addr_fd=open(os.path.join('../resources/out',pmf_dict['Id'] + '.addr'),'w')
+    for addr_iter in delivery_addresses_lst:
+        addr_fd.write('\t'.join([addr_iter['DeliveryMatchesMailingAddress'], addr_iter['Addressee'], addr_iter['PrimaryAddress'], str(addr_iter['SecondaryAddress']), addr_iter['City'], addr_iter['State'],addr_iter['Id'], addr_iter['SerialNumber'], addr_iter['RoutingCode']]))
+   
+#         documents_tag_dict = {'Id': 0, 'FilePath': 0 , 'ThreeByteCode': 0, 'PreBatchFormat': 0,'PaperTypePage1':0, 'PaperTypeOther':0, 'PageCount':0, 'Name':0, 'TypeIdentifier':0}
+#         delivery_address_tag_dict ={'Id':0, 'Addressee':0, 'PrimaryAddress':0, 'SecondaryAddress':0,'City':0, 'State':0, 'Zip':0, 'DeliveryMatchesMailingAddress':0, 'SerialNumber':0, 'RoutingCode':0}
+#         inserts_tag_dict = {'Name':0}
+#         pmf_tag_dict={'Id': 0,'PolicyIdentifier': 0, 'State': 0, 'MasterId':0, 'JobType':0, 'Database':0, 'SpanishLanguage':0, 'InsertPageCountEquivalent':0, 'BarcodeID':0,'ServiceTypeID': 0, 'MailerID': 0}
+#         
+
+
+def write_parameter(mon_fd, param_name,param_val):
+    mon_fd.write('-V ' + param_name + '="' + param_val + '"\n')
+    
 if __name__ == "__main__":
     mylogger = set_logging()
     check_pmf(mylogger)
     pmf_dict = parse_pmf(mylogger)
     mylogger.info("Contents of pmf_dict is:" + str(pmf_dict))
     write_param_files(mylogger, pmf_dict)
-    #TOOD: create parameters file
