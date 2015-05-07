@@ -56,3 +56,9 @@ local.properties
 
 # TeXlipse plugin
 .texlipse/extract_times_benchmark/
+
+Add_Files_to_gpodder/resources/Database
+Add_Files_to_gpodder/resources/Database-journal
+Add_Files_to_gpodder/resources/flattr.cache
+SA04_Create_DD_Index_From_PMF/resources/out/generate_param_20150429
+SA04_Create_DD_Index_From_PMF/resources/in/e8134b5c-b9af-4221-a9fg4-z351-nodocs.xml
