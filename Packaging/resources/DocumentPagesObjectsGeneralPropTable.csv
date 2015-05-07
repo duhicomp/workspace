@@ -1,0 +1,6 @@
+Key	Default	Relation	Type	Action	DataContent	ObjectType	PositionX	PositionY	Width	Height	FontName	FontSize	Orientation	OCCURRENCE	Side	Description
+expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression
+2D_BARCODE1	Y	PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable	2D	ADD	2D_DATA		6	6	3	5			Portrait	FirstPPage	Recto	
+HRI		PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable	HRI	REMOVE			9	99	67	88	Arial	5	Landscape	AllPPage	Verso	
+Postnet_1				ADD		Image										
+HRI_DETECT			HRI	DETECT		Text	6	6	6	6	Arial	5	Portrait	AllPPage	Recto	

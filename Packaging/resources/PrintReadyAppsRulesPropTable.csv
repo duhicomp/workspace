@@ -1,0 +1,9 @@
+Key	Default	Relation	ObjectKey	Condition	CustomCondition	Values	TechPrintVarName	MasterIndexColumnName
+expression	expression	expression	expression	expression	expression	expression	expression	expression
+Rule_1		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable	HRI_1	NotEmpty				
+Rule_2		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable		Empty				
+Rule_3		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable		EqualsTo		M. 		
+Rule_4		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable		Contains		1/		
+Rule_5		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable	Postnet_1	Match		ExprReg		
+		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable		isNumeric			AccountNumber	AccountNumber
+		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable		custom				

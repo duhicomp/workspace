@@ -1,0 +1,390 @@
+2015-05-07 13:29:39,497 - root - INFO - out_pickle_filenmae=PrintReadyAppsRulesPropTable
+2015-05-07 13:29:39,497 - root - INFO - row={'Default': '', 'CustomCondition': '', 'ObjectKey': 'HRI_1', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_1', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'NotEmpty'}
+2015-05-07 13:29:39,497 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,497 - root - INFO - Property value CustomConditionhas the value
+2015-05-07 13:29:39,499 - root - INFO - Property value ObjectKeyhas the valueHRI_1
+2015-05-07 13:29:39,499 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-07 13:29:39,499 - root - INFO - Property value Keyhas the valueRule_1
+2015-05-07 13:29:39,499 - root - INFO - The Key for this row is:Rule_1
+2015-05-07 13:29:39,499 - root - INFO - Property value Valueshas the value
+2015-05-07 13:29:39,499 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-07 13:29:39,499 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-07 13:29:39,499 - root - INFO - Property value Conditionhas the valueNotEmpty
+2015-05-07 13:29:39,499 - root - INFO - row={'Default': '', 'CustomCondition': '', 'ObjectKey': '', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_2', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'Empty'}
+2015-05-07 13:29:39,500 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,500 - root - INFO - Property value CustomConditionhas the value
+2015-05-07 13:29:39,500 - root - INFO - Property value ObjectKeyhas the value
+2015-05-07 13:29:39,500 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-07 13:29:39,500 - root - INFO - Property value Keyhas the valueRule_2
+2015-05-07 13:29:39,500 - root - INFO - The Key for this row is:Rule_2
+2015-05-07 13:29:39,500 - root - INFO - Property value Valueshas the value
+2015-05-07 13:29:39,500 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-07 13:29:39,500 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-07 13:29:39,500 - root - INFO - Property value Conditionhas the valueEmpty
+2015-05-07 13:29:39,500 - root - INFO - row={'Default': '', 'CustomCondition': '', 'ObjectKey': '', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_3', 'Values': 'M. ', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'EqualsTo'}
+2015-05-07 13:29:39,500 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,500 - root - INFO - Property value CustomConditionhas the value
+2015-05-07 13:29:39,500 - root - INFO - Property value ObjectKeyhas the value
+2015-05-07 13:29:39,500 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-07 13:29:39,500 - root - INFO - Property value Keyhas the valueRule_3
+2015-05-07 13:29:39,500 - root - INFO - The Key for this row is:Rule_3
+2015-05-07 13:29:39,500 - root - INFO - Property value Valueshas the valueM. 
+2015-05-07 13:29:39,500 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-07 13:29:39,500 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-07 13:29:39,502 - root - INFO - Property value Conditionhas the valueEqualsTo
+2015-05-07 13:29:39,502 - root - INFO - row={'Default': '', 'CustomCondition': '', 'ObjectKey': '', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_4', 'Values': '1/', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'Contains'}
+2015-05-07 13:29:39,502 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,502 - root - INFO - Property value CustomConditionhas the value
+2015-05-07 13:29:39,502 - root - INFO - Property value ObjectKeyhas the value
+2015-05-07 13:29:39,502 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-07 13:29:39,502 - root - INFO - Property value Keyhas the valueRule_4
+2015-05-07 13:29:39,502 - root - INFO - The Key for this row is:Rule_4
+2015-05-07 13:29:39,502 - root - INFO - Property value Valueshas the value1/
+2015-05-07 13:29:39,502 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-07 13:29:39,502 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-07 13:29:39,502 - root - INFO - Property value Conditionhas the valueContains
+2015-05-07 13:29:39,503 - root - INFO - row={'Default': '', 'CustomCondition': '', 'ObjectKey': 'Postnet_1', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_5', 'Values': 'ExprReg', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'Match'}
+2015-05-07 13:29:39,503 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,503 - root - INFO - Property value CustomConditionhas the value
+2015-05-07 13:29:39,503 - root - INFO - Property value ObjectKeyhas the valuePostnet_1
+2015-05-07 13:29:39,503 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-07 13:29:39,503 - root - INFO - Property value Keyhas the valueRule_5
+2015-05-07 13:29:39,503 - root - INFO - The Key for this row is:Rule_5
+2015-05-07 13:29:39,503 - root - INFO - Property value Valueshas the valueExprReg
+2015-05-07 13:29:39,503 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-07 13:29:39,503 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-07 13:29:39,503 - root - INFO - Property value Conditionhas the valueMatch
+2015-05-07 13:29:39,503 - root - INFO - row={'Default': '', 'CustomCondition': '', 'ObjectKey': '', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': '', 'Values': '', 'MasterIndexColumnName': 'AccountNumber', 'TechPrintVarName': 'AccountNumber', 'Condition': 'isNumeric'}
+2015-05-07 13:29:39,503 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,503 - root - INFO - Property value CustomConditionhas the value
+2015-05-07 13:29:39,503 - root - INFO - Property value ObjectKeyhas the value
+2015-05-07 13:29:39,503 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-07 13:29:39,503 - root - INFO - Property value Keyhas the value
+2015-05-07 13:29:39,503 - root - INFO - The Key for this row is:
+2015-05-07 13:29:39,503 - root - INFO - Property value Valueshas the value
+2015-05-07 13:29:39,503 - root - INFO - Property value MasterIndexColumnNamehas the valueAccountNumber
+2015-05-07 13:29:39,503 - root - INFO - Property value TechPrintVarNamehas the valueAccountNumber
+2015-05-07 13:29:39,503 - root - INFO - Property value Conditionhas the valueisNumeric
+2015-05-07 13:29:39,503 - root - INFO - row={'Default': '', 'CustomCondition': '', 'ObjectKey': '', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': '', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'custom'}
+2015-05-07 13:29:39,505 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,505 - root - INFO - Property value CustomConditionhas the value
+2015-05-07 13:29:39,505 - root - INFO - Property value ObjectKeyhas the value
+2015-05-07 13:29:39,505 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-07 13:29:39,505 - root - INFO - Property value Keyhas the value
+2015-05-07 13:29:39,505 - root - INFO - The Key for this row is:
+2015-05-07 13:29:39,505 - root - INFO - Property value Valueshas the value
+2015-05-07 13:29:39,505 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-07 13:29:39,505 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-07 13:29:39,505 - root - INFO - Property value Conditionhas the valuecustom
+2015-05-07 13:29:39,505 - root - INFO - prop_dict={'': {'Default': '', 'CustomCondition': '', 'ObjectKey': '', 'Values': '', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'custom'}, 'Rule_5': {'Default': '', 'CustomCondition': '', 'ObjectKey': 'Postnet_1', 'Values': 'ExprReg', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'Match'}, 'Rule_4': {'Default': '', 'CustomCondition': '', 'ObjectKey': '', 'Values': '1/', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'Contains'}, 'Rule_1': {'Default': '', 'CustomCondition': '', 'ObjectKey': 'HRI_1', 'Values': '', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'NotEmpty'}, 'Rule_3': {'Default': '', 'CustomCondition': '', 'ObjectKey': '', 'Values': 'M. ', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'EqualsTo'}, 'Rule_2': {'Default': '', 'CustomCondition': '', 'ObjectKey': '', 'Values': '', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'MasterIndexColumnName': '', 'TechPrintVarName': '', 'Condition': 'Empty'}}
+2015-05-07 13:29:39,506 - root - INFO - out_pickle_filenmae=DocumentPagesObjectsGeneralPropTable
+2015-05-07 13:29:39,506 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-07 13:29:39,506 - root - INFO - Property value PositionXhas the value6
+2015-05-07 13:29:39,506 - root - INFO - Property value PositionYhas the value6
+2015-05-07 13:29:39,506 - root - INFO - Property value DataContenthas the value2D_DATA
+2015-05-07 13:29:39,506 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-07 13:29:39,506 - root - INFO - Property value Defaulthas the valueY
+2015-05-07 13:29:39,506 - root - INFO - Property value FontNamehas the value
+2015-05-07 13:29:39,506 - root - INFO - Property value Heighthas the value5
+2015-05-07 13:29:39,507 - root - INFO - Property value Widthhas the value3
+2015-05-07 13:29:39,507 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable
+2015-05-07 13:29:39,507 - root - INFO - Property value OCCURRENCEhas the valueFirstPPage
+2015-05-07 13:29:39,507 - root - INFO - Property value Keyhas the value2D_BARCODE1
+2015-05-07 13:29:39,507 - root - INFO - The Key for this row is:2D_BARCODE1
+2015-05-07 13:29:39,507 - root - INFO - Property value Actionhas the valueADD
+2015-05-07 13:29:39,507 - root - INFO - Property value FontSizehas the value
+2015-05-07 13:29:39,507 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,507 - root - INFO - Property value Typehas the value2D
+2015-05-07 13:29:39,507 - root - INFO - Property value Sidehas the valueRecto
+2015-05-07 13:29:39,509 - root - INFO - Property value ObjectTypehas the value
+2015-05-07 13:29:39,509 - root - INFO - row={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-07 13:29:39,509 - root - INFO - Property value PositionXhas the value9
+2015-05-07 13:29:39,509 - root - INFO - Property value PositionYhas the value99
+2015-05-07 13:29:39,509 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,509 - root - INFO - Property value Orientationhas the valueLandscape
+2015-05-07 13:29:39,509 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,509 - root - INFO - Property value FontNamehas the valueArial
+2015-05-07 13:29:39,509 - root - INFO - Property value Heighthas the value88
+2015-05-07 13:29:39,510 - root - INFO - Property value Widthhas the value67
+2015-05-07 13:29:39,510 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable
+2015-05-07 13:29:39,510 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-07 13:29:39,510 - root - INFO - Property value Keyhas the valueHRI
+2015-05-07 13:29:39,510 - root - INFO - The Key for this row is:HRI
+2015-05-07 13:29:39,510 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-07 13:29:39,510 - root - INFO - Property value FontSizehas the value5
+2015-05-07 13:29:39,510 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,510 - root - INFO - Property value Typehas the valueHRI
+2015-05-07 13:29:39,512 - root - INFO - Property value Sidehas the valueVerso
+2015-05-07 13:29:39,512 - root - INFO - Property value ObjectTypehas the value
+2015-05-07 13:29:39,512 - root - INFO - row={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-07 13:29:39,512 - root - INFO - Property value PositionXhas the value
+2015-05-07 13:29:39,512 - root - INFO - Property value PositionYhas the value
+2015-05-07 13:29:39,512 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,512 - root - INFO - Property value Orientationhas the value
+2015-05-07 13:29:39,512 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,512 - root - INFO - Property value FontNamehas the value
+2015-05-07 13:29:39,512 - root - INFO - Property value Heighthas the value
+2015-05-07 13:29:39,513 - root - INFO - Property value Widthhas the value
+2015-05-07 13:29:39,513 - root - INFO - Property value Relationhas the value
+2015-05-07 13:29:39,513 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-07 13:29:39,513 - root - INFO - Property value Keyhas the valuePostnet_1
+2015-05-07 13:29:39,513 - root - INFO - The Key for this row is:Postnet_1
+2015-05-07 13:29:39,513 - root - INFO - Property value Actionhas the valueADD
+2015-05-07 13:29:39,513 - root - INFO - Property value FontSizehas the value
+2015-05-07 13:29:39,513 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,513 - root - INFO - Property value Typehas the value
+2015-05-07 13:29:39,513 - root - INFO - Property value Sidehas the value
+2015-05-07 13:29:39,513 - root - INFO - Property value ObjectTypehas the valueImage
+2015-05-07 13:29:39,513 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-07 13:29:39,513 - root - INFO - Property value PositionXhas the value6
+2015-05-07 13:29:39,513 - root - INFO - Property value PositionYhas the value6
+2015-05-07 13:29:39,513 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,513 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-07 13:29:39,515 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,515 - root - INFO - Property value FontNamehas the valueArial
+2015-05-07 13:29:39,515 - root - INFO - Property value Heighthas the value6
+2015-05-07 13:29:39,515 - root - INFO - Property value Widthhas the value6
+2015-05-07 13:29:39,515 - root - INFO - Property value Relationhas the value
+2015-05-07 13:29:39,515 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-07 13:29:39,515 - root - INFO - Property value Keyhas the valueHRI_DETECT
+2015-05-07 13:29:39,515 - root - INFO - The Key for this row is:HRI_DETECT
+2015-05-07 13:29:39,516 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-07 13:29:39,516 - root - INFO - Property value FontSizehas the value5
+2015-05-07 13:29:39,516 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,516 - root - INFO - Property value Typehas the valueHRI
+2015-05-07 13:29:39,516 - root - INFO - Property value Sidehas the valueRecto
+2015-05-07 13:29:39,516 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-07 13:29:39,516 - root - INFO - prop_dict={'HRI_DETECT': {'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'OCCURRENCE': 'AllPPage'}, '2D_BARCODE1': {'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'ObjectType': '', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'OCCURRENCE': 'FirstPPage'}, 'HRI': {'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'ObjectType': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'OCCURRENCE': 'AllPPage'}, 'Postnet_1': {'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Image', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'OCCURRENCE': ''}}
+2015-05-07 13:29:39,516 - root - INFO - out_pickle_filenmae=DocumentPagesObjectsTypesPropTable
+2015-05-07 13:29:39,516 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-07 13:29:39,517 - root - INFO - Property value PositionXhas the value6
+2015-05-07 13:29:39,517 - root - INFO - Property value PositionYhas the value6
+2015-05-07 13:29:39,517 - root - INFO - Property value DataContenthas the value2D_DATA
+2015-05-07 13:29:39,517 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-07 13:29:39,517 - root - INFO - Property value Defaulthas the valueY
+2015-05-07 13:29:39,517 - root - INFO - Property value FontNamehas the value
+2015-05-07 13:29:39,517 - root - INFO - Property value Heighthas the value5
+2015-05-07 13:29:39,517 - root - INFO - Property value Widthhas the value3
+2015-05-07 13:29:39,517 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable
+2015-05-07 13:29:39,517 - root - INFO - Property value OCCURRENCEhas the valueFirstPPage
+2015-05-07 13:29:39,517 - root - INFO - Property value Keyhas the value2D_BARCODE1
+2015-05-07 13:29:39,517 - root - INFO - The Key for this row is:2D_BARCODE1
+2015-05-07 13:29:39,519 - root - INFO - Property value Actionhas the valueADD
+2015-05-07 13:29:39,519 - root - INFO - Property value FontSizehas the value
+2015-05-07 13:29:39,519 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,519 - root - INFO - Property value Typehas the value2D
+2015-05-07 13:29:39,519 - root - INFO - Property value Sidehas the valueRecto
+2015-05-07 13:29:39,519 - root - INFO - Property value ObjectTypehas the value
+2015-05-07 13:29:39,519 - root - INFO - row={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-07 13:29:39,519 - root - INFO - Property value PositionXhas the value9
+2015-05-07 13:29:39,519 - root - INFO - Property value PositionYhas the value99
+2015-05-07 13:29:39,519 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,519 - root - INFO - Property value Orientationhas the valueLandscape
+2015-05-07 13:29:39,519 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,519 - root - INFO - Property value FontNamehas the valueArial
+2015-05-07 13:29:39,519 - root - INFO - Property value Heighthas the value88
+2015-05-07 13:29:39,519 - root - INFO - Property value Widthhas the value67
+2015-05-07 13:29:39,519 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable
+2015-05-07 13:29:39,519 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-07 13:29:39,519 - root - INFO - Property value Keyhas the valueHRI
+2015-05-07 13:29:39,519 - root - INFO - The Key for this row is:HRI
+2015-05-07 13:29:39,520 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-07 13:29:39,520 - root - INFO - Property value FontSizehas the value5
+2015-05-07 13:29:39,520 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,520 - root - INFO - Property value Typehas the valueHRI
+2015-05-07 13:29:39,520 - root - INFO - Property value Sidehas the valueVerso
+2015-05-07 13:29:39,520 - root - INFO - Property value ObjectTypehas the value
+2015-05-07 13:29:39,520 - root - INFO - row={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-07 13:29:39,522 - root - INFO - Property value PositionXhas the value
+2015-05-07 13:29:39,522 - root - INFO - Property value PositionYhas the value
+2015-05-07 13:29:39,522 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,522 - root - INFO - Property value Orientationhas the value
+2015-05-07 13:29:39,522 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,522 - root - INFO - Property value FontNamehas the value
+2015-05-07 13:29:39,522 - root - INFO - Property value Heighthas the value
+2015-05-07 13:29:39,522 - root - INFO - Property value Widthhas the value
+2015-05-07 13:29:39,522 - root - INFO - Property value Relationhas the value
+2015-05-07 13:29:39,522 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-07 13:29:39,522 - root - INFO - Property value Keyhas the valuePostnet_1
+2015-05-07 13:29:39,523 - root - INFO - The Key for this row is:Postnet_1
+2015-05-07 13:29:39,523 - root - INFO - Property value Actionhas the valueADD
+2015-05-07 13:29:39,523 - root - INFO - Property value FontSizehas the value
+2015-05-07 13:29:39,523 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,523 - root - INFO - Property value Typehas the value
+2015-05-07 13:29:39,523 - root - INFO - Property value Sidehas the value
+2015-05-07 13:29:39,523 - root - INFO - Property value ObjectTypehas the valueImage
+2015-05-07 13:29:39,523 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-07 13:29:39,523 - root - INFO - Property value PositionXhas the value6
+2015-05-07 13:29:39,523 - root - INFO - Property value PositionYhas the value6
+2015-05-07 13:29:39,523 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,523 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-07 13:29:39,523 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,523 - root - INFO - Property value FontNamehas the valueArial
+2015-05-07 13:29:39,523 - root - INFO - Property value Heighthas the value6
+2015-05-07 13:29:39,523 - root - INFO - Property value Widthhas the value6
+2015-05-07 13:29:39,523 - root - INFO - Property value Relationhas the value
+2015-05-07 13:29:39,523 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-07 13:29:39,523 - root - INFO - Property value Keyhas the valueHRI_DETECT
+2015-05-07 13:29:39,525 - root - INFO - The Key for this row is:HRI_DETECT
+2015-05-07 13:29:39,525 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-07 13:29:39,525 - root - INFO - Property value FontSizehas the value5
+2015-05-07 13:29:39,525 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,525 - root - INFO - Property value Typehas the valueHRI
+2015-05-07 13:29:39,525 - root - INFO - Property value Sidehas the valueRecto
+2015-05-07 13:29:39,525 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-07 13:29:39,525 - root - INFO - prop_dict={'HRI_DETECT': {'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'OCCURRENCE': 'AllPPage'}, '2D_BARCODE1': {'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'ObjectType': '', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'OCCURRENCE': 'FirstPPage'}, 'HRI': {'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'ObjectType': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'OCCURRENCE': 'AllPPage'}, 'Postnet_1': {'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Image', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'OCCURRENCE': ''}}
+2015-05-07 13:29:39,526 - root - INFO - out_pickle_filenmae=PrintReadyAppsRulesPropTable
+2015-05-07 13:29:39,526 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-07 13:29:39,526 - root - INFO - Property value PositionXhas the value6
+2015-05-07 13:29:39,526 - root - INFO - Property value PositionYhas the value6
+2015-05-07 13:29:39,526 - root - INFO - Property value DataContenthas the value2D_DATA
+2015-05-07 13:29:39,526 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-07 13:29:39,526 - root - INFO - Property value Defaulthas the valueY
+2015-05-07 13:29:39,526 - root - INFO - Property value FontNamehas the value
+2015-05-07 13:29:39,526 - root - INFO - Property value Heighthas the value5
+2015-05-07 13:29:39,526 - root - INFO - Property value Widthhas the value3
+2015-05-07 13:29:39,526 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable
+2015-05-07 13:29:39,526 - root - INFO - Property value OCCURRENCEhas the valueFirstPPage
+2015-05-07 13:29:39,528 - root - INFO - Property value Keyhas the value2D_BARCODE1
+2015-05-07 13:29:39,528 - root - INFO - The Key for this row is:2D_BARCODE1
+2015-05-07 13:29:39,528 - root - INFO - Property value Actionhas the valueADD
+2015-05-07 13:29:39,528 - root - INFO - Property value FontSizehas the value
+2015-05-07 13:29:39,528 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,528 - root - INFO - Property value Typehas the value2D
+2015-05-07 13:29:39,528 - root - INFO - Property value Sidehas the valueRecto
+2015-05-07 13:29:39,528 - root - INFO - Property value ObjectTypehas the value
+2015-05-07 13:29:39,528 - root - INFO - row={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-07 13:29:39,528 - root - INFO - Property value PositionXhas the value9
+2015-05-07 13:29:39,528 - root - INFO - Property value PositionYhas the value99
+2015-05-07 13:29:39,529 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,529 - root - INFO - Property value Orientationhas the valueLandscape
+2015-05-07 13:29:39,529 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,529 - root - INFO - Property value FontNamehas the valueArial
+2015-05-07 13:29:39,529 - root - INFO - Property value Heighthas the value88
+2015-05-07 13:29:39,529 - root - INFO - Property value Widthhas the value67
+2015-05-07 13:29:39,529 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable
+2015-05-07 13:29:39,529 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-07 13:29:39,529 - root - INFO - Property value Keyhas the valueHRI
+2015-05-07 13:29:39,529 - root - INFO - The Key for this row is:HRI
+2015-05-07 13:29:39,529 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-07 13:29:39,529 - root - INFO - Property value FontSizehas the value5
+2015-05-07 13:29:39,529 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,529 - root - INFO - Property value Typehas the valueHRI
+2015-05-07 13:29:39,529 - root - INFO - Property value Sidehas the valueVerso
+2015-05-07 13:29:39,529 - root - INFO - Property value ObjectTypehas the value
+2015-05-07 13:29:39,529 - root - INFO - row={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-07 13:29:39,529 - root - INFO - Property value PositionXhas the value
+2015-05-07 13:29:39,529 - root - INFO - Property value PositionYhas the value
+2015-05-07 13:29:39,529 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,529 - root - INFO - Property value Orientationhas the value
+2015-05-07 13:29:39,529 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,529 - root - INFO - Property value FontNamehas the value
+2015-05-07 13:29:39,530 - root - INFO - Property value Heighthas the value
+2015-05-07 13:29:39,530 - root - INFO - Property value Widthhas the value
+2015-05-07 13:29:39,530 - root - INFO - Property value Relationhas the value
+2015-05-07 13:29:39,530 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-07 13:29:39,530 - root - INFO - Property value Keyhas the valuePostnet_1
+2015-05-07 13:29:39,530 - root - INFO - The Key for this row is:Postnet_1
+2015-05-07 13:29:39,530 - root - INFO - Property value Actionhas the valueADD
+2015-05-07 13:29:39,530 - root - INFO - Property value FontSizehas the value
+2015-05-07 13:29:39,530 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,530 - root - INFO - Property value Typehas the value
+2015-05-07 13:29:39,530 - root - INFO - Property value Sidehas the value
+2015-05-07 13:29:39,532 - root - INFO - Property value ObjectTypehas the valueImage
+2015-05-07 13:29:39,532 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-07 13:29:39,532 - root - INFO - Property value PositionXhas the value6
+2015-05-07 13:29:39,532 - root - INFO - Property value PositionYhas the value6
+2015-05-07 13:29:39,532 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,532 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-07 13:29:39,532 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,532 - root - INFO - Property value FontNamehas the valueArial
+2015-05-07 13:29:39,532 - root - INFO - Property value Heighthas the value6
+2015-05-07 13:29:39,532 - root - INFO - Property value Widthhas the value6
+2015-05-07 13:29:39,532 - root - INFO - Property value Relationhas the value
+2015-05-07 13:29:39,532 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-07 13:29:39,532 - root - INFO - Property value Keyhas the valueHRI_DETECT
+2015-05-07 13:29:39,532 - root - INFO - The Key for this row is:HRI_DETECT
+2015-05-07 13:29:39,532 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-07 13:29:39,532 - root - INFO - Property value FontSizehas the value5
+2015-05-07 13:29:39,532 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,532 - root - INFO - Property value Typehas the valueHRI
+2015-05-07 13:29:39,532 - root - INFO - Property value Sidehas the valueRecto
+2015-05-07 13:29:39,532 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-07 13:29:39,532 - root - INFO - prop_dict={'HRI_DETECT': {'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'OCCURRENCE': 'AllPPage'}, '2D_BARCODE1': {'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'ObjectType': '', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'OCCURRENCE': 'FirstPPage'}, 'HRI': {'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'ObjectType': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'OCCURRENCE': 'AllPPage'}, 'Postnet_1': {'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Image', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'OCCURRENCE': ''}}
+2015-05-07 13:29:39,533 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-07 13:29:39,535 - root - INFO - Property value PositionXhas the value6
+2015-05-07 13:29:39,535 - root - INFO - Property value PositionYhas the value6
+2015-05-07 13:29:39,535 - root - INFO - Property value DataContenthas the value2D_DATA
+2015-05-07 13:29:39,535 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-07 13:29:39,535 - root - INFO - Property value Defaulthas the valueY
+2015-05-07 13:29:39,535 - root - INFO - Property value FontNamehas the value
+2015-05-07 13:29:39,535 - root - INFO - Property value Heighthas the value5
+2015-05-07 13:29:39,535 - root - INFO - Property value Widthhas the value3
+2015-05-07 13:29:39,535 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable
+2015-05-07 13:29:39,535 - root - INFO - Property value OCCURRENCEhas the valueFirstPPage
+2015-05-07 13:29:39,535 - root - INFO - Property value Keyhas the value2D_BARCODE1
+2015-05-07 13:29:39,536 - root - INFO - The Key for this row is:2D_BARCODE1
+2015-05-07 13:29:39,536 - root - INFO - Property value Actionhas the valueADD
+2015-05-07 13:29:39,536 - root - INFO - Property value FontSizehas the value
+2015-05-07 13:29:39,536 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,536 - root - INFO - Property value Typehas the value2D
+2015-05-07 13:29:39,536 - root - INFO - Property value Sidehas the valueRecto
+2015-05-07 13:29:39,536 - root - INFO - Property value ObjectTypehas the value
+2015-05-07 13:29:39,536 - root - INFO - row={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-07 13:29:39,536 - root - INFO - Property value PositionXhas the value9
+2015-05-07 13:29:39,536 - root - INFO - Property value PositionYhas the value99
+2015-05-07 13:29:39,536 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,536 - root - INFO - Property value Orientationhas the valueLandscape
+2015-05-07 13:29:39,536 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,536 - root - INFO - Property value FontNamehas the valueArial
+2015-05-07 13:29:39,536 - root - INFO - Property value Heighthas the value88
+2015-05-07 13:29:39,536 - root - INFO - Property value Widthhas the value67
+2015-05-07 13:29:39,536 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable
+2015-05-07 13:29:39,536 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-07 13:29:39,536 - root - INFO - Property value Keyhas the valueHRI
+2015-05-07 13:29:39,536 - root - INFO - The Key for this row is:HRI
+2015-05-07 13:29:39,536 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-07 13:29:39,536 - root - INFO - Property value FontSizehas the value5
+2015-05-07 13:29:39,538 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,538 - root - INFO - Property value Typehas the valueHRI
+2015-05-07 13:29:39,538 - root - INFO - Property value Sidehas the valueVerso
+2015-05-07 13:29:39,538 - root - INFO - Property value ObjectTypehas the value
+2015-05-07 13:29:39,538 - root - INFO - row={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-07 13:29:39,538 - root - INFO - Property value PositionXhas the value
+2015-05-07 13:29:39,538 - root - INFO - Property value PositionYhas the value
+2015-05-07 13:29:39,538 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,538 - root - INFO - Property value Orientationhas the value
+2015-05-07 13:29:39,538 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,538 - root - INFO - Property value FontNamehas the value
+2015-05-07 13:29:39,539 - root - INFO - Property value Heighthas the value
+2015-05-07 13:29:39,539 - root - INFO - Property value Widthhas the value
+2015-05-07 13:29:39,539 - root - INFO - Property value Relationhas the value
+2015-05-07 13:29:39,539 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-07 13:29:39,539 - root - INFO - Property value Keyhas the valuePostnet_1
+2015-05-07 13:29:39,539 - root - INFO - The Key for this row is:Postnet_1
+2015-05-07 13:29:39,539 - root - INFO - Property value Actionhas the valueADD
+2015-05-07 13:29:39,539 - root - INFO - Property value FontSizehas the value
+2015-05-07 13:29:39,539 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,539 - root - INFO - Property value Typehas the value
+2015-05-07 13:29:39,539 - root - INFO - Property value Sidehas the value
+2015-05-07 13:29:39,539 - root - INFO - Property value ObjectTypehas the valueImage
+2015-05-07 13:29:39,539 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-07 13:29:39,539 - root - INFO - Property value PositionXhas the value6
+2015-05-07 13:29:39,539 - root - INFO - Property value PositionYhas the value6
+2015-05-07 13:29:39,539 - root - INFO - Property value DataContenthas the value
+2015-05-07 13:29:39,539 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-07 13:29:39,539 - root - INFO - Property value Defaulthas the value
+2015-05-07 13:29:39,540 - root - INFO - Property value FontNamehas the valueArial
+2015-05-07 13:29:39,540 - root - INFO - Property value Heighthas the value6
+2015-05-07 13:29:39,540 - root - INFO - Property value Widthhas the value6
+2015-05-07 13:29:39,540 - root - INFO - Property value Relationhas the value
+2015-05-07 13:29:39,540 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-07 13:29:39,540 - root - INFO - Property value Keyhas the valueHRI_DETECT
+2015-05-07 13:29:39,540 - root - INFO - The Key for this row is:HRI_DETECT
+2015-05-07 13:29:39,540 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-07 13:29:39,540 - root - INFO - Property value FontSizehas the value5
+2015-05-07 13:29:39,540 - root - INFO - Property value Descriptionhas the value
+2015-05-07 13:29:39,540 - root - INFO - Property value Typehas the valueHRI
+2015-05-07 13:29:39,542 - root - INFO - Property value Sidehas the valueRecto
+2015-05-07 13:29:39,542 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-07 13:29:39,542 - root - INFO - prop_dict={'HRI_DETECT': {'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'OCCURRENCE': 'AllPPage'}, '2D_BARCODE1': {'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'ObjectType': '', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'OCCURRENCE': 'FirstPPage'}, 'HRI': {'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'ObjectType': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'OCCURRENCE': 'AllPPage'}, 'Postnet_1': {'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Image', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'OCCURRENCE': ''}}

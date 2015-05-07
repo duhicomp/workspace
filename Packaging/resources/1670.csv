@@ -1,0 +1,79 @@
+Key	DEFAULT_REF	jobtype	TS_OPINSTALLDIR	TS_OPWD	BKO_OPWD	BKO_APP	NORM_OPINSTALLDIR	NORM_ENGINE	NORM_CFG_FILE	NORM_CFG_SECTION	NORM_RESOURCES_PATH	NORM_FORMDEF	NORM_FREE_PARAMS	SECOND_FILENAME	SHIPPING_ADDRESS	SHIPPING_ADDRESS_X	SHIPPING_ADDRESS_Y	SHIPPING_ADDRESS_W	SHIPPING_ADDRESS_H	RETURN_ADDRESS	RETURN_ADDRESS_X	RETURN_ADDRESS_Y	RETURN_ADDRESS_W	RETURN_ADDRESS_H	SEQ_NUMBER	SEQ_NUMBER_X	SEQ_NUMBER_Y	SEQ_NUMBER_W	SEQ_NUMBER_H	POSTNET_REMOVAL	POSTNET_FONT	HRI	HRI_FORMAT	HRI_X	HRI_Y	HRI_W	HRI_H	ALTERNATE_HRI_2	ALTERNATE_HRI_2_X	ALTERNATE_HRI_2_Y	ALTERNATE_HRI_2_W	ALTERNATE_HRI_2_H	BARCODE	BARCODE_X	BARCODE_Y	BARCODE_W	BARCODE_H	WORK_DATE	WORK_DATE_PAGE	WORK_DATE_X	WORK_DATE_Y	WORK_DATE_W	WORK_DATE_H	TOTAL_PACKAGE_COUNT	TOTAL_PACKAGE_COUNT_BANNER_PAGE	TOTAL_PACKAGE_COUNT_X	TOTAL_PACKAGE_COUNT_Y	TOTAL_PACKAGE_COUNT_W	TOTAL_PACKAGE_COUNT_H	NEW_2D_BARCODE	NEW_2D_BARCODE_X	NEW_2D_BARCODE_Y	NEW_HRI_X	NEW_HRI_Y	FLATS_TO_FOLDS_FLAG	NEW_SHIPPING_ADDRESS_X	NEW_SHIPPING_ADDRESS_Y	NEW_RETURN_ADDRESS_X	NEW_RETURN_ADDRESS_Y	NEW_ADDRESS_ORIENTATION	CHECK	CHECK_X	CHECK_Y	CHECK_W	CHECK_H	CHECK_AMOUNT_X	CHECK_AMOUNT_Y	CHECK_AMOUNT_W	CHECK_AMOUNT_H	CHECK_BLOCK_NUMBER_X	CHECK_BLOCK_NUMBER_Y	CHECK_BLOCK_NUMBER_W	CHECK_BLOCK_NUMBER_H
+expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression
+DEFAULT			/home/xfm/designer_rt/bin/backstage/linux	/home/xfm/adf/environments/opwd_wf	/home/xfm/adf/environments/opwd_app	LM04 Application	/home/xfm/designer_rt/bin/backstage/linux	/home/xfm/designer/bin/backstage/linux/bin/techafp	/home/xfm/adf/config/techafp.cfg	LM04_NORM					YES					YES					YES						@C1BPOSB0_T1001301	YES						NO					YES					NO						NO						YES	2200	72000	3000	63000	NO						NO												
+																																																																																			
+																																																																																			
+SAFECO_DEF		POLICY									/data/resources/reslib,/data/resources/reslib.am,/data/resources/fonts.240/fontlib.am,/data/resources/fonts.240/fontlib.am.asi,/data/resources/fonts.240/fontlib,/data/resources/fonts.240/fontlib.agfa	F1DMGDFD			YES					YES												YES	SAFECOPL	1700	16800	2850	59100	NO					YES	1700	16800	2850	59100	YES	EN	6800	15300	47700	2400	NO																													
+SAFECOID	SAFECO_DEF	ID													NO					NO					NO								SAFECOID																																																		
+SAFECOFLPL	SAFECO_DEF															14500	35000	8000	30000		47500	9000	6250	25000	YES	52500	9000	2000	5000																																																						
+SAFECOFOPL	SAFECO_DEF															6000	19000	25000	7000		6500	7000	22000	6000	NO																																																										
+SAFECOTFPL	SAFECO_DEF															35500	65500	22500	7000		6500	66600	22500	5000	NO					YES	@C1BPOSB0_T1001301																																																				
+																																																																																			
+AUT0LDRA_STD	SAFECOFOPL																						26100																																																												
+AUT0LDRF_STD	SAFECOFLPL																																																																																		
+AUT0LSRE_STD	SAFECOFOPL																																																																																		
+AUT01561_PERF	SAFECOFLPL													AUT01571_C728																																																																					
+AUT01571_C728	SAFECOID																																																																																		
+AUT0LRP1_PERF	SAFECOFOPL													AUT0LRM1_C728																																																																					
+AUT0LRM1_C728	SAFECOID																																																																																		
+AUT0LRVP_PERF	SAFECOFLPL													AUT0LRVM_C728																																																																					
+AUT0LRVM_C728	SAFECOID																																																																																		
+AUT0LEP1_PERF	SAFECOFOPL													AUT0LEM1_C728																																																																					
+AUT0LEM1_C728	SAFECOID																																																																																		
+																																																																																			
+HOM01566_PERF_not_used	AUT0LDRF_STD																																																																																		
+																																																																																			
+ACR015Z1_PERF	SAFECOTFPL																																																																																		
+BILCP214_PERF	SAFECOTFPL															6600	16200	22650	5400					4700																																																											
+HOM0LDRA_STD	SAFECOFOPL																																																																																		
+HOM0LRP1_PERF	SAFECOFOPL																																																																																		
+HOM01561_PERF	SAFECOFLPL																																																																																		
+																																																																																			
+DEV0L14P_PERF	SAFECOFLPL													DEV0L14M_C728																																																																					
+DEV0L14M_C728	SAFECOID																																																																																		
+EOS04YCL_STND1028	SAFECOFOPL											F1DMGALL					18000		7000																																																				YES	51000	54500	6000	2000	45000	60600	13000	2000				
+DEV0LDRI_STD	SAFECOFOPL																																																																																		
+DEV0LIN1_STD	SAFECOFOPL																																																																																		
+RDSPIA01_STNDC707	SAFECOFOPL											F1ASITR				7000	18000	24000	10000		7000	5500	21000	6500										1350	11000		66000	YES	56200	2550	2850	59100						NO	EN					NO																													
+YCB0DDL2_STNDC707	SAFECOFLPL											F1ASITR				16000	45000	8500	280000		46000	9000	6250	25000										1000				NO	56200	2550	2850	59100						NO	EN					NO																													
+YCB0DBN1_STD	YCB0DDL2_STNDC707															6000	16000	24000	1000		7000	7000	21000	6500																																																											
+																																																																																			
+																																																																																			
+ECLPS_DEF											/data/resources/reslib,/data/resources/reslib.lm,/data/resources/fonts.300/fontlib,/data/resources/fonts.300/fontlib.lm,/data/resources/fonts.300/fontlib.agfa,/data/resources/fonts.300/fontlib.thnow,/data/resources/fonts.300/lram	F1FMMST1			YES					YES					YES					NO		YES	ECLPS					YES	1300	10500	4300	26000	YES	1600	37500	4500	39500	YES	EN	21200	31000	1800	6200	YES	END	27000	31000	2200	6500																								
+ECLPSFLPL	ECLPS_DEF	POLICY														39000	13000	11500	25000		6900	51500	8500	20000		6000	66000	2000	4800					1300	10500	4300	26000	NO																																													
+ECLPSHFPL	ECLPS_DEF	POLICY														10400	19000	25000	8000		11100	6000	26000	6500		11100	5000	4700	1800					6300	54000	3000	18500																																														
+ECLPSTFPL	ECLPS_DEF	POLICY														2800	16200	25000	7000		2800	2800	25000	7000		3000	2000	5000	1800					6300	54000	3000	18500																																														
+																																																																																			
+DNOC_ACXFPCN	ECLPSFLPL																																																																																		
+DNOC_ACXHPCN	ECLPSHFPL																																																																																		
+DNOC_ACXCPCN	ECLPSTFPL																																																																																		
+EFT_ACXFPEN	ECLPS_DEF																																																																																		
+EFT_ZCXHPEN	ECLPSHFPL																																																																																		
+EFT_ZCXCPEN	ECLPSTFPL																																																																																		
+																																																																																			
+																																																																																			
+LMAC_DEF		POLICY								LMAC_NORM	/data/resources/lram,/data/resources/fonts.300/lram,/data/resources/reslib,/data/resources/reslib.lm,/data/resources/fonts.300/fontlib,/data/resources/fonts.300/fontlib.lm,/data/resources/fonts.300/fontlib.agfa,/data/resources/fonts.300/fontlib.thnow	F1AIOMFD			YES					YES					YES							YES	LMACPL	1300	10500	5000	27000	NO	1300	10500	5000	26000	YES	1600	37500	4500	39500	YES	EN	22000	31000	1800	12000	YES	EN	28000	31000	1800	12000																								
+LMACID	LMAC_DEF	ID													NO					NO					NO								LMACID																					NO																													
+LMACFLPL	LMAC_DEF															40000	11000	11500	25000		6600	54000	8500	17500		8200	52500	2000	5000																																																						
+LMACHFPL	LMAC_DEF															11000	21000	25000	8000		11000	5000	16000	8000		26600	6600	5000	2000																																																						
+LMACTFPL	LMAC_DEF															3500	13000	25000	8500		3500	2500	16000	6500		17500	3500	5000	2000					6000	54500	4200	21000	YES																																													
+LMACFLBL	LMACFLPL																				7500	51500		20000		6600	66600																																																								
+LMACHFBL	LMACHFPL																23000					6000	25000			11000	5500																																																								
+LMACTFBL	LMACTFPL																16000					3500	25000			3500	2500																																																								
+																																																																																			
+PGPS86AD_APXFPBN	LMACFLBL																																																																																		
+PGPS86PD_PPXFPBN	LMACFLBL																																																																																		
+PGPS86PD_PPXHPBN	LMACHFBL																																																																																		
+PGPS86AD_APICPBN	LMACTFBL																																																																																		
+PGPS86AD_APXHPBN	LMACHFBL																																	6000	54500	4200	21000	YES																																													
+PGDM66AD_APICPCN	LMACTFPL																																																																																		
+PGDM56AD_APXFPPN	LMACFLPL													PGDM56AD_APXFMPN																																																																					
+PGDM56AD_APXFMPN	LMACID																																																																																		
+PGDM56AD_APXHPPN	LMACHFPL													PGDM56AD_APXHMPN																																																																					
+PGDM56AD_APXHMPN	LMACID																																																																																		
+																																																																																			
+PGPS96GD_GCXCPBN	LMACTFBL																																																																																		
+PGPS96ND_NCPCPBN	LMACTFBL																																																																																		
+PGDM06AD_AC3FPPN	LMACFLPL													PGDM06AD_AC3FMPN																																																																					
+PGDM06AD_AC3FMPN	LMACID																																																																																		
+PGDM06AD_AC3HPPN	LMACHFPL																																																																																		
