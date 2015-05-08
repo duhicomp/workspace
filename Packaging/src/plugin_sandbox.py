@@ -22,8 +22,9 @@ def setup_logging(app_param_debug="N"):
     logdateformat = '%m/%d/%Y %I:%M:%S %p'
     logging.basicConfig(filename=logfile, filemode=logfilemode, level=loglevel, format=logformat, datefmt=logdateformat)
    
-def evaluate_rules_str(rules_str,operands_value_dict):
+def evaluate_rules_str(rules_str,detect_rules_dict):
         # operands_value_dict will go away 
+        print("in the evaluate_rules_str() ")
         split_rules_logic_lst=rules_str.split()
         logging.debug("split_rules_logic_lst contents: " + str(split_rules_logic_lst))
         anded_lst=[]
@@ -32,10 +33,10 @@ def evaluate_rules_str(rules_str,operands_value_dict):
         for rule_elem in split_rules_logic_lst:
             if not anded_flag:
                 if not perform_and: 
-                    temp_OR=evaluate_rule(rule_elem,operands_value_dict)
+                    temp_OR=evaluate_rule(rule_elem,detect_rules_dict)
                     logging.debug("temp_OR value: " + str(temp_OR))
                 else:
-                    temp_or_II=evaluate_rule(rule_elem,operands_value_dict)
+                    temp_or_II=evaluate_rule(rule_elem,detect_rules_dict)
                     temp_OR = temp_OR and temp_or_II 
                     logging.debug("temp_OR value (anded with next element): " + str(temp_OR))
                 anded_flag = 1
@@ -59,13 +60,41 @@ def evaluate_rules_str(rules_str,operands_value_dict):
         logging.debug("Final result of the logical operation (" + rules_str + ") is \n " + str(temp_OR))
         
 def evaluate_rule(rule,rules_value_dict):
-        """The Function to implement the rules"""
-        logging.debug("Value for Rule: " + rule + " is: " + str(rules_value_dict[rule]) )
-        # get the object for the Rule
-        # apply the condition for the rule
-        # custome python
-        # regular expression 
-        return rules_value_dict[rule]   
+    
+    print("Rule is Rule: " + rule + " is: " + str(rules_value_dict['RULES'][rule]) )
+    """The Function to implement the rules"""
+    vpf_object_key = rules_value_dict['RULES'][rule]['ObjectKey']
+    print("vpf_object_key :" + vpf_object_key )
+    print("VPF object is is : " + vpf_object_key + " is: " + str(rules_value_dict['VPF_OBJECTS'][vpf_object_key]) )
+    print("vpf_object_type :" + vpf_object_type )
+    vpf_object_x = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['PositionX']
+    print("vpf_object_x :" + vpf_object_x )
+    vpf_object_y = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['PositionY']
+    print("vpf_object_y :" + vpf_object_y )
+    vpf_object_w = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['Width']
+    print("vpf_object_w :" + vpf_object_w )
+    vpf_object_h = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['Height']
+    print("vpf_object_h :" + vpf_object_h )
+    vpf_object_type = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['ObjectType']
+    vpf_object_side = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['Side']
+    print("vpf_object_side:" + vpf_object_side )
+    vpf_object_orientation = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['Orientation']
+    print("vpf_object_orientation :" + vpf_object_orientation )
+    
+    vpf_object_contents = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['DataContent']
+    #substring
+    vpf_object_substring  = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['Substring']
+    vpf_object_string_start = vpf_object_substring.split(":,:") 
+    if vpf_object_type.upper() == "TEXT":
+        #if object type is TEXT, get text associated properties: font name, font size
+        vpf_object_fname = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['FontName']
+        vpf_object_fsize = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['ObjectType']
+    
+    # get the object for the Rule
+    # apply the condition for the rule
+    # custome python
+    # regular expression 
+    # return rules_value_dict[rule]   
 #################GLOBAL_SETUP#####################################
 
 #techvars.Detection:Rule1 or Rule2
@@ -79,13 +108,16 @@ def evaluate_rule(rule,rules_value_dict):
 def detection_function():
     
     #rules_str = techvars.Detection
+    #rules_str = "Rule_1 and Rule_2 or Rule_3"
+    rules_str = "Rule_1"
     
     #Once Development is done, get the path of the pickle files from the techvars
     #rules_pickel= techvars.RulesDef
     #doc_obj_def_pickel = techvars.DocumentObjectsGenDef
     #doc_obj_data_ContentDef_pickle = techvars.DocumentObjectsDataContentDef
-    rules_pickel = "D:\\MA_Sefas\\Clients\\Packaging\\dict_pickles\\PrintReadyAppsRulesPropTable"
-    doc_obj_def_pickel = "D:\\MA_Sefas\\Clients\\Packaging\\dict_pickles\\DocumentPagesObjectsGeneralPropTable"
+    
+    rules_pickel = "../resources/PrintReadyAppsRulesPropTable"
+    doc_obj_def_pickel = "../resources/DocumentPagesObjectsGeneralPropTable"
     #Do I really need the doc_obj_data_ContentDef_pickle here, it is for Barcode Enhancements
     #doc_obj_data_ContentDef_pickle = "/home/adf/ma_test_pickles/BarcodesContentPropTable"
     detect_dict = {"RULES":{},"VPF_OBJECTS":{}}
@@ -99,9 +131,11 @@ def detection_function():
     else:
         raise Exception("unable to locate the Document Detection objects pickle file: " + doc_obj_def_pickel)
     #doc_obj_def_dict = pickle.load(doc_obj_def_pickel)
-    #doc_obj_data_ContentDef_dict = pickle.load(doc_obj_data_ContentDef_pickle)
+#     doc_obj_data_ContentDef_dict = pickle.load(doc_obj_data_ContentDef_pickle)
 #     logging.debug("contents of the detect_dict are:" + str(detect_dict))
-    print("contents of the detect_dict are:" + str(detect_dict))
+    print("contents of the detect_dict['RULES'] are:" + str(detect_dict["RULES"]))
+    print("contents of the detect_dict['VPF_OBJECTS'] are:" + str(detect_dict["VPF_OBJECTS"]))
+    evaluate_rules_str(rules_str,detect_dict)
     return
 
 if __name__ == "__main__":

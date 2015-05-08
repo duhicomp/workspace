@@ -4,3 +4,4 @@ expression	expression	expression	expression	expression	expression	expression	exp
 HRI		PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable	HRI	REMOVE			9	99	67	88	Arial	5	Landscape	AllPPage	Verso	
 Postnet_1				ADD		Image										
 HRI_DETECT			HRI	DETECT		Text	6	6	6	6	Arial	5	Portrait	AllPPage	Recto	
+HRI_1			HRI	DETECT		Text	6	6	6	6	Arial	5	Portrait	AllPPage	Recto
