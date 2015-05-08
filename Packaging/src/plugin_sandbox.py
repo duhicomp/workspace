@@ -66,6 +66,7 @@ def evaluate_rule(rule,rules_value_dict):
     vpf_object_key = rules_value_dict['RULES'][rule]['ObjectKey']
     print("vpf_object_key :" + vpf_object_key )
     print("VPF object is is : " + vpf_object_key + " is: " + str(rules_value_dict['VPF_OBJECTS'][vpf_object_key]) )
+    vpf_object_type = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['ObjectType']
     print("vpf_object_type :" + vpf_object_type )
     vpf_object_x = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['PositionX']
     print("vpf_object_x :" + vpf_object_x )
@@ -75,7 +76,6 @@ def evaluate_rule(rule,rules_value_dict):
     print("vpf_object_w :" + vpf_object_w )
     vpf_object_h = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['Height']
     print("vpf_object_h :" + vpf_object_h )
-    vpf_object_type = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['ObjectType']
     vpf_object_side = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['Side']
     print("vpf_object_side:" + vpf_object_side )
     vpf_object_orientation = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['Orientation']
@@ -90,25 +90,29 @@ def evaluate_rule(rule,rules_value_dict):
         vpf_object_fname = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['FontName']
         vpf_object_fsize = rules_value_dict['VPF_OBJECTS'][vpf_object_key]['ObjectType']
     
+    #vpf_objects_zone = bko.getCurrentPage().newZone(vpf_object_x, vpf_object_y, vpf_object_w, vpf_object_h)
     # get the object for the Rule
+    
     # apply the condition for the rule
+    
     # custome python
+    
     # regular expression 
+    
     # return rules_value_dict[rule]   
 #################GLOBAL_SETUP#####################################
 
-#techvars.Detection:Rule1 or Rule2
-#techvars.Indexation:Rule3 or Rule4
-#techvars.Enhancement:Rule5 and rule6
-#techvars.RulesDef:Path to PrintReadyAppsRulesPropTable pickle
-#techvars.DocumentObjectsGenDef:Path to DocumentPagesObjectsGeneralPropTable pickle
-#techvars.DocumentObjectsDataContentDef:Path to BarcodesContentPropTable pickle
+# techvars.Detection:Rule1 or Rule2
+# techvars.Indexation:Rule3 or Rule4
+# techvars.Enhancement:Rule5 and rule6
+# techvars.RulesDef:Path to PrintReadyAppsRulesPropTable pickle
+# techvars.DocumentObjectsGenDef:Path to DocumentPagesObjectsGeneralPropTable pickle
+# techvars.DocumentObjectsDataContentDef:Path to BarcodesContentPropTable pickle
 
 
 def detection_function():
     
     #rules_str = techvars.Detection
-    #rules_str = "Rule_1 and Rule_2 or Rule_3"
     rules_str = "Rule_1"
     
     #Once Development is done, get the path of the pickle files from the techvars
@@ -120,8 +124,9 @@ def detection_function():
     doc_obj_def_pickel = "../resources/DocumentPagesObjectsGeneralPropTable"
     #Do I really need the doc_obj_data_ContentDef_pickle here, it is for Barcode Enhancements
     #doc_obj_data_ContentDef_pickle = "/home/adf/ma_test_pickles/BarcodesContentPropTable"
+    
     detect_dict = {"RULES":{},"VPF_OBJECTS":{}}
-    #probably put all the contents in one dictionary
+
     if os.path.exists(rules_pickel):
         detect_dict["RULES"]= pickle.load(open(rules_pickel,'rb'))
     else:
@@ -130,7 +135,7 @@ def detection_function():
         detect_dict["VPF_OBJECTS"]= pickle.load(open(doc_obj_def_pickel,'rb'))
     else:
         raise Exception("unable to locate the Document Detection objects pickle file: " + doc_obj_def_pickel)
-    #doc_obj_def_dict = pickle.load(doc_obj_def_pickel)
+#     doc_obj_def_dict = pickle.load(doc_obj_def_pickel)
 #     doc_obj_data_ContentDef_dict = pickle.load(doc_obj_data_ContentDef_pickle)
 #     logging.debug("contents of the detect_dict are:" + str(detect_dict))
     print("contents of the detect_dict['RULES'] are:" + str(detect_dict["RULES"]))

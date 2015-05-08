@@ -67,8 +67,8 @@ if __name__=="__main__":
 #     in_RulesDef = "../resources/PrintReadyAppsRulesPropTable.csv"
     in_DocumentObjectsGenDef = "../resources/DocumentPagesObjectsGeneralPropTable.csv"
 #     in_DocumentPagesObjectsTypesPropTable="../resources/DocumentPagesObjectsTypesPropTable.csv"
-    in_PrintReadyAppsRulesPropTable="../resources/PrintReadyAppsRulesPropTable.csv"
-    in_DocumentObjectsDataContentDef='../resources/BarcodesContentPropTable.csv'
+    in_PrintReadyAppsRulesPropTable="../resources/MA_TEST_LM_PrintReadyAppsRulesPropTable.csv"
+#     in_DocumentObjectsDataContentDef='../resources/BarcodesContentPropTable.csv'
      
 #     out_pickle_filename = str(str(in_RulesDef.split('/')[-1]).split('.')[0])
 #     mon_logger.info('out_pickle_filenmae=' + out_pickle_filename)
@@ -86,6 +86,6 @@ if __name__=="__main__":
     mon_logger.info('out_pickle_filenmae=' + out_pickle_filename)
     table_to_pickle(in_PrintReadyAppsRulesPropTable,out_pickle_filename)
     
-    out_pickle_filename = str(str(in_DocumentObjectsDataContentDef.split('/')[-1]).split('.')[0])
-    print('out_pickle_filenmae=' + out_pickle_filename)
-    table_to_pickle(in_DocumentObjectsGenDef,out_pickle_filename)
+#     out_pickle_filename = str(str(in_DocumentObjectsDataContentDef.split('/')[-1]).split('.')[0])
+#     print('out_pickle_filenmae=' + out_pickle_filename)
+#     table_to_pickle(in_DocumentObjectsGenDef,out_pickle_filename)

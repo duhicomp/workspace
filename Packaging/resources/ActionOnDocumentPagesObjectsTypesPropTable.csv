@@ -1,7 +1,0 @@
-Key	Default	Relation	Command	Description
-expression	expression	expression	expression	expression
-ADD	Y	DocumentPagesObjectsGeneralPropTable		Add resource in the Document page
-REMOVE		DocumentPagesObjectsGeneralPropTable		Remove resource from the Document page
-BLANK		DocumentPagesObjectsGeneralPropTable	K	Place a mask in the Document page
-INDEX		DocumentPagesObjectsGeneralPropTable		Read the data in the document object and place it in the index
-DETECT		DocumentPagesObjectsGeneralPropTable		Detect the object
