@@ -1,0 +1,12 @@
+Key	Default	Relation	Application	Object	Action	DetectionType	ActionTrigger	IncludeLastPageDetected	CustomCondition	Values	Filter	TechPrintVarName	MasterIndexColumnName
+expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression	expression
+Rule_1		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable	controlrule1	HRI_1	DETECT	Begin	NotEmpty						
+Rule_2		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable	controlrule1		DETECT	End	Empty						
+Rule_3		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable	controlrule1				EqualsTo			M. 			
+Rule_4			controlrule1				HasChanged						
+Rule_5		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable	controlrule1				Contains			1/			
+Rule_6		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable	controlrule1	Postnet_1	INDEX		Match			ExprReg			
+Rule_7		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable	controlrule1		DETECT		isNumeric					AccountNumber	AccountNumber
+Rule_8		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable	controlrule1		REMOVE		custom						
+Rule_9			controlrule1		ADD		Rule_1 or Rule_2						
+Formname				Form_1	DETECT	BEGIN	Contains			OC-429/EP			
