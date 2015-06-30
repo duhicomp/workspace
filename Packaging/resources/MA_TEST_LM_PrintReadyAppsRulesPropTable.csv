@@ -10,3 +10,12 @@ Rule_7		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable	controlrul
 Rule_8		DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable	controlrule1		REMOVE		custom						
 Rule_9			controlrule1		ADD		Rule_1 or Rule_2						
 Formname				Form_1	DETECT	BEGIN	Contains			OC-429/EP			
+Remove_Logo				Ebank_Logo	REMOVE								
+First_Address_Line				Address_Line_1	INDEX							addr_ln_1	
+First_pg_str				dear_str	DETECT	BEGIN	Contains			Dear			
+Remove_LM_Barcode				LM_Barcode	REMOVE								
+RDD_DETECT				RDD_Page_1	DETECT		Contains			Page 1			
+RDD_DEL_IMAGE				RDD_Logo	REMOVE								
+RDD_Frst_Address_Line				Frst_Addr_Line	INDEX							addr_ln_1	
+RDD_Act_Num				RDD_Act_Zone	INDEX							act_num	
+Sefas_Act_Num				Sefas_Act_Zone	INDEX							act_num	

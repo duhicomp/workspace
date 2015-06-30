@@ -1,0 +1,1289 @@
+2015-05-11 17:13:02,818 - root - INFO - out_pickle_filenmae=DocumentPagesObjectsGeneralPropTable
+2015-05-11 17:13:02,828 - root - INFO - contents of current row ={'PositionX': 'expression', 'PositionY': 'expression', 'DataContent': 'expression', 'Orientation': 'expression', 'Default': 'expression', 'FontName': 'expression', 'Height': 'expression', 'Width': 'expression', 'Relation': 'expression', 'OCCURRENCE': 'expression', 'Key': 'expression', 'Action': 'expression', 'FontSize': 'expression', 'Description': 'expression', 'Type': 'expression', 'Side': 'expression', 'ObjectType': 'expression'}
+2015-05-11 17:13:02,829 - root - INFO - contents of current row ={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-11 17:13:02,829 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-11 17:13:02,829 - root - INFO - Property value PositionXhas the value6
+2015-05-11 17:13:02,829 - root - INFO - Property value PositionYhas the value6
+2015-05-11 17:13:02,829 - root - INFO - Property value DataContenthas the value2D_DATA
+2015-05-11 17:13:02,829 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 17:13:02,831 - root - INFO - Property value Defaulthas the valueY
+2015-05-11 17:13:02,831 - root - INFO - Property value FontNamehas the value
+2015-05-11 17:13:02,831 - root - INFO - Property value Heighthas the value5
+2015-05-11 17:13:02,831 - root - INFO - Property value Widthhas the value3
+2015-05-11 17:13:02,831 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable
+2015-05-11 17:13:02,831 - root - INFO - Property value OCCURRENCEhas the valueFirstPPage
+2015-05-11 17:13:02,831 - root - INFO - Property value Keyhas the value2D_BARCODE1
+2015-05-11 17:13:02,831 - root - INFO - The Key for this row is:2D_BARCODE1
+2015-05-11 17:13:02,831 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 17:13:02,831 - root - INFO - Property value FontSizehas the value
+2015-05-11 17:13:02,831 - root - INFO - Property value Descriptionhas the value
+2015-05-11 17:13:02,832 - root - INFO - Property value Typehas the value2D
+2015-05-11 17:13:02,832 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 17:13:02,832 - root - INFO - Property value ObjectTypehas the value
+2015-05-11 17:13:02,832 - root - INFO - contents of current row ={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-11 17:13:02,832 - root - INFO - row={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-11 17:13:02,832 - root - INFO - Property value PositionXhas the value9
+2015-05-11 17:13:02,832 - root - INFO - Property value PositionYhas the value99
+2015-05-11 17:13:02,832 - root - INFO - Property value DataContenthas the value
+2015-05-11 17:13:02,832 - root - INFO - Property value Orientationhas the valueLandscape
+2015-05-11 17:13:02,832 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,832 - root - INFO - Property value FontNamehas the valueArial
+2015-05-11 17:13:02,832 - root - INFO - Property value Heighthas the value88
+2015-05-11 17:13:02,832 - root - INFO - Property value Widthhas the value67
+2015-05-11 17:13:02,832 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable
+2015-05-11 17:13:02,832 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-11 17:13:02,832 - root - INFO - Property value Keyhas the valueHRI
+2015-05-11 17:13:02,832 - root - INFO - The Key for this row is:HRI
+2015-05-11 17:13:02,832 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 17:13:02,832 - root - INFO - Property value FontSizehas the value5
+2015-05-11 17:13:02,832 - root - INFO - Property value Descriptionhas the value
+2015-05-11 17:13:02,834 - root - INFO - Property value Typehas the valueHRI
+2015-05-11 17:13:02,834 - root - INFO - Property value Sidehas the valueVerso
+2015-05-11 17:13:02,834 - root - INFO - Property value ObjectTypehas the value
+2015-05-11 17:13:02,834 - root - INFO - contents of current row ={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-11 17:13:02,834 - root - INFO - row={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-11 17:13:02,834 - root - INFO - Property value PositionXhas the value
+2015-05-11 17:13:02,834 - root - INFO - Property value PositionYhas the value
+2015-05-11 17:13:02,834 - root - INFO - Property value DataContenthas the value
+2015-05-11 17:13:02,834 - root - INFO - Property value Orientationhas the value
+2015-05-11 17:13:02,834 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,834 - root - INFO - Property value FontNamehas the value
+2015-05-11 17:13:02,834 - root - INFO - Property value Heighthas the value
+2015-05-11 17:13:02,835 - root - INFO - Property value Widthhas the value
+2015-05-11 17:13:02,835 - root - INFO - Property value Relationhas the value
+2015-05-11 17:13:02,835 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-11 17:13:02,835 - root - INFO - Property value Keyhas the valuePostnet_1
+2015-05-11 17:13:02,835 - root - INFO - The Key for this row is:Postnet_1
+2015-05-11 17:13:02,835 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 17:13:02,835 - root - INFO - Property value FontSizehas the value
+2015-05-11 17:13:02,835 - root - INFO - Property value Descriptionhas the value
+2015-05-11 17:13:02,835 - root - INFO - Property value Typehas the value
+2015-05-11 17:13:02,835 - root - INFO - Property value Sidehas the value
+2015-05-11 17:13:02,835 - root - INFO - Property value ObjectTypehas the valueImage
+2015-05-11 17:13:02,835 - root - INFO - contents of current row ={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 17:13:02,835 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 17:13:02,835 - root - INFO - Property value PositionXhas the value6
+2015-05-11 17:13:02,835 - root - INFO - Property value PositionYhas the value6
+2015-05-11 17:13:02,835 - root - INFO - Property value DataContenthas the value
+2015-05-11 17:13:02,835 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 17:13:02,835 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,835 - root - INFO - Property value FontNamehas the valueArial
+2015-05-11 17:13:02,836 - root - INFO - Property value Heighthas the value6
+2015-05-11 17:13:02,836 - root - INFO - Property value Widthhas the value6
+2015-05-11 17:13:02,836 - root - INFO - Property value Relationhas the value
+2015-05-11 17:13:02,836 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-11 17:13:02,836 - root - INFO - Property value Keyhas the valueHRI_DETECT
+2015-05-11 17:13:02,836 - root - INFO - The Key for this row is:HRI_DETECT
+2015-05-11 17:13:02,836 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 17:13:02,836 - root - INFO - Property value FontSizehas the value5
+2015-05-11 17:13:02,836 - root - INFO - Property value Descriptionhas the value
+2015-05-11 17:13:02,836 - root - INFO - Property value Typehas the valueHRI
+2015-05-11 17:13:02,836 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 17:13:02,836 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-11 17:13:02,838 - root - INFO - contents of current row ={'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Form_1', 'Action': 'Form_1', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 17:13:02,838 - root - INFO - row={'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Form_1', 'Action': 'Form_1', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 17:13:02,838 - root - INFO - Property value PositionXhas the value6250
+2015-05-11 17:13:02,838 - root - INFO - Property value PositionYhas the value75555
+2015-05-11 17:13:02,838 - root - INFO - Property value DataContenthas the value
+2015-05-11 17:13:02,838 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 17:13:02,838 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,838 - root - INFO - Property value FontNamehas the value@C1A05580_T1GI0361
+2015-05-11 17:13:02,838 - root - INFO - Property value Heighthas the value2361
+2015-05-11 17:13:02,838 - root - INFO - Property value Widthhas the value8194
+2015-05-11 17:13:02,838 - root - INFO - Property value Relationhas the value
+2015-05-11 17:13:02,838 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-11 17:13:02,838 - root - INFO - Property value Keyhas the valueForm_1
+2015-05-11 17:13:02,838 - root - INFO - The Key for this row is:Form_1
+2015-05-11 17:13:02,838 - root - INFO - Property value Actionhas the valueForm_1
+2015-05-11 17:13:02,838 - root - INFO - Property value FontSizehas the value8
+2015-05-11 17:13:02,838 - root - INFO - Property value Descriptionhas the value
+2015-05-11 17:13:02,838 - root - INFO - Property value Typehas the value
+2015-05-11 17:13:02,838 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 17:13:02,838 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-11 17:13:02,838 - root - INFO - prop_dict={'HRI_DETECT': {'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'OCCURRENCE': 'AllPPage'}, 'Form_1': {'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'Action': 'Form_1', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'OCCURRENCE': ''}, '2D_BARCODE1': {'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'ObjectType': '', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'OCCURRENCE': 'FirstPPage'}, 'HRI': {'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'ObjectType': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'OCCURRENCE': 'AllPPage'}, 'Postnet_1': {'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Image', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'OCCURRENCE': ''}}
+2015-05-11 17:13:02,841 - root - INFO - out_pickle_filenmae=MA_TEST_LM_PrintReadyAppsRulesPropTable
+2015-05-11 17:13:02,846 - root - INFO - contents of current row ={'CustomCondition': 'expression', 'IncludeLastPageDetected': 'expression', 'Default': 'expression', 'MasterIndexColumnName': 'expression', 'Object': 'expression', 'Filter': 'expression', 'Application': 'expression', 'ActionTrigger': 'expression', 'Relation': 'expression', 'Key': 'expression', 'Action': 'expression', 'Values': 'expression', 'DetectionType': 'expression', 'TechPrintVarName': 'expression'}
+2015-05-11 17:13:02,846 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'HRI_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_1', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'Begin', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,846 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'HRI_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_1', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'Begin', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,848 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:13:02,848 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:13:02,848 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,848 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:13:02,848 - root - INFO - Property value Objecthas the valueHRI_1
+2015-05-11 17:13:02,848 - root - INFO - Property value Filterhas the value
+2015-05-11 17:13:02,848 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:13:02,848 - root - INFO - Property value ActionTriggerhas the valueNotEmpty
+2015-05-11 17:13:02,848 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:13:02,848 - root - INFO - Property value Keyhas the valueRule_1
+2015-05-11 17:13:02,848 - root - INFO - The Key for this row is:Rule_1
+2015-05-11 17:13:02,848 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 17:13:02,848 - root - INFO - Property value Valueshas the value
+2015-05-11 17:13:02,848 - root - INFO - Property value DetectionTypehas the valueBegin
+2015-05-11 17:13:02,848 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:13:02,848 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_2', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'End', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,848 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_2', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'End', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,848 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:13:02,848 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:13:02,848 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,848 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:13:02,848 - root - INFO - Property value Objecthas the value
+2015-05-11 17:13:02,849 - root - INFO - Property value Filterhas the value
+2015-05-11 17:13:02,849 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:13:02,849 - root - INFO - Property value ActionTriggerhas the valueEmpty
+2015-05-11 17:13:02,849 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:13:02,849 - root - INFO - Property value Keyhas the valueRule_2
+2015-05-11 17:13:02,849 - root - INFO - The Key for this row is:Rule_2
+2015-05-11 17:13:02,849 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 17:13:02,849 - root - INFO - Property value Valueshas the value
+2015-05-11 17:13:02,849 - root - INFO - Property value DetectionTypehas the valueEnd
+2015-05-11 17:13:02,851 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:13:02,851 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_3', 'Action': '', 'Values': 'M. ', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,851 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_3', 'Action': '', 'Values': 'M. ', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,851 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:13:02,851 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:13:02,851 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,851 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:13:02,851 - root - INFO - Property value Objecthas the value
+2015-05-11 17:13:02,851 - root - INFO - Property value Filterhas the value
+2015-05-11 17:13:02,851 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:13:02,851 - root - INFO - Property value ActionTriggerhas the valueEqualsTo
+2015-05-11 17:13:02,851 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:13:02,890 - root - INFO - Property value Keyhas the valueRule_3
+2015-05-11 17:13:02,891 - root - INFO - The Key for this row is:Rule_3
+2015-05-11 17:13:02,891 - root - INFO - Property value Actionhas the value
+2015-05-11 17:13:02,891 - root - INFO - Property value Valueshas the valueM. 
+2015-05-11 17:13:02,891 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:13:02,891 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:13:02,891 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Key': 'Rule_4', 'Action': '', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,891 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Key': 'Rule_4', 'Action': '', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,891 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:13:02,891 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:13:02,891 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,891 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:13:02,891 - root - INFO - Property value Objecthas the value
+2015-05-11 17:13:02,891 - root - INFO - Property value Filterhas the value
+2015-05-11 17:13:02,891 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:13:02,891 - root - INFO - Property value ActionTriggerhas the valueHasChanged
+2015-05-11 17:13:02,891 - root - INFO - Property value Relationhas the value
+2015-05-11 17:13:02,891 - root - INFO - Property value Keyhas the valueRule_4
+2015-05-11 17:13:02,891 - root - INFO - The Key for this row is:Rule_4
+2015-05-11 17:13:02,891 - root - INFO - Property value Actionhas the value
+2015-05-11 17:13:02,891 - root - INFO - Property value Valueshas the value
+2015-05-11 17:13:02,892 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:13:02,892 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:13:02,892 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_5', 'Action': '', 'Values': '1/', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,892 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_5', 'Action': '', 'Values': '1/', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,892 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:13:02,892 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:13:02,892 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,892 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:13:02,892 - root - INFO - Property value Objecthas the value
+2015-05-11 17:13:02,892 - root - INFO - Property value Filterhas the value
+2015-05-11 17:13:02,892 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:13:02,892 - root - INFO - Property value ActionTriggerhas the valueContains
+2015-05-11 17:13:02,894 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:13:02,894 - root - INFO - Property value Keyhas the valueRule_5
+2015-05-11 17:13:02,894 - root - INFO - The Key for this row is:Rule_5
+2015-05-11 17:13:02,894 - root - INFO - Property value Actionhas the value
+2015-05-11 17:13:02,894 - root - INFO - Property value Valueshas the value1/
+2015-05-11 17:13:02,894 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:13:02,894 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:13:02,894 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Postnet_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_6', 'Action': 'INDEX', 'Values': 'ExprReg', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,894 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Postnet_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_6', 'Action': 'INDEX', 'Values': 'ExprReg', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,894 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:13:02,894 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:13:02,894 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,894 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:13:02,894 - root - INFO - Property value Objecthas the valuePostnet_1
+2015-05-11 17:13:02,894 - root - INFO - Property value Filterhas the value
+2015-05-11 17:13:02,894 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:13:02,894 - root - INFO - Property value ActionTriggerhas the valueMatch
+2015-05-11 17:13:02,894 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:13:02,894 - root - INFO - Property value Keyhas the valueRule_6
+2015-05-11 17:13:02,894 - root - INFO - The Key for this row is:Rule_6
+2015-05-11 17:13:02,894 - root - INFO - Property value Actionhas the valueINDEX
+2015-05-11 17:13:02,895 - root - INFO - Property value Valueshas the valueExprReg
+2015-05-11 17:13:02,895 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:13:02,895 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:13:02,895 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': 'AccountNumber', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_7', 'Action': 'DETECT', 'Values': '', 'DetectionType': '', 'TechPrintVarName': 'AccountNumber'}
+2015-05-11 17:13:02,895 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': 'AccountNumber', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_7', 'Action': 'DETECT', 'Values': '', 'DetectionType': '', 'TechPrintVarName': 'AccountNumber'}
+2015-05-11 17:13:02,895 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:13:02,895 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:13:02,895 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,895 - root - INFO - Property value MasterIndexColumnNamehas the valueAccountNumber
+2015-05-11 17:13:02,895 - root - INFO - Property value Objecthas the value
+2015-05-11 17:13:02,895 - root - INFO - Property value Filterhas the value
+2015-05-11 17:13:02,897 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:13:02,897 - root - INFO - Property value ActionTriggerhas the valueisNumeric
+2015-05-11 17:13:02,897 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:13:02,897 - root - INFO - Property value Keyhas the valueRule_7
+2015-05-11 17:13:02,897 - root - INFO - The Key for this row is:Rule_7
+2015-05-11 17:13:02,897 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 17:13:02,897 - root - INFO - Property value Valueshas the value
+2015-05-11 17:13:02,897 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:13:02,897 - root - INFO - Property value TechPrintVarNamehas the valueAccountNumber
+2015-05-11 17:13:02,898 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_8', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,898 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_8', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,898 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:13:02,898 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:13:02,898 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,898 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:13:02,898 - root - INFO - Property value Objecthas the value
+2015-05-11 17:13:02,898 - root - INFO - Property value Filterhas the value
+2015-05-11 17:13:02,898 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:13:02,898 - root - INFO - Property value ActionTriggerhas the valuecustom
+2015-05-11 17:13:02,898 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:13:02,898 - root - INFO - Property value Keyhas the valueRule_8
+2015-05-11 17:13:02,898 - root - INFO - The Key for this row is:Rule_8
+2015-05-11 17:13:02,898 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 17:13:02,898 - root - INFO - Property value Valueshas the value
+2015-05-11 17:13:02,898 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:13:02,898 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:13:02,898 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Key': 'Rule_9', 'Action': 'ADD', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,898 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Key': 'Rule_9', 'Action': 'ADD', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,898 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:13:02,898 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:13:02,900 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,900 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:13:02,900 - root - INFO - Property value Objecthas the value
+2015-05-11 17:13:02,900 - root - INFO - Property value Filterhas the value
+2015-05-11 17:13:02,900 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:13:02,900 - root - INFO - Property value ActionTriggerhas the valueRule_1 or Rule_2
+2015-05-11 17:13:02,900 - root - INFO - Property value Relationhas the value
+2015-05-11 17:13:02,900 - root - INFO - Property value Keyhas the valueRule_9
+2015-05-11 17:13:02,901 - root - INFO - The Key for this row is:Rule_9
+2015-05-11 17:13:02,901 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 17:13:02,901 - root - INFO - Property value Valueshas the value
+2015-05-11 17:13:02,901 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:13:02,901 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:13:02,901 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Form_1', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Key': 'Formname', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'DetectionType': 'BEGIN', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,901 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Form_1', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Key': 'Formname', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'DetectionType': 'BEGIN', 'TechPrintVarName': ''}
+2015-05-11 17:13:02,901 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:13:02,901 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:13:02,901 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:13:02,901 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:13:02,901 - root - INFO - Property value Objecthas the valueForm_1
+2015-05-11 17:13:02,901 - root - INFO - Property value Filterhas the value
+2015-05-11 17:13:02,901 - root - INFO - Property value Applicationhas the value
+2015-05-11 17:13:02,901 - root - INFO - Property value ActionTriggerhas the valueContains
+2015-05-11 17:13:02,901 - root - INFO - Property value Relationhas the value
+2015-05-11 17:13:02,901 - root - INFO - Property value Keyhas the valueFormname
+2015-05-11 17:13:02,901 - root - INFO - The Key for this row is:Formname
+2015-05-11 17:13:02,901 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 17:13:02,901 - root - INFO - Property value Valueshas the valueOC-429/EP
+2015-05-11 17:13:02,901 - root - INFO - Property value DetectionTypehas the valueBEGIN
+2015-05-11 17:13:02,901 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:13:02,903 - root - INFO - prop_dict={'Rule_5': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': '', 'Values': '1/', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_4': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Action': '', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_7': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': 'AccountNumber', 'TechPrintVarName': 'AccountNumber'}, 'Rule_6': {'Object': 'Postnet_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'INDEX', 'Values': 'ExprReg', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_1': {'Object': 'HRI_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'Begin', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_3': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': '', 'Values': 'M. ', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_2': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'End', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_9': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Action': 'ADD', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_8': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'REMOVE', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Formname': {'Object': 'Form_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'BEGIN', 'CustomCondition': '', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}}
+2015-05-11 17:54:33,565 - root - INFO - out_pickle_filenmae=DocumentPagesObjectsGeneralPropTable
+2015-05-11 17:54:33,565 - root - INFO - contents of current row ={'PositionX': 'expression', 'PositionY': 'expression', 'DataContent': 'expression', 'Orientation': 'expression', 'Default': 'expression', 'FontName': 'expression', 'Height': 'expression', 'Width': 'expression', 'Relation': 'expression', 'OCCURRENCE': 'expression', 'Key': 'expression', 'Action': 'expression', 'FontSize': 'expression', 'Description': 'expression', 'Type': 'expression', 'Side': 'expression', 'ObjectType': 'expression'}
+2015-05-11 17:54:33,565 - root - INFO - contents of current row ={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-11 17:54:33,565 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-11 17:54:33,565 - root - INFO - Property value PositionXhas the value6
+2015-05-11 17:54:33,565 - root - INFO - Property value PositionYhas the value6
+2015-05-11 17:54:33,566 - root - INFO - Property value DataContenthas the value2D_DATA
+2015-05-11 17:54:33,566 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 17:54:33,566 - root - INFO - Property value Defaulthas the valueY
+2015-05-11 17:54:33,566 - root - INFO - Property value FontNamehas the value
+2015-05-11 17:54:33,566 - root - INFO - Property value Heighthas the value5
+2015-05-11 17:54:33,566 - root - INFO - Property value Widthhas the value3
+2015-05-11 17:54:33,566 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable
+2015-05-11 17:54:33,566 - root - INFO - Property value OCCURRENCEhas the valueFirstPPage
+2015-05-11 17:54:33,566 - root - INFO - Property value Keyhas the value2D_BARCODE1
+2015-05-11 17:54:33,566 - root - INFO - The Key for this row is:2D_BARCODE1
+2015-05-11 17:54:33,568 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 17:54:33,568 - root - INFO - Property value FontSizehas the value
+2015-05-11 17:54:33,568 - root - INFO - Property value Descriptionhas the value
+2015-05-11 17:54:33,568 - root - INFO - Property value Typehas the value2D
+2015-05-11 17:54:33,568 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 17:54:33,568 - root - INFO - Property value ObjectTypehas the value
+2015-05-11 17:54:33,568 - root - INFO - contents of current row ={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-11 17:54:33,568 - root - INFO - row={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-11 17:54:33,568 - root - INFO - Property value PositionXhas the value9
+2015-05-11 17:54:33,568 - root - INFO - Property value PositionYhas the value99
+2015-05-11 17:54:33,568 - root - INFO - Property value DataContenthas the value
+2015-05-11 17:54:33,569 - root - INFO - Property value Orientationhas the valueLandscape
+2015-05-11 17:54:33,569 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,569 - root - INFO - Property value FontNamehas the valueArial
+2015-05-11 17:54:33,569 - root - INFO - Property value Heighthas the value88
+2015-05-11 17:54:33,569 - root - INFO - Property value Widthhas the value67
+2015-05-11 17:54:33,569 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable
+2015-05-11 17:54:33,569 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-11 17:54:33,569 - root - INFO - Property value Keyhas the valueHRI
+2015-05-11 17:54:33,569 - root - INFO - The Key for this row is:HRI
+2015-05-11 17:54:33,569 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 17:54:33,569 - root - INFO - Property value FontSizehas the value5
+2015-05-11 17:54:33,569 - root - INFO - Property value Descriptionhas the value
+2015-05-11 17:54:33,569 - root - INFO - Property value Typehas the valueHRI
+2015-05-11 17:54:33,569 - root - INFO - Property value Sidehas the valueVerso
+2015-05-11 17:54:33,569 - root - INFO - Property value ObjectTypehas the value
+2015-05-11 17:54:33,569 - root - INFO - contents of current row ={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-11 17:54:33,569 - root - INFO - row={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-11 17:54:33,569 - root - INFO - Property value PositionXhas the value
+2015-05-11 17:54:33,569 - root - INFO - Property value PositionYhas the value
+2015-05-11 17:54:33,571 - root - INFO - Property value DataContenthas the value
+2015-05-11 17:54:33,571 - root - INFO - Property value Orientationhas the value
+2015-05-11 17:54:33,571 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,571 - root - INFO - Property value FontNamehas the value
+2015-05-11 17:54:33,571 - root - INFO - Property value Heighthas the value
+2015-05-11 17:54:33,571 - root - INFO - Property value Widthhas the value
+2015-05-11 17:54:33,571 - root - INFO - Property value Relationhas the value
+2015-05-11 17:54:33,571 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-11 17:54:33,571 - root - INFO - Property value Keyhas the valuePostnet_1
+2015-05-11 17:54:33,571 - root - INFO - The Key for this row is:Postnet_1
+2015-05-11 17:54:33,571 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 17:54:33,572 - root - INFO - Property value FontSizehas the value
+2015-05-11 17:54:33,572 - root - INFO - Property value Descriptionhas the value
+2015-05-11 17:54:33,572 - root - INFO - Property value Typehas the value
+2015-05-11 17:54:33,572 - root - INFO - Property value Sidehas the value
+2015-05-11 17:54:33,572 - root - INFO - Property value ObjectTypehas the valueImage
+2015-05-11 17:54:33,572 - root - INFO - contents of current row ={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 17:54:33,572 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 17:54:33,572 - root - INFO - Property value PositionXhas the value6
+2015-05-11 17:54:33,572 - root - INFO - Property value PositionYhas the value6
+2015-05-11 17:54:33,572 - root - INFO - Property value DataContenthas the value
+2015-05-11 17:54:33,572 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 17:54:33,572 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,572 - root - INFO - Property value FontNamehas the valueArial
+2015-05-11 17:54:33,572 - root - INFO - Property value Heighthas the value6
+2015-05-11 17:54:33,572 - root - INFO - Property value Widthhas the value6
+2015-05-11 17:54:33,572 - root - INFO - Property value Relationhas the value
+2015-05-11 17:54:33,572 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-11 17:54:33,572 - root - INFO - Property value Keyhas the valueHRI_DETECT
+2015-05-11 17:54:33,572 - root - INFO - The Key for this row is:HRI_DETECT
+2015-05-11 17:54:33,572 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 17:54:33,573 - root - INFO - Property value FontSizehas the value5
+2015-05-11 17:54:33,573 - root - INFO - Property value Descriptionhas the value
+2015-05-11 17:54:33,573 - root - INFO - Property value Typehas the valueHRI
+2015-05-11 17:54:33,573 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 17:54:33,573 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-11 17:54:33,573 - root - INFO - contents of current row ={'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Form_1', 'Action': 'Form_1', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 17:54:33,573 - root - INFO - row={'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Form_1', 'Action': 'Form_1', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 17:54:33,573 - root - INFO - Property value PositionXhas the value6250
+2015-05-11 17:54:33,573 - root - INFO - Property value PositionYhas the value75555
+2015-05-11 17:54:33,573 - root - INFO - Property value DataContenthas the value
+2015-05-11 17:54:33,575 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 17:54:33,575 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,575 - root - INFO - Property value FontNamehas the value@C1A05580_T1GI0361
+2015-05-11 17:54:33,575 - root - INFO - Property value Heighthas the value2361
+2015-05-11 17:54:33,575 - root - INFO - Property value Widthhas the value8194
+2015-05-11 17:54:33,575 - root - INFO - Property value Relationhas the value
+2015-05-11 17:54:33,575 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-11 17:54:33,575 - root - INFO - Property value Keyhas the valueForm_1
+2015-05-11 17:54:33,575 - root - INFO - The Key for this row is:Form_1
+2015-05-11 17:54:33,575 - root - INFO - Property value Actionhas the valueForm_1
+2015-05-11 17:54:33,575 - root - INFO - Property value FontSizehas the value8
+2015-05-11 17:54:33,575 - root - INFO - Property value Descriptionhas the value
+2015-05-11 17:54:33,575 - root - INFO - Property value Typehas the value
+2015-05-11 17:54:33,575 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 17:54:33,575 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-11 17:54:33,575 - root - INFO - contents of current row ={'PositionX': '4886', 'PositionY': '5909', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '4772', 'Width': '12840', 'Relation': '', 'OCCURRENCE': 'FirstPPage', 'Key': 'Ebank_Logo', 'Action': 'REMOVE', 'FontSize': '', 'Description': '', 'Type': 'Logo', 'Side': 'Recto', 'ObjectType': 'Image'}
+2015-05-11 17:54:33,575 - root - INFO - row={'PositionX': '4886', 'PositionY': '5909', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '4772', 'Width': '12840', 'Relation': '', 'OCCURRENCE': 'FirstPPage', 'Key': 'Ebank_Logo', 'Action': 'REMOVE', 'FontSize': '', 'Description': '', 'Type': 'Logo', 'Side': 'Recto', 'ObjectType': 'Image'}
+2015-05-11 17:54:33,575 - root - INFO - Property value PositionXhas the value4886
+2015-05-11 17:54:33,575 - root - INFO - Property value PositionYhas the value5909
+2015-05-11 17:54:33,575 - root - INFO - Property value DataContenthas the value
+2015-05-11 17:54:33,576 - root - INFO - Property value Orientationhas the value
+2015-05-11 17:54:33,576 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,576 - root - INFO - Property value FontNamehas the value
+2015-05-11 17:54:33,576 - root - INFO - Property value Heighthas the value4772
+2015-05-11 17:54:33,576 - root - INFO - Property value Widthhas the value12840
+2015-05-11 17:54:33,576 - root - INFO - Property value Relationhas the value
+2015-05-11 17:54:33,576 - root - INFO - Property value OCCURRENCEhas the valueFirstPPage
+2015-05-11 17:54:33,576 - root - INFO - Property value Keyhas the valueEbank_Logo
+2015-05-11 17:54:33,576 - root - INFO - The Key for this row is:Ebank_Logo
+2015-05-11 17:54:33,576 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 17:54:33,576 - root - INFO - Property value FontSizehas the value
+2015-05-11 17:54:33,576 - root - INFO - Property value Descriptionhas the value
+2015-05-11 17:54:33,578 - root - INFO - Property value Typehas the valueLogo
+2015-05-11 17:54:33,578 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 17:54:33,578 - root - INFO - Property value ObjectTypehas the valueImage
+2015-05-11 17:54:33,578 - root - INFO - prop_dict={'HRI_DETECT': {'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'OCCURRENCE': 'AllPPage'}, '2D_BARCODE1': {'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'ObjectType': '', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'OCCURRENCE': 'FirstPPage'}, 'HRI': {'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'ObjectType': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'OCCURRENCE': 'AllPPage'}, 'Ebank_Logo': {'PositionX': '4886', 'PositionY': '5909', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Image', 'FontName': '', 'Height': '4772', 'Width': '12840', 'Relation': '', 'Action': 'REMOVE', 'FontSize': '', 'Description': '', 'Type': 'Logo', 'Side': 'Recto', 'OCCURRENCE': 'FirstPPage'}, 'Form_1': {'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'Action': 'Form_1', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'OCCURRENCE': ''}, 'Postnet_1': {'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Image', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'OCCURRENCE': ''}}
+2015-05-11 17:54:33,578 - root - INFO - out_pickle_filenmae=MA_TEST_LM_PrintReadyAppsRulesPropTable
+2015-05-11 17:54:33,578 - root - INFO - contents of current row ={'CustomCondition': 'expression', 'IncludeLastPageDetected': 'expression', 'Default': 'expression', 'MasterIndexColumnName': 'expression', 'Object': 'expression', 'Filter': 'expression', 'Application': 'expression', 'ActionTrigger': 'expression', 'Relation': 'expression', 'Key': 'expression', 'Action': 'expression', 'Values': 'expression', 'DetectionType': 'expression', 'TechPrintVarName': 'expression'}
+2015-05-11 17:54:33,579 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'HRI_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_1', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'Begin', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,579 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'HRI_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_1', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'Begin', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,579 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:54:33,579 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:54:33,579 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,579 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:54:33,579 - root - INFO - Property value Objecthas the valueHRI_1
+2015-05-11 17:54:33,579 - root - INFO - Property value Filterhas the value
+2015-05-11 17:54:33,579 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:54:33,581 - root - INFO - Property value ActionTriggerhas the valueNotEmpty
+2015-05-11 17:54:33,581 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:54:33,581 - root - INFO - Property value Keyhas the valueRule_1
+2015-05-11 17:54:33,581 - root - INFO - The Key for this row is:Rule_1
+2015-05-11 17:54:33,581 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 17:54:33,581 - root - INFO - Property value Valueshas the value
+2015-05-11 17:54:33,581 - root - INFO - Property value DetectionTypehas the valueBegin
+2015-05-11 17:54:33,582 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:54:33,582 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_2', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'End', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,582 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_2', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'End', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,582 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:54:33,582 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:54:33,582 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,582 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:54:33,582 - root - INFO - Property value Objecthas the value
+2015-05-11 17:54:33,582 - root - INFO - Property value Filterhas the value
+2015-05-11 17:54:33,582 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:54:33,582 - root - INFO - Property value ActionTriggerhas the valueEmpty
+2015-05-11 17:54:33,582 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:54:33,582 - root - INFO - Property value Keyhas the valueRule_2
+2015-05-11 17:54:33,584 - root - INFO - The Key for this row is:Rule_2
+2015-05-11 17:54:33,584 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 17:54:33,584 - root - INFO - Property value Valueshas the value
+2015-05-11 17:54:33,584 - root - INFO - Property value DetectionTypehas the valueEnd
+2015-05-11 17:54:33,584 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:54:33,584 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_3', 'Action': '', 'Values': 'M. ', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,584 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_3', 'Action': '', 'Values': 'M. ', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,584 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:54:33,584 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value Objecthas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value Filterhas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:54:33,585 - root - INFO - Property value ActionTriggerhas the valueEqualsTo
+2015-05-11 17:54:33,585 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:54:33,585 - root - INFO - Property value Keyhas the valueRule_3
+2015-05-11 17:54:33,585 - root - INFO - The Key for this row is:Rule_3
+2015-05-11 17:54:33,585 - root - INFO - Property value Actionhas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value Valueshas the valueM. 
+2015-05-11 17:54:33,585 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:54:33,585 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Key': 'Rule_4', 'Action': '', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,585 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Key': 'Rule_4', 'Action': '', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,585 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value Objecthas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value Filterhas the value
+2015-05-11 17:54:33,585 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:54:33,585 - root - INFO - Property value ActionTriggerhas the valueHasChanged
+2015-05-11 17:54:33,586 - root - INFO - Property value Relationhas the value
+2015-05-11 17:54:33,586 - root - INFO - Property value Keyhas the valueRule_4
+2015-05-11 17:54:33,586 - root - INFO - The Key for this row is:Rule_4
+2015-05-11 17:54:33,586 - root - INFO - Property value Actionhas the value
+2015-05-11 17:54:33,586 - root - INFO - Property value Valueshas the value
+2015-05-11 17:54:33,586 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:54:33,586 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:54:33,586 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_5', 'Action': '', 'Values': '1/', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,586 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_5', 'Action': '', 'Values': '1/', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,586 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:54:33,586 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:54:33,588 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,588 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:54:33,588 - root - INFO - Property value Objecthas the value
+2015-05-11 17:54:33,588 - root - INFO - Property value Filterhas the value
+2015-05-11 17:54:33,588 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:54:33,588 - root - INFO - Property value ActionTriggerhas the valueContains
+2015-05-11 17:54:33,588 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:54:33,588 - root - INFO - Property value Keyhas the valueRule_5
+2015-05-11 17:54:33,588 - root - INFO - The Key for this row is:Rule_5
+2015-05-11 17:54:33,588 - root - INFO - Property value Actionhas the value
+2015-05-11 17:54:33,588 - root - INFO - Property value Valueshas the value1/
+2015-05-11 17:54:33,588 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:54:33,588 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:54:33,588 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Postnet_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_6', 'Action': 'INDEX', 'Values': 'ExprReg', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,588 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Postnet_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_6', 'Action': 'INDEX', 'Values': 'ExprReg', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,588 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:54:33,588 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:54:33,588 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,588 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:54:33,588 - root - INFO - Property value Objecthas the valuePostnet_1
+2015-05-11 17:54:33,589 - root - INFO - Property value Filterhas the value
+2015-05-11 17:54:33,589 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:54:33,589 - root - INFO - Property value ActionTriggerhas the valueMatch
+2015-05-11 17:54:33,589 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:54:33,589 - root - INFO - Property value Keyhas the valueRule_6
+2015-05-11 17:54:33,589 - root - INFO - The Key for this row is:Rule_6
+2015-05-11 17:54:33,589 - root - INFO - Property value Actionhas the valueINDEX
+2015-05-11 17:54:33,589 - root - INFO - Property value Valueshas the valueExprReg
+2015-05-11 17:54:33,589 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:54:33,589 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:54:33,591 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': 'AccountNumber', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_7', 'Action': 'DETECT', 'Values': '', 'DetectionType': '', 'TechPrintVarName': 'AccountNumber'}
+2015-05-11 17:54:33,591 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': 'AccountNumber', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_7', 'Action': 'DETECT', 'Values': '', 'DetectionType': '', 'TechPrintVarName': 'AccountNumber'}
+2015-05-11 17:54:33,591 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:54:33,591 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:54:33,591 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,591 - root - INFO - Property value MasterIndexColumnNamehas the valueAccountNumber
+2015-05-11 17:54:33,591 - root - INFO - Property value Objecthas the value
+2015-05-11 17:54:33,591 - root - INFO - Property value Filterhas the value
+2015-05-11 17:54:33,591 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:54:33,591 - root - INFO - Property value ActionTriggerhas the valueisNumeric
+2015-05-11 17:54:33,591 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:54:33,592 - root - INFO - Property value Keyhas the valueRule_7
+2015-05-11 17:54:33,592 - root - INFO - The Key for this row is:Rule_7
+2015-05-11 17:54:33,592 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 17:54:33,592 - root - INFO - Property value Valueshas the value
+2015-05-11 17:54:33,592 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:54:33,592 - root - INFO - Property value TechPrintVarNamehas the valueAccountNumber
+2015-05-11 17:54:33,592 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_8', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,592 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_8', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,592 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:54:33,592 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:54:33,592 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,592 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:54:33,592 - root - INFO - Property value Objecthas the value
+2015-05-11 17:54:33,592 - root - INFO - Property value Filterhas the value
+2015-05-11 17:54:33,592 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:54:33,592 - root - INFO - Property value ActionTriggerhas the valuecustom
+2015-05-11 17:54:33,592 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 17:54:33,592 - root - INFO - Property value Keyhas the valueRule_8
+2015-05-11 17:54:33,592 - root - INFO - The Key for this row is:Rule_8
+2015-05-11 17:54:33,592 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 17:54:33,592 - root - INFO - Property value Valueshas the value
+2015-05-11 17:54:33,592 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:54:33,592 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:54:33,594 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Key': 'Rule_9', 'Action': 'ADD', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,594 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Key': 'Rule_9', 'Action': 'ADD', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,594 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:54:33,594 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:54:33,594 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,594 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:54:33,594 - root - INFO - Property value Objecthas the value
+2015-05-11 17:54:33,594 - root - INFO - Property value Filterhas the value
+2015-05-11 17:54:33,594 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 17:54:33,594 - root - INFO - Property value ActionTriggerhas the valueRule_1 or Rule_2
+2015-05-11 17:54:33,594 - root - INFO - Property value Relationhas the value
+2015-05-11 17:54:33,595 - root - INFO - Property value Keyhas the valueRule_9
+2015-05-11 17:54:33,595 - root - INFO - The Key for this row is:Rule_9
+2015-05-11 17:54:33,595 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 17:54:33,595 - root - INFO - Property value Valueshas the value
+2015-05-11 17:54:33,595 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:54:33,595 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:54:33,595 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Form_1', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Key': 'Formname', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'DetectionType': 'BEGIN', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,595 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Form_1', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Key': 'Formname', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'DetectionType': 'BEGIN', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,595 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:54:33,595 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:54:33,595 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,595 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:54:33,595 - root - INFO - Property value Objecthas the valueForm_1
+2015-05-11 17:54:33,595 - root - INFO - Property value Filterhas the value
+2015-05-11 17:54:33,595 - root - INFO - Property value Applicationhas the value
+2015-05-11 17:54:33,595 - root - INFO - Property value ActionTriggerhas the valueContains
+2015-05-11 17:54:33,595 - root - INFO - Property value Relationhas the value
+2015-05-11 17:54:33,595 - root - INFO - Property value Keyhas the valueFormname
+2015-05-11 17:54:33,595 - root - INFO - The Key for this row is:Formname
+2015-05-11 17:54:33,595 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 17:54:33,595 - root - INFO - Property value Valueshas the valueOC-429/EP
+2015-05-11 17:54:33,595 - root - INFO - Property value DetectionTypehas the valueBEGIN
+2015-05-11 17:54:33,596 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:54:33,596 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Ebank_Logo', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Key': 'Remove_Logo', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,596 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Ebank_Logo', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Key': 'Remove_Logo', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 17:54:33,596 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 17:54:33,596 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 17:54:33,596 - root - INFO - Property value Defaulthas the value
+2015-05-11 17:54:33,596 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 17:54:33,596 - root - INFO - Property value Objecthas the valueEbank_Logo
+2015-05-11 17:54:33,596 - root - INFO - Property value Filterhas the value
+2015-05-11 17:54:33,596 - root - INFO - Property value Applicationhas the value
+2015-05-11 17:54:33,596 - root - INFO - Property value ActionTriggerhas the value
+2015-05-11 17:54:33,598 - root - INFO - Property value Relationhas the value
+2015-05-11 17:54:33,598 - root - INFO - Property value Keyhas the valueRemove_Logo
+2015-05-11 17:54:33,598 - root - INFO - The Key for this row is:Remove_Logo
+2015-05-11 17:54:33,598 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 17:54:33,598 - root - INFO - Property value Valueshas the value
+2015-05-11 17:54:33,598 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 17:54:33,598 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 17:54:33,598 - root - INFO - prop_dict={'Remove_Logo': {'Object': 'Ebank_Logo', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Action': 'REMOVE', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_5': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': '', 'Values': '1/', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_4': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Action': '', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_7': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': 'AccountNumber', 'TechPrintVarName': 'AccountNumber'}, 'Rule_6': {'Object': 'Postnet_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'INDEX', 'Values': 'ExprReg', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_1': {'Object': 'HRI_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'Begin', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_3': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': '', 'Values': 'M. ', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_2': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'End', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_9': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Action': 'ADD', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_8': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'REMOVE', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Formname': {'Object': 'Form_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'BEGIN', 'CustomCondition': '', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}}
+2015-05-11 22:51:15,088 - root - INFO - out_pickle_filenmae=DocumentPagesObjectsGeneralPropTable
+2015-05-11 22:51:15,091 - root - INFO - contents of current row ={'PositionX': 'expression', 'PositionY': 'expression', 'DataContent': 'expression', 'Orientation': 'expression', 'Default': 'expression', 'FontName': 'expression', 'Height': 'expression', 'Width': 'expression', 'Relation': 'expression', 'OCCURRENCE': 'expression', 'Key': 'expression', 'Action': 'expression', 'FontSize': 'expression', 'Description': 'expression', 'Type': 'expression', 'Side': 'expression', 'ObjectType': 'expression'}
+2015-05-11 22:51:15,092 - root - INFO - contents of current row ={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-11 22:51:15,092 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-11 22:51:15,092 - root - INFO - Property value PositionXhas the value6
+2015-05-11 22:51:15,092 - root - INFO - Property value PositionYhas the value6
+2015-05-11 22:51:15,092 - root - INFO - Property value DataContenthas the value2D_DATA
+2015-05-11 22:51:15,092 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 22:51:15,092 - root - INFO - Property value Defaulthas the valueY
+2015-05-11 22:51:15,092 - root - INFO - Property value FontNamehas the value
+2015-05-11 22:51:15,092 - root - INFO - Property value Heighthas the value5
+2015-05-11 22:51:15,092 - root - INFO - Property value Widthhas the value3
+2015-05-11 22:51:15,092 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable
+2015-05-11 22:51:15,092 - root - INFO - Property value OCCURRENCEhas the valueFirstPPage
+2015-05-11 22:51:15,092 - root - INFO - Property value Keyhas the value2D_BARCODE1
+2015-05-11 22:51:15,094 - root - INFO - The Key for this row is:2D_BARCODE1
+2015-05-11 22:51:15,094 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 22:51:15,094 - root - INFO - Property value FontSizehas the value
+2015-05-11 22:51:15,094 - root - INFO - Property value Descriptionhas the value
+2015-05-11 22:51:15,094 - root - INFO - Property value Typehas the value2D
+2015-05-11 22:51:15,094 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 22:51:15,094 - root - INFO - Property value ObjectTypehas the value
+2015-05-11 22:51:15,094 - root - INFO - contents of current row ={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-11 22:51:15,094 - root - INFO - row={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-11 22:51:15,094 - root - INFO - Property value PositionXhas the value9
+2015-05-11 22:51:15,095 - root - INFO - Property value PositionYhas the value99
+2015-05-11 22:51:15,095 - root - INFO - Property value DataContenthas the value
+2015-05-11 22:51:15,095 - root - INFO - Property value Orientationhas the valueLandscape
+2015-05-11 22:51:15,095 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,095 - root - INFO - Property value FontNamehas the valueArial
+2015-05-11 22:51:15,095 - root - INFO - Property value Heighthas the value88
+2015-05-11 22:51:15,095 - root - INFO - Property value Widthhas the value67
+2015-05-11 22:51:15,095 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable
+2015-05-11 22:51:15,095 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-11 22:51:15,095 - root - INFO - Property value Keyhas the valueHRI
+2015-05-11 22:51:15,095 - root - INFO - The Key for this row is:HRI
+2015-05-11 22:51:15,095 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 22:51:15,095 - root - INFO - Property value FontSizehas the value5
+2015-05-11 22:51:15,095 - root - INFO - Property value Descriptionhas the value
+2015-05-11 22:51:15,095 - root - INFO - Property value Typehas the valueHRI
+2015-05-11 22:51:15,095 - root - INFO - Property value Sidehas the valueVerso
+2015-05-11 22:51:15,095 - root - INFO - Property value ObjectTypehas the value
+2015-05-11 22:51:15,095 - root - INFO - contents of current row ={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-11 22:51:15,095 - root - INFO - row={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-11 22:51:15,095 - root - INFO - Property value PositionXhas the value
+2015-05-11 22:51:15,096 - root - INFO - Property value PositionYhas the value
+2015-05-11 22:51:15,096 - root - INFO - Property value DataContenthas the value
+2015-05-11 22:51:15,096 - root - INFO - Property value Orientationhas the value
+2015-05-11 22:51:15,096 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,096 - root - INFO - Property value FontNamehas the value
+2015-05-11 22:51:15,096 - root - INFO - Property value Heighthas the value
+2015-05-11 22:51:15,096 - root - INFO - Property value Widthhas the value
+2015-05-11 22:51:15,096 - root - INFO - Property value Relationhas the value
+2015-05-11 22:51:15,096 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-11 22:51:15,096 - root - INFO - Property value Keyhas the valuePostnet_1
+2015-05-11 22:51:15,096 - root - INFO - The Key for this row is:Postnet_1
+2015-05-11 22:51:15,098 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 22:51:15,098 - root - INFO - Property value FontSizehas the value
+2015-05-11 22:51:15,098 - root - INFO - Property value Descriptionhas the value
+2015-05-11 22:51:15,098 - root - INFO - Property value Typehas the value
+2015-05-11 22:51:15,098 - root - INFO - Property value Sidehas the value
+2015-05-11 22:51:15,098 - root - INFO - Property value ObjectTypehas the valueImage
+2015-05-11 22:51:15,098 - root - INFO - contents of current row ={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 22:51:15,098 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 22:51:15,098 - root - INFO - Property value PositionXhas the value6
+2015-05-11 22:51:15,098 - root - INFO - Property value PositionYhas the value6
+2015-05-11 22:51:15,098 - root - INFO - Property value DataContenthas the value
+2015-05-11 22:51:15,098 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 22:51:15,098 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,098 - root - INFO - Property value FontNamehas the valueArial
+2015-05-11 22:51:15,098 - root - INFO - Property value Heighthas the value6
+2015-05-11 22:51:15,098 - root - INFO - Property value Widthhas the value6
+2015-05-11 22:51:15,098 - root - INFO - Property value Relationhas the value
+2015-05-11 22:51:15,098 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-11 22:51:15,098 - root - INFO - Property value Keyhas the valueHRI_DETECT
+2015-05-11 22:51:15,098 - root - INFO - The Key for this row is:HRI_DETECT
+2015-05-11 22:51:15,098 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 22:51:15,098 - root - INFO - Property value FontSizehas the value5
+2015-05-11 22:51:15,099 - root - INFO - Property value Descriptionhas the value
+2015-05-11 22:51:15,099 - root - INFO - Property value Typehas the valueHRI
+2015-05-11 22:51:15,099 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 22:51:15,099 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-11 22:51:15,099 - root - INFO - contents of current row ={'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Form_1', 'Action': '', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 22:51:15,099 - root - INFO - row={'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Form_1', 'Action': '', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 22:51:15,099 - root - INFO - Property value PositionXhas the value6250
+2015-05-11 22:51:15,099 - root - INFO - Property value PositionYhas the value75555
+2015-05-11 22:51:15,099 - root - INFO - Property value DataContenthas the value
+2015-05-11 22:51:15,099 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 22:51:15,099 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,101 - root - INFO - Property value FontNamehas the value@C1A05580_T1GI0361
+2015-05-11 22:51:15,101 - root - INFO - Property value Heighthas the value2361
+2015-05-11 22:51:15,101 - root - INFO - Property value Widthhas the value8194
+2015-05-11 22:51:15,101 - root - INFO - Property value Relationhas the value
+2015-05-11 22:51:15,101 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-11 22:51:15,101 - root - INFO - Property value Keyhas the valueForm_1
+2015-05-11 22:51:15,101 - root - INFO - The Key for this row is:Form_1
+2015-05-11 22:51:15,101 - root - INFO - Property value Actionhas the value
+2015-05-11 22:51:15,101 - root - INFO - Property value FontSizehas the value8
+2015-05-11 22:51:15,101 - root - INFO - Property value Descriptionhas the value
+2015-05-11 22:51:15,101 - root - INFO - Property value Typehas the value
+2015-05-11 22:51:15,101 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 22:51:15,101 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-11 22:51:15,101 - root - INFO - contents of current row ={'PositionX': '4886', 'PositionY': '5909', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '4772', 'Width': '12840', 'Relation': '', 'OCCURRENCE': 'FirstPPage', 'Key': 'Ebank_Logo', 'Action': 'REMOVE', 'FontSize': '', 'Description': '', 'Type': 'Logo', 'Side': 'Recto', 'ObjectType': 'Image'}
+2015-05-11 22:51:15,101 - root - INFO - row={'PositionX': '4886', 'PositionY': '5909', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '4772', 'Width': '12840', 'Relation': '', 'OCCURRENCE': 'FirstPPage', 'Key': 'Ebank_Logo', 'Action': 'REMOVE', 'FontSize': '', 'Description': '', 'Type': 'Logo', 'Side': 'Recto', 'ObjectType': 'Image'}
+2015-05-11 22:51:15,101 - root - INFO - Property value PositionXhas the value4886
+2015-05-11 22:51:15,101 - root - INFO - Property value PositionYhas the value5909
+2015-05-11 22:51:15,101 - root - INFO - Property value DataContenthas the value
+2015-05-11 22:51:15,101 - root - INFO - Property value Orientationhas the value
+2015-05-11 22:51:15,101 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,101 - root - INFO - Property value FontNamehas the value
+2015-05-11 22:51:15,101 - root - INFO - Property value Heighthas the value4772
+2015-05-11 22:51:15,102 - root - INFO - Property value Widthhas the value12840
+2015-05-11 22:51:15,102 - root - INFO - Property value Relationhas the value
+2015-05-11 22:51:15,102 - root - INFO - Property value OCCURRENCEhas the valueFirstPPage
+2015-05-11 22:51:15,102 - root - INFO - Property value Keyhas the valueEbank_Logo
+2015-05-11 22:51:15,102 - root - INFO - The Key for this row is:Ebank_Logo
+2015-05-11 22:51:15,102 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 22:51:15,102 - root - INFO - Property value FontSizehas the value
+2015-05-11 22:51:15,102 - root - INFO - Property value Descriptionhas the value
+2015-05-11 22:51:15,102 - root - INFO - Property value Typehas the valueLogo
+2015-05-11 22:51:15,102 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 22:51:15,102 - root - INFO - Property value ObjectTypehas the valueImage
+2015-05-11 22:51:15,104 - root - INFO - contents of current row ={'PositionX': '7275', 'PositionY': '14925', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '2250', 'Width': '13500', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Address_Line_1', 'Action': 'INDEX', 'FontSize': '', 'Description': '', 'Type': 'Address', 'Side': '', 'ObjectType': 'Text'}
+2015-05-11 22:51:15,104 - root - INFO - row={'PositionX': '7275', 'PositionY': '14925', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '2250', 'Width': '13500', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Address_Line_1', 'Action': 'INDEX', 'FontSize': '', 'Description': '', 'Type': 'Address', 'Side': '', 'ObjectType': 'Text'}
+2015-05-11 22:51:15,104 - root - INFO - Property value PositionXhas the value7275
+2015-05-11 22:51:15,104 - root - INFO - Property value PositionYhas the value14925
+2015-05-11 22:51:15,104 - root - INFO - Property value DataContenthas the value
+2015-05-11 22:51:15,104 - root - INFO - Property value Orientationhas the value
+2015-05-11 22:51:15,104 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,104 - root - INFO - Property value FontNamehas the value
+2015-05-11 22:51:15,104 - root - INFO - Property value Heighthas the value2250
+2015-05-11 22:51:15,104 - root - INFO - Property value Widthhas the value13500
+2015-05-11 22:51:15,104 - root - INFO - Property value Relationhas the value
+2015-05-11 22:51:15,104 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-11 22:51:15,105 - root - INFO - Property value Keyhas the valueAddress_Line_1
+2015-05-11 22:51:15,105 - root - INFO - The Key for this row is:Address_Line_1
+2015-05-11 22:51:15,105 - root - INFO - Property value Actionhas the valueINDEX
+2015-05-11 22:51:15,105 - root - INFO - Property value FontSizehas the value
+2015-05-11 22:51:15,105 - root - INFO - Property value Descriptionhas the value
+2015-05-11 22:51:15,105 - root - INFO - Property value Typehas the valueAddress
+2015-05-11 22:51:15,105 - root - INFO - Property value Sidehas the value
+2015-05-11 22:51:15,105 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-11 22:51:15,105 - root - INFO - prop_dict={'HRI_DETECT': {'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'OCCURRENCE': 'AllPPage'}, '2D_BARCODE1': {'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'ObjectType': '', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'OCCURRENCE': 'FirstPPage'}, 'HRI': {'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'ObjectType': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'OCCURRENCE': 'AllPPage'}, 'Ebank_Logo': {'PositionX': '4886', 'PositionY': '5909', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Image', 'FontName': '', 'Height': '4772', 'Width': '12840', 'Relation': '', 'Action': 'REMOVE', 'FontSize': '', 'Description': '', 'Type': 'Logo', 'Side': 'Recto', 'OCCURRENCE': 'FirstPPage'}, 'Form_1': {'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'Action': '', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'OCCURRENCE': ''}, 'Postnet_1': {'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Image', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'OCCURRENCE': ''}, 'Address_Line_1': {'PositionX': '7275', 'PositionY': '14925', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Text', 'FontName': '', 'Height': '2250', 'Width': '13500', 'Relation': '', 'Action': 'INDEX', 'FontSize': '', 'Description': '', 'Type': 'Address', 'Side': '', 'OCCURRENCE': ''}}
+2015-05-11 22:51:15,107 - root - INFO - out_pickle_filenmae=MA_TEST_LM_PrintReadyAppsRulesPropTable
+2015-05-11 22:51:15,108 - root - INFO - contents of current row ={'CustomCondition': 'expression', 'IncludeLastPageDetected': 'expression', 'Default': 'expression', 'MasterIndexColumnName': 'expression', 'Object': 'expression', 'Filter': 'expression', 'Application': 'expression', 'ActionTrigger': 'expression', 'Relation': 'expression', 'Key': 'expression', 'Action': 'expression', 'Values': 'expression', 'DetectionType': 'expression', 'TechPrintVarName': 'expression'}
+2015-05-11 22:51:15,108 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'HRI_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_1', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'Begin', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,108 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'HRI_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_1', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'Begin', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,108 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,108 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,108 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,108 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 22:51:15,108 - root - INFO - Property value Objecthas the valueHRI_1
+2015-05-11 22:51:15,108 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,108 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 22:51:15,109 - root - INFO - Property value ActionTriggerhas the valueNotEmpty
+2015-05-11 22:51:15,109 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 22:51:15,109 - root - INFO - Property value Keyhas the valueRule_1
+2015-05-11 22:51:15,109 - root - INFO - The Key for this row is:Rule_1
+2015-05-11 22:51:15,109 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 22:51:15,109 - root - INFO - Property value Valueshas the value
+2015-05-11 22:51:15,109 - root - INFO - Property value DetectionTypehas the valueBegin
+2015-05-11 22:51:15,109 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 22:51:15,109 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_2', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'End', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,109 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_2', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'End', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,111 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value Objecthas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 22:51:15,111 - root - INFO - Property value ActionTriggerhas the valueEmpty
+2015-05-11 22:51:15,111 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 22:51:15,111 - root - INFO - Property value Keyhas the valueRule_2
+2015-05-11 22:51:15,111 - root - INFO - The Key for this row is:Rule_2
+2015-05-11 22:51:15,111 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 22:51:15,111 - root - INFO - Property value Valueshas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value DetectionTypehas the valueEnd
+2015-05-11 22:51:15,111 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 22:51:15,111 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_3', 'Action': '', 'Values': 'M. ', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,111 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_3', 'Action': '', 'Values': 'M. ', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,111 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value Objecthas the value
+2015-05-11 22:51:15,111 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,112 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 22:51:15,112 - root - INFO - Property value ActionTriggerhas the valueEqualsTo
+2015-05-11 22:51:15,112 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 22:51:15,112 - root - INFO - Property value Keyhas the valueRule_3
+2015-05-11 22:51:15,112 - root - INFO - The Key for this row is:Rule_3
+2015-05-11 22:51:15,112 - root - INFO - Property value Actionhas the value
+2015-05-11 22:51:15,112 - root - INFO - Property value Valueshas the valueM. 
+2015-05-11 22:51:15,112 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 22:51:15,112 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 22:51:15,112 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Key': 'Rule_4', 'Action': '', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,112 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Key': 'Rule_4', 'Action': '', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,112 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,114 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,114 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,114 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 22:51:15,114 - root - INFO - Property value Objecthas the value
+2015-05-11 22:51:15,114 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,114 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 22:51:15,114 - root - INFO - Property value ActionTriggerhas the valueHasChanged
+2015-05-11 22:51:15,114 - root - INFO - Property value Relationhas the value
+2015-05-11 22:51:15,114 - root - INFO - Property value Keyhas the valueRule_4
+2015-05-11 22:51:15,114 - root - INFO - The Key for this row is:Rule_4
+2015-05-11 22:51:15,114 - root - INFO - Property value Actionhas the value
+2015-05-11 22:51:15,115 - root - INFO - Property value Valueshas the value
+2015-05-11 22:51:15,115 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 22:51:15,115 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 22:51:15,115 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_5', 'Action': '', 'Values': '1/', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,115 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_5', 'Action': '', 'Values': '1/', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,115 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,115 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,115 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,115 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 22:51:15,115 - root - INFO - Property value Objecthas the value
+2015-05-11 22:51:15,115 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,115 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 22:51:15,115 - root - INFO - Property value ActionTriggerhas the valueContains
+2015-05-11 22:51:15,115 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 22:51:15,115 - root - INFO - Property value Keyhas the valueRule_5
+2015-05-11 22:51:15,115 - root - INFO - The Key for this row is:Rule_5
+2015-05-11 22:51:15,115 - root - INFO - Property value Actionhas the value
+2015-05-11 22:51:15,115 - root - INFO - Property value Valueshas the value1/
+2015-05-11 22:51:15,115 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 22:51:15,115 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 22:51:15,115 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Postnet_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_6', 'Action': 'INDEX', 'Values': 'ExprReg', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,115 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Postnet_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_6', 'Action': 'INDEX', 'Values': 'ExprReg', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,115 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,117 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,117 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,117 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 22:51:15,117 - root - INFO - Property value Objecthas the valuePostnet_1
+2015-05-11 22:51:15,117 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,117 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 22:51:15,117 - root - INFO - Property value ActionTriggerhas the valueMatch
+2015-05-11 22:51:15,117 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 22:51:15,117 - root - INFO - Property value Keyhas the valueRule_6
+2015-05-11 22:51:15,117 - root - INFO - The Key for this row is:Rule_6
+2015-05-11 22:51:15,117 - root - INFO - Property value Actionhas the valueINDEX
+2015-05-11 22:51:15,118 - root - INFO - Property value Valueshas the valueExprReg
+2015-05-11 22:51:15,118 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 22:51:15,118 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 22:51:15,118 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': 'AccountNumber', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_7', 'Action': 'DETECT', 'Values': '', 'DetectionType': '', 'TechPrintVarName': 'AccountNumber'}
+2015-05-11 22:51:15,118 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': 'AccountNumber', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_7', 'Action': 'DETECT', 'Values': '', 'DetectionType': '', 'TechPrintVarName': 'AccountNumber'}
+2015-05-11 22:51:15,118 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,118 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,118 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,118 - root - INFO - Property value MasterIndexColumnNamehas the valueAccountNumber
+2015-05-11 22:51:15,118 - root - INFO - Property value Objecthas the value
+2015-05-11 22:51:15,118 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,118 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 22:51:15,118 - root - INFO - Property value ActionTriggerhas the valueisNumeric
+2015-05-11 22:51:15,118 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 22:51:15,118 - root - INFO - Property value Keyhas the valueRule_7
+2015-05-11 22:51:15,118 - root - INFO - The Key for this row is:Rule_7
+2015-05-11 22:51:15,118 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 22:51:15,118 - root - INFO - Property value Valueshas the value
+2015-05-11 22:51:15,118 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 22:51:15,118 - root - INFO - Property value TechPrintVarNamehas the valueAccountNumber
+2015-05-11 22:51:15,118 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_8', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,118 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_8', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,118 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,119 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,119 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,119 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 22:51:15,119 - root - INFO - Property value Objecthas the value
+2015-05-11 22:51:15,119 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,119 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 22:51:15,119 - root - INFO - Property value ActionTriggerhas the valuecustom
+2015-05-11 22:51:15,119 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 22:51:15,119 - root - INFO - Property value Keyhas the valueRule_8
+2015-05-11 22:51:15,119 - root - INFO - The Key for this row is:Rule_8
+2015-05-11 22:51:15,119 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 22:51:15,121 - root - INFO - Property value Valueshas the value
+2015-05-11 22:51:15,121 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 22:51:15,121 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 22:51:15,121 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Key': 'Rule_9', 'Action': 'ADD', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,121 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Key': 'Rule_9', 'Action': 'ADD', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,121 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,121 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,121 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,121 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 22:51:15,121 - root - INFO - Property value Objecthas the value
+2015-05-11 22:51:15,121 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,121 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 22:51:15,121 - root - INFO - Property value ActionTriggerhas the valueRule_1 or Rule_2
+2015-05-11 22:51:15,121 - root - INFO - Property value Relationhas the value
+2015-05-11 22:51:15,121 - root - INFO - Property value Keyhas the valueRule_9
+2015-05-11 22:51:15,121 - root - INFO - The Key for this row is:Rule_9
+2015-05-11 22:51:15,121 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 22:51:15,121 - root - INFO - Property value Valueshas the value
+2015-05-11 22:51:15,121 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 22:51:15,121 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 22:51:15,121 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Form_1', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Key': 'Formname', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'DetectionType': 'BEGIN', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,122 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Form_1', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Key': 'Formname', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'DetectionType': 'BEGIN', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,122 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,122 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,122 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,122 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 22:51:15,122 - root - INFO - Property value Objecthas the valueForm_1
+2015-05-11 22:51:15,122 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,122 - root - INFO - Property value Applicationhas the value
+2015-05-11 22:51:15,122 - root - INFO - Property value ActionTriggerhas the valueContains
+2015-05-11 22:51:15,122 - root - INFO - Property value Relationhas the value
+2015-05-11 22:51:15,124 - root - INFO - Property value Keyhas the valueFormname
+2015-05-11 22:51:15,124 - root - INFO - The Key for this row is:Formname
+2015-05-11 22:51:15,124 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 22:51:15,124 - root - INFO - Property value Valueshas the valueOC-429/EP
+2015-05-11 22:51:15,124 - root - INFO - Property value DetectionTypehas the valueBEGIN
+2015-05-11 22:51:15,124 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 22:51:15,124 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Ebank_Logo', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Key': 'Remove_Logo', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,124 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Ebank_Logo', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Key': 'Remove_Logo', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,124 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,124 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,124 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value Objecthas the valueEbank_Logo
+2015-05-11 22:51:15,125 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value Applicationhas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value ActionTriggerhas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value Relationhas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value Keyhas the valueRemove_Logo
+2015-05-11 22:51:15,125 - root - INFO - The Key for this row is:Remove_Logo
+2015-05-11 22:51:15,125 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 22:51:15,125 - root - INFO - Property value Valueshas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 22:51:15,125 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Address_Line_1', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Key': 'First_Address_Line', 'Action': 'INDEX', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,125 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Address_Line_1', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Key': 'First_Address_Line', 'Action': 'INDEX', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 22:51:15,125 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value Defaulthas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 22:51:15,125 - root - INFO - Property value Objecthas the valueAddress_Line_1
+2015-05-11 22:51:15,125 - root - INFO - Property value Filterhas the value
+2015-05-11 22:51:15,127 - root - INFO - Property value Applicationhas the value
+2015-05-11 22:51:15,127 - root - INFO - Property value ActionTriggerhas the value
+2015-05-11 22:51:15,127 - root - INFO - Property value Relationhas the value
+2015-05-11 22:51:15,127 - root - INFO - Property value Keyhas the valueFirst_Address_Line
+2015-05-11 22:51:15,127 - root - INFO - The Key for this row is:First_Address_Line
+2015-05-11 22:51:15,127 - root - INFO - Property value Actionhas the valueINDEX
+2015-05-11 22:51:15,127 - root - INFO - Property value Valueshas the value
+2015-05-11 22:51:15,127 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 22:51:15,127 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 22:51:15,127 - root - INFO - prop_dict={'Remove_Logo': {'Object': 'Ebank_Logo', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Action': 'REMOVE', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_5': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': '', 'Values': '1/', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_4': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Action': '', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_7': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': 'AccountNumber', 'TechPrintVarName': 'AccountNumber'}, 'Rule_6': {'Object': 'Postnet_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'INDEX', 'Values': 'ExprReg', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_1': {'Object': 'HRI_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'Begin', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_3': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': '', 'Values': 'M. ', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_2': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'End', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'First_Address_Line': {'Object': 'Address_Line_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Action': 'INDEX', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_9': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Action': 'ADD', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_8': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'REMOVE', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Formname': {'Object': 'Form_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'BEGIN', 'CustomCondition': '', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}}
+2015-05-11 23:22:20,559 - root - INFO - out_pickle_filenmae=DocumentPagesObjectsGeneralPropTable
+2015-05-11 23:22:20,559 - root - INFO - contents of current row ={'PositionX': 'expression', 'PositionY': 'expression', 'DataContent': 'expression', 'Orientation': 'expression', 'Default': 'expression', 'FontName': 'expression', 'Height': 'expression', 'Width': 'expression', 'Relation': 'expression', 'OCCURRENCE': 'expression', 'Key': 'expression', 'Action': 'expression', 'FontSize': 'expression', 'Description': 'expression', 'Type': 'expression', 'Side': 'expression', 'ObjectType': 'expression'}
+2015-05-11 23:22:20,559 - root - INFO - contents of current row ={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-11 23:22:20,559 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'OCCURRENCE': 'FirstPPage', 'Key': '2D_BARCODE1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'ObjectType': ''}
+2015-05-11 23:22:20,559 - root - INFO - Property value PositionXhas the value6
+2015-05-11 23:22:20,559 - root - INFO - Property value PositionYhas the value6
+2015-05-11 23:22:20,559 - root - INFO - Property value DataContenthas the value2D_DATA
+2015-05-11 23:22:20,559 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 23:22:20,559 - root - INFO - Property value Defaulthas the valueY
+2015-05-11 23:22:20,559 - root - INFO - Property value FontNamehas the value
+2015-05-11 23:22:20,559 - root - INFO - Property value Heighthas the value5
+2015-05-11 23:22:20,559 - root - INFO - Property value Widthhas the value3
+2015-05-11 23:22:20,559 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable
+2015-05-11 23:22:20,559 - root - INFO - Property value OCCURRENCEhas the valueFirstPPage
+2015-05-11 23:22:20,559 - root - INFO - Property value Keyhas the value2D_BARCODE1
+2015-05-11 23:22:20,559 - root - INFO - The Key for this row is:2D_BARCODE1
+2015-05-11 23:22:20,559 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 23:22:20,559 - root - INFO - Property value FontSizehas the value
+2015-05-11 23:22:20,559 - root - INFO - Property value Descriptionhas the value
+2015-05-11 23:22:20,561 - root - INFO - Property value Typehas the value2D
+2015-05-11 23:22:20,561 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 23:22:20,561 - root - INFO - Property value ObjectTypehas the value
+2015-05-11 23:22:20,561 - root - INFO - contents of current row ={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-11 23:22:20,561 - root - INFO - row={'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'ObjectType': ''}
+2015-05-11 23:22:20,561 - root - INFO - Property value PositionXhas the value9
+2015-05-11 23:22:20,561 - root - INFO - Property value PositionYhas the value99
+2015-05-11 23:22:20,562 - root - INFO - Property value DataContenthas the value
+2015-05-11 23:22:20,562 - root - INFO - Property value Orientationhas the valueLandscape
+2015-05-11 23:22:20,562 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,562 - root - INFO - Property value FontNamehas the valueArial
+2015-05-11 23:22:20,562 - root - INFO - Property value Heighthas the value88
+2015-05-11 23:22:20,562 - root - INFO - Property value Widthhas the value67
+2015-05-11 23:22:20,562 - root - INFO - Property value Relationhas the valuePageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable
+2015-05-11 23:22:20,562 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-11 23:22:20,562 - root - INFO - Property value Keyhas the valueHRI
+2015-05-11 23:22:20,562 - root - INFO - The Key for this row is:HRI
+2015-05-11 23:22:20,562 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 23:22:20,562 - root - INFO - Property value FontSizehas the value5
+2015-05-11 23:22:20,562 - root - INFO - Property value Descriptionhas the value
+2015-05-11 23:22:20,562 - root - INFO - Property value Typehas the valueHRI
+2015-05-11 23:22:20,562 - root - INFO - Property value Sidehas the valueVerso
+2015-05-11 23:22:20,562 - root - INFO - Property value ObjectTypehas the value
+2015-05-11 23:22:20,562 - root - INFO - contents of current row ={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-11 23:22:20,562 - root - INFO - row={'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Postnet_1', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'ObjectType': 'Image'}
+2015-05-11 23:22:20,562 - root - INFO - Property value PositionXhas the value
+2015-05-11 23:22:20,562 - root - INFO - Property value PositionYhas the value
+2015-05-11 23:22:20,562 - root - INFO - Property value DataContenthas the value
+2015-05-11 23:22:20,563 - root - INFO - Property value Orientationhas the value
+2015-05-11 23:22:20,563 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,563 - root - INFO - Property value FontNamehas the value
+2015-05-11 23:22:20,563 - root - INFO - Property value Heighthas the value
+2015-05-11 23:22:20,563 - root - INFO - Property value Widthhas the value
+2015-05-11 23:22:20,563 - root - INFO - Property value Relationhas the value
+2015-05-11 23:22:20,563 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-11 23:22:20,563 - root - INFO - Property value Keyhas the valuePostnet_1
+2015-05-11 23:22:20,563 - root - INFO - The Key for this row is:Postnet_1
+2015-05-11 23:22:20,565 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 23:22:20,565 - root - INFO - Property value FontSizehas the value
+2015-05-11 23:22:20,565 - root - INFO - Property value Descriptionhas the value
+2015-05-11 23:22:20,565 - root - INFO - Property value Typehas the value
+2015-05-11 23:22:20,565 - root - INFO - Property value Sidehas the value
+2015-05-11 23:22:20,565 - root - INFO - Property value ObjectTypehas the valueImage
+2015-05-11 23:22:20,565 - root - INFO - contents of current row ={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 23:22:20,565 - root - INFO - row={'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'OCCURRENCE': 'AllPPage', 'Key': 'HRI_DETECT', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 23:22:20,565 - root - INFO - Property value PositionXhas the value6
+2015-05-11 23:22:20,565 - root - INFO - Property value PositionYhas the value6
+2015-05-11 23:22:20,565 - root - INFO - Property value DataContenthas the value
+2015-05-11 23:22:20,565 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 23:22:20,565 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,565 - root - INFO - Property value FontNamehas the valueArial
+2015-05-11 23:22:20,565 - root - INFO - Property value Heighthas the value6
+2015-05-11 23:22:20,565 - root - INFO - Property value Widthhas the value6
+2015-05-11 23:22:20,565 - root - INFO - Property value Relationhas the value
+2015-05-11 23:22:20,565 - root - INFO - Property value OCCURRENCEhas the valueAllPPage
+2015-05-11 23:22:20,565 - root - INFO - Property value Keyhas the valueHRI_DETECT
+2015-05-11 23:22:20,565 - root - INFO - The Key for this row is:HRI_DETECT
+2015-05-11 23:22:20,565 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 23:22:20,566 - root - INFO - Property value FontSizehas the value5
+2015-05-11 23:22:20,566 - root - INFO - Property value Descriptionhas the value
+2015-05-11 23:22:20,566 - root - INFO - Property value Typehas the valueHRI
+2015-05-11 23:22:20,566 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 23:22:20,566 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-11 23:22:20,566 - root - INFO - contents of current row ={'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Form_1', 'Action': '', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 23:22:20,566 - root - INFO - row={'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Form_1', 'Action': '', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'ObjectType': 'Text'}
+2015-05-11 23:22:20,566 - root - INFO - Property value PositionXhas the value6250
+2015-05-11 23:22:20,566 - root - INFO - Property value PositionYhas the value75555
+2015-05-11 23:22:20,566 - root - INFO - Property value DataContenthas the value
+2015-05-11 23:22:20,566 - root - INFO - Property value Orientationhas the valuePortrait
+2015-05-11 23:22:20,568 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,568 - root - INFO - Property value FontNamehas the value@C1A05580_T1GI0361
+2015-05-11 23:22:20,568 - root - INFO - Property value Heighthas the value2361
+2015-05-11 23:22:20,568 - root - INFO - Property value Widthhas the value8194
+2015-05-11 23:22:20,568 - root - INFO - Property value Relationhas the value
+2015-05-11 23:22:20,568 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-11 23:22:20,568 - root - INFO - Property value Keyhas the valueForm_1
+2015-05-11 23:22:20,568 - root - INFO - The Key for this row is:Form_1
+2015-05-11 23:22:20,568 - root - INFO - Property value Actionhas the value
+2015-05-11 23:22:20,568 - root - INFO - Property value FontSizehas the value8
+2015-05-11 23:22:20,568 - root - INFO - Property value Descriptionhas the value
+2015-05-11 23:22:20,568 - root - INFO - Property value Typehas the value
+2015-05-11 23:22:20,569 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 23:22:20,569 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-11 23:22:20,569 - root - INFO - contents of current row ={'PositionX': '4886', 'PositionY': '5909', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '4772', 'Width': '12840', 'Relation': '', 'OCCURRENCE': 'FirstPPage', 'Key': 'Ebank_Logo', 'Action': 'REMOVE', 'FontSize': '', 'Description': '', 'Type': 'Logo', 'Side': 'Recto', 'ObjectType': 'Image'}
+2015-05-11 23:22:20,569 - root - INFO - row={'PositionX': '4886', 'PositionY': '5909', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '4772', 'Width': '12840', 'Relation': '', 'OCCURRENCE': 'FirstPPage', 'Key': 'Ebank_Logo', 'Action': 'REMOVE', 'FontSize': '', 'Description': '', 'Type': 'Logo', 'Side': 'Recto', 'ObjectType': 'Image'}
+2015-05-11 23:22:20,569 - root - INFO - Property value PositionXhas the value4886
+2015-05-11 23:22:20,569 - root - INFO - Property value PositionYhas the value5909
+2015-05-11 23:22:20,569 - root - INFO - Property value DataContenthas the value
+2015-05-11 23:22:20,569 - root - INFO - Property value Orientationhas the value
+2015-05-11 23:22:20,569 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,569 - root - INFO - Property value FontNamehas the value
+2015-05-11 23:22:20,569 - root - INFO - Property value Heighthas the value4772
+2015-05-11 23:22:20,569 - root - INFO - Property value Widthhas the value12840
+2015-05-11 23:22:20,569 - root - INFO - Property value Relationhas the value
+2015-05-11 23:22:20,569 - root - INFO - Property value OCCURRENCEhas the valueFirstPPage
+2015-05-11 23:22:20,569 - root - INFO - Property value Keyhas the valueEbank_Logo
+2015-05-11 23:22:20,569 - root - INFO - The Key for this row is:Ebank_Logo
+2015-05-11 23:22:20,569 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 23:22:20,569 - root - INFO - Property value FontSizehas the value
+2015-05-11 23:22:20,569 - root - INFO - Property value Descriptionhas the value
+2015-05-11 23:22:20,569 - root - INFO - Property value Typehas the valueLogo
+2015-05-11 23:22:20,569 - root - INFO - Property value Sidehas the valueRecto
+2015-05-11 23:22:20,569 - root - INFO - Property value ObjectTypehas the valueImage
+2015-05-11 23:22:20,569 - root - INFO - contents of current row ={'PositionX': '7275', 'PositionY': '14925', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '2250', 'Width': '13500', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Address_Line_1', 'Action': 'INDEX', 'FontSize': '', 'Description': '', 'Type': 'Address', 'Side': '', 'ObjectType': 'Text'}
+2015-05-11 23:22:20,571 - root - INFO - row={'PositionX': '7275', 'PositionY': '14925', 'DataContent': '', 'Orientation': '', 'Default': '', 'FontName': '', 'Height': '2250', 'Width': '13500', 'Relation': '', 'OCCURRENCE': '', 'Key': 'Address_Line_1', 'Action': 'INDEX', 'FontSize': '', 'Description': '', 'Type': 'Address', 'Side': '', 'ObjectType': 'Text'}
+2015-05-11 23:22:20,571 - root - INFO - Property value PositionXhas the value7275
+2015-05-11 23:22:20,571 - root - INFO - Property value PositionYhas the value14925
+2015-05-11 23:22:20,571 - root - INFO - Property value DataContenthas the value
+2015-05-11 23:22:20,571 - root - INFO - Property value Orientationhas the value
+2015-05-11 23:22:20,571 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,571 - root - INFO - Property value FontNamehas the value
+2015-05-11 23:22:20,571 - root - INFO - Property value Heighthas the value2250
+2015-05-11 23:22:20,571 - root - INFO - Property value Widthhas the value13500
+2015-05-11 23:22:20,571 - root - INFO - Property value Relationhas the value
+2015-05-11 23:22:20,571 - root - INFO - Property value OCCURRENCEhas the value
+2015-05-11 23:22:20,572 - root - INFO - Property value Keyhas the valueAddress_Line_1
+2015-05-11 23:22:20,572 - root - INFO - The Key for this row is:Address_Line_1
+2015-05-11 23:22:20,572 - root - INFO - Property value Actionhas the valueINDEX
+2015-05-11 23:22:20,572 - root - INFO - Property value FontSizehas the value
+2015-05-11 23:22:20,572 - root - INFO - Property value Descriptionhas the value
+2015-05-11 23:22:20,572 - root - INFO - Property value Typehas the valueAddress
+2015-05-11 23:22:20,572 - root - INFO - Property value Sidehas the value
+2015-05-11 23:22:20,572 - root - INFO - Property value ObjectTypehas the valueText
+2015-05-11 23:22:20,572 - root - INFO - prop_dict={'HRI_DETECT': {'PositionX': '6', 'PositionY': '6', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': 'Arial', 'Height': '6', 'Width': '6', 'Relation': '', 'Action': 'DETECT', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Recto', 'OCCURRENCE': 'AllPPage'}, '2D_BARCODE1': {'PositionX': '6', 'PositionY': '6', 'DataContent': '2D_DATA', 'Orientation': 'Portrait', 'Default': 'Y', 'ObjectType': '', 'FontName': '', 'Height': '5', 'Width': '3', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,DocumentPagesObjectsTypesPropTable,DocumentPagesObjectsOccurencesTypesPropTable', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '2D', 'Side': 'Recto', 'OCCURRENCE': 'FirstPPage'}, 'HRI': {'PositionX': '9', 'PositionY': '99', 'DataContent': '', 'Orientation': 'Landscape', 'Default': '', 'ObjectType': '', 'FontName': 'Arial', 'Height': '88', 'Width': '67', 'Relation': 'PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable', 'Action': 'REMOVE', 'FontSize': '5', 'Description': '', 'Type': 'HRI', 'Side': 'Verso', 'OCCURRENCE': 'AllPPage'}, 'Ebank_Logo': {'PositionX': '4886', 'PositionY': '5909', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Image', 'FontName': '', 'Height': '4772', 'Width': '12840', 'Relation': '', 'Action': 'REMOVE', 'FontSize': '', 'Description': '', 'Type': 'Logo', 'Side': 'Recto', 'OCCURRENCE': 'FirstPPage'}, 'Form_1': {'PositionX': '6250', 'PositionY': '75555', 'DataContent': '', 'Orientation': 'Portrait', 'Default': '', 'ObjectType': 'Text', 'FontName': '@C1A05580_T1GI0361', 'Height': '2361', 'Width': '8194', 'Relation': '', 'Action': '', 'FontSize': '8', 'Description': '', 'Type': '', 'Side': 'Recto', 'OCCURRENCE': ''}, 'Postnet_1': {'PositionX': '', 'PositionY': '', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Image', 'FontName': '', 'Height': '', 'Width': '', 'Relation': '', 'Action': 'ADD', 'FontSize': '', 'Description': '', 'Type': '', 'Side': '', 'OCCURRENCE': ''}, 'Address_Line_1': {'PositionX': '7275', 'PositionY': '14925', 'DataContent': '', 'Orientation': '', 'Default': '', 'ObjectType': 'Text', 'FontName': '', 'Height': '2250', 'Width': '13500', 'Relation': '', 'Action': 'INDEX', 'FontSize': '', 'Description': '', 'Type': 'Address', 'Side': '', 'OCCURRENCE': ''}}
+2015-05-11 23:22:20,573 - root - INFO - out_pickle_filenmae=MA_TEST_LM_PrintReadyAppsRulesPropTable
+2015-05-11 23:22:20,573 - root - INFO - contents of current row ={'CustomCondition': 'expression', 'IncludeLastPageDetected': 'expression', 'Default': 'expression', 'MasterIndexColumnName': 'expression', 'Object': 'expression', 'Filter': 'expression', 'Application': 'expression', 'ActionTrigger': 'expression', 'Relation': 'expression', 'Key': 'expression', 'Action': 'expression', 'Values': 'expression', 'DetectionType': 'expression', 'TechPrintVarName': 'expression'}
+2015-05-11 23:22:20,573 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'HRI_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_1', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'Begin', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,573 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'HRI_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_1', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'Begin', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,575 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,575 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,575 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,575 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 23:22:20,575 - root - INFO - Property value Objecthas the valueHRI_1
+2015-05-11 23:22:20,575 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,575 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 23:22:20,575 - root - INFO - Property value ActionTriggerhas the valueNotEmpty
+2015-05-11 23:22:20,575 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 23:22:20,575 - root - INFO - Property value Keyhas the valueRule_1
+2015-05-11 23:22:20,575 - root - INFO - The Key for this row is:Rule_1
+2015-05-11 23:22:20,575 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 23:22:20,575 - root - INFO - Property value Valueshas the value
+2015-05-11 23:22:20,575 - root - INFO - Property value DetectionTypehas the valueBegin
+2015-05-11 23:22:20,575 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 23:22:20,575 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_2', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'End', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,575 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_2', 'Action': 'DETECT', 'Values': '', 'DetectionType': 'End', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,575 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,575 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,575 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,575 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 23:22:20,576 - root - INFO - Property value Objecthas the value
+2015-05-11 23:22:20,576 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,576 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 23:22:20,576 - root - INFO - Property value ActionTriggerhas the valueEmpty
+2015-05-11 23:22:20,576 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 23:22:20,576 - root - INFO - Property value Keyhas the valueRule_2
+2015-05-11 23:22:20,576 - root - INFO - The Key for this row is:Rule_2
+2015-05-11 23:22:20,576 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 23:22:20,576 - root - INFO - Property value Valueshas the value
+2015-05-11 23:22:20,576 - root - INFO - Property value DetectionTypehas the valueEnd
+2015-05-11 23:22:20,576 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 23:22:20,578 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_3', 'Action': '', 'Values': 'M. ', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,578 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_3', 'Action': '', 'Values': 'M. ', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,578 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,578 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,578 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,578 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 23:22:20,578 - root - INFO - Property value Objecthas the value
+2015-05-11 23:22:20,578 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,578 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 23:22:20,578 - root - INFO - Property value ActionTriggerhas the valueEqualsTo
+2015-05-11 23:22:20,578 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 23:22:20,578 - root - INFO - Property value Keyhas the valueRule_3
+2015-05-11 23:22:20,578 - root - INFO - The Key for this row is:Rule_3
+2015-05-11 23:22:20,578 - root - INFO - Property value Actionhas the value
+2015-05-11 23:22:20,578 - root - INFO - Property value Valueshas the valueM. 
+2015-05-11 23:22:20,578 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 23:22:20,578 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 23:22:20,578 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Key': 'Rule_4', 'Action': '', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,578 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Key': 'Rule_4', 'Action': '', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,578 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,579 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,579 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,579 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 23:22:20,579 - root - INFO - Property value Objecthas the value
+2015-05-11 23:22:20,579 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,579 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 23:22:20,579 - root - INFO - Property value ActionTriggerhas the valueHasChanged
+2015-05-11 23:22:20,579 - root - INFO - Property value Relationhas the value
+2015-05-11 23:22:20,579 - root - INFO - Property value Keyhas the valueRule_4
+2015-05-11 23:22:20,579 - root - INFO - The Key for this row is:Rule_4
+2015-05-11 23:22:20,579 - root - INFO - Property value Actionhas the value
+2015-05-11 23:22:20,581 - root - INFO - Property value Valueshas the value
+2015-05-11 23:22:20,581 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 23:22:20,581 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 23:22:20,581 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_5', 'Action': '', 'Values': '1/', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,581 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_5', 'Action': '', 'Values': '1/', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,581 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,581 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,581 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,581 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 23:22:20,582 - root - INFO - Property value Objecthas the value
+2015-05-11 23:22:20,582 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,582 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 23:22:20,582 - root - INFO - Property value ActionTriggerhas the valueContains
+2015-05-11 23:22:20,582 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 23:22:20,582 - root - INFO - Property value Keyhas the valueRule_5
+2015-05-11 23:22:20,582 - root - INFO - The Key for this row is:Rule_5
+2015-05-11 23:22:20,582 - root - INFO - Property value Actionhas the value
+2015-05-11 23:22:20,582 - root - INFO - Property value Valueshas the value1/
+2015-05-11 23:22:20,582 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 23:22:20,582 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 23:22:20,582 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Postnet_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_6', 'Action': 'INDEX', 'Values': 'ExprReg', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,582 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Postnet_1', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_6', 'Action': 'INDEX', 'Values': 'ExprReg', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,582 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,582 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,582 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,582 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 23:22:20,582 - root - INFO - Property value Objecthas the valuePostnet_1
+2015-05-11 23:22:20,582 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,582 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 23:22:20,582 - root - INFO - Property value ActionTriggerhas the valueMatch
+2015-05-11 23:22:20,582 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 23:22:20,582 - root - INFO - Property value Keyhas the valueRule_6
+2015-05-11 23:22:20,584 - root - INFO - The Key for this row is:Rule_6
+2015-05-11 23:22:20,584 - root - INFO - Property value Actionhas the valueINDEX
+2015-05-11 23:22:20,584 - root - INFO - Property value Valueshas the valueExprReg
+2015-05-11 23:22:20,584 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 23:22:20,584 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 23:22:20,584 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': 'AccountNumber', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_7', 'Action': 'DETECT', 'Values': '', 'DetectionType': '', 'TechPrintVarName': 'AccountNumber'}
+2015-05-11 23:22:20,584 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': 'AccountNumber', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_7', 'Action': 'DETECT', 'Values': '', 'DetectionType': '', 'TechPrintVarName': 'AccountNumber'}
+2015-05-11 23:22:20,584 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,584 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,584 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,584 - root - INFO - Property value MasterIndexColumnNamehas the valueAccountNumber
+2015-05-11 23:22:20,585 - root - INFO - Property value Objecthas the value
+2015-05-11 23:22:20,585 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,585 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 23:22:20,585 - root - INFO - Property value ActionTriggerhas the valueisNumeric
+2015-05-11 23:22:20,585 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 23:22:20,585 - root - INFO - Property value Keyhas the valueRule_7
+2015-05-11 23:22:20,585 - root - INFO - The Key for this row is:Rule_7
+2015-05-11 23:22:20,585 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 23:22:20,585 - root - INFO - Property value Valueshas the value
+2015-05-11 23:22:20,585 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 23:22:20,585 - root - INFO - Property value TechPrintVarNamehas the valueAccountNumber
+2015-05-11 23:22:20,585 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_8', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,585 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Key': 'Rule_8', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,585 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,585 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,585 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,585 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 23:22:20,585 - root - INFO - Property value Objecthas the value
+2015-05-11 23:22:20,585 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,585 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 23:22:20,585 - root - INFO - Property value ActionTriggerhas the valuecustom
+2015-05-11 23:22:20,585 - root - INFO - Property value Relationhas the valueDocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable
+2015-05-11 23:22:20,586 - root - INFO - Property value Keyhas the valueRule_8
+2015-05-11 23:22:20,586 - root - INFO - The Key for this row is:Rule_8
+2015-05-11 23:22:20,586 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 23:22:20,586 - root - INFO - Property value Valueshas the value
+2015-05-11 23:22:20,586 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 23:22:20,586 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 23:22:20,586 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Key': 'Rule_9', 'Action': 'ADD', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,586 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Key': 'Rule_9', 'Action': 'ADD', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,586 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,586 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,586 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value Objecthas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value Applicationhas the valuecontrolrule1
+2015-05-11 23:22:20,588 - root - INFO - Property value ActionTriggerhas the valueRule_1 or Rule_2
+2015-05-11 23:22:20,588 - root - INFO - Property value Relationhas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value Keyhas the valueRule_9
+2015-05-11 23:22:20,588 - root - INFO - The Key for this row is:Rule_9
+2015-05-11 23:22:20,588 - root - INFO - Property value Actionhas the valueADD
+2015-05-11 23:22:20,588 - root - INFO - Property value Valueshas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 23:22:20,588 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Form_1', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Key': 'Formname', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'DetectionType': 'BEGIN', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,588 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Form_1', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Key': 'Formname', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'DetectionType': 'BEGIN', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,588 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value Objecthas the valueForm_1
+2015-05-11 23:22:20,588 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value Applicationhas the value
+2015-05-11 23:22:20,588 - root - INFO - Property value ActionTriggerhas the valueContains
+2015-05-11 23:22:20,588 - root - INFO - Property value Relationhas the value
+2015-05-11 23:22:20,589 - root - INFO - Property value Keyhas the valueFormname
+2015-05-11 23:22:20,589 - root - INFO - The Key for this row is:Formname
+2015-05-11 23:22:20,589 - root - INFO - Property value Actionhas the valueDETECT
+2015-05-11 23:22:20,589 - root - INFO - Property value Valueshas the valueOC-429/EP
+2015-05-11 23:22:20,589 - root - INFO - Property value DetectionTypehas the valueBEGIN
+2015-05-11 23:22:20,589 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 23:22:20,589 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Ebank_Logo', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Key': 'Remove_Logo', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,589 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Ebank_Logo', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Key': 'Remove_Logo', 'Action': 'REMOVE', 'Values': '', 'DetectionType': '', 'TechPrintVarName': ''}
+2015-05-11 23:22:20,589 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,589 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,589 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,589 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 23:22:20,591 - root - INFO - Property value Objecthas the valueEbank_Logo
+2015-05-11 23:22:20,591 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,591 - root - INFO - Property value Applicationhas the value
+2015-05-11 23:22:20,591 - root - INFO - Property value ActionTriggerhas the value
+2015-05-11 23:22:20,591 - root - INFO - Property value Relationhas the value
+2015-05-11 23:22:20,591 - root - INFO - Property value Keyhas the valueRemove_Logo
+2015-05-11 23:22:20,591 - root - INFO - The Key for this row is:Remove_Logo
+2015-05-11 23:22:20,591 - root - INFO - Property value Actionhas the valueREMOVE
+2015-05-11 23:22:20,591 - root - INFO - Property value Valueshas the value
+2015-05-11 23:22:20,591 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 23:22:20,591 - root - INFO - Property value TechPrintVarNamehas the value
+2015-05-11 23:22:20,591 - root - INFO - contents of current row ={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Address_Line_1', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Key': 'First_Address_Line', 'Action': 'INDEX', 'Values': '', 'DetectionType': '', 'TechPrintVarName': 'addr_ln_1'}
+2015-05-11 23:22:20,592 - root - INFO - row={'CustomCondition': '', 'IncludeLastPageDetected': '', 'Default': '', 'MasterIndexColumnName': '', 'Object': 'Address_Line_1', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Key': 'First_Address_Line', 'Action': 'INDEX', 'Values': '', 'DetectionType': '', 'TechPrintVarName': 'addr_ln_1'}
+2015-05-11 23:22:20,592 - root - INFO - Property value CustomConditionhas the value
+2015-05-11 23:22:20,592 - root - INFO - Property value IncludeLastPageDetectedhas the value
+2015-05-11 23:22:20,592 - root - INFO - Property value Defaulthas the value
+2015-05-11 23:22:20,592 - root - INFO - Property value MasterIndexColumnNamehas the value
+2015-05-11 23:22:20,592 - root - INFO - Property value Objecthas the valueAddress_Line_1
+2015-05-11 23:22:20,592 - root - INFO - Property value Filterhas the value
+2015-05-11 23:22:20,592 - root - INFO - Property value Applicationhas the value
+2015-05-11 23:22:20,592 - root - INFO - Property value ActionTriggerhas the value
+2015-05-11 23:22:20,592 - root - INFO - Property value Relationhas the value
+2015-05-11 23:22:20,592 - root - INFO - Property value Keyhas the valueFirst_Address_Line
+2015-05-11 23:22:20,592 - root - INFO - The Key for this row is:First_Address_Line
+2015-05-11 23:22:20,592 - root - INFO - Property value Actionhas the valueINDEX
+2015-05-11 23:22:20,592 - root - INFO - Property value Valueshas the value
+2015-05-11 23:22:20,592 - root - INFO - Property value DetectionTypehas the value
+2015-05-11 23:22:20,592 - root - INFO - Property value TechPrintVarNamehas the valueaddr_ln_1
+2015-05-11 23:22:20,592 - root - INFO - prop_dict={'Remove_Logo': {'Object': 'Ebank_Logo', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Action': 'REMOVE', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_5': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Contains', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': '', 'Values': '1/', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_4': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'HasChanged', 'Relation': '', 'Action': '', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_7': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'isNumeric', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': 'AccountNumber', 'TechPrintVarName': 'AccountNumber'}, 'Rule_6': {'Object': 'Postnet_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Match', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'INDEX', 'Values': 'ExprReg', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_1': {'Object': 'HRI_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'Begin', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'NotEmpty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_3': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'EqualsTo', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': '', 'Values': 'M. ', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_2': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'End', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Empty', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'DETECT', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'First_Address_Line': {'Object': 'Address_Line_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': '', 'ActionTrigger': '', 'Relation': '', 'Action': 'INDEX', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': 'addr_ln_1'}, 'Rule_9': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'Rule_1 or Rule_2', 'Relation': '', 'Action': 'ADD', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Rule_8': {'Object': '', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': '', 'CustomCondition': '', 'Filter': '', 'Application': 'controlrule1', 'ActionTrigger': 'custom', 'Relation': 'DocumentPagesObjectsGeneralPropTable,JobApplicationsPropTable', 'Action': 'REMOVE', 'Values': '', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}, 'Formname': {'Object': 'Form_1', 'IncludeLastPageDetected': '', 'Default': '', 'DetectionType': 'BEGIN', 'CustomCondition': '', 'Filter': '', 'Application': '', 'ActionTrigger': 'Contains', 'Relation': '', 'Action': 'DETECT', 'Values': 'OC-429/EP', 'MasterIndexColumnName': '', 'TechPrintVarName': ''}}

@@ -4,4 +4,13 @@ expression	expression	expression	expression	expression	expression	expression	exp
 HRI		PageOrientationsPropTable,BarcodesContentPropTable,PageSidesPropTable,BarcodesTypesPropTable,BarcodeOccurencesTypesPropTable	HRI	REMOVE			9	99	67	88	Arial	5	Landscape	AllPPage	Verso	
 Postnet_1				ADD		Image										
 HRI_DETECT			HRI	DETECT		Text	6	6	6	6	Arial	5	Portrait	AllPPage	Recto	
-Form_1				Form_1		Text	6250	75555	8194	2361	@C1A05580_T1GI0361	8	Portrait		Recto	
+Form_1						Text	6250	75555	8194	2361	@C1A05580_T1GI0361	8	Portrait		Recto	
+Ebank_Logo			Logo	REMOVE		Image	2550	1875	18375	10188				FirstPPage	Recto	
+Address_Line_1			Address	INDEX		Text	6375	14625	18150	2925						
+LM_Barcode			HRI	REMOVE		Text	566	1698	4811	76132						
+dear_str				DETECT		Text	3977	25113	16022	3068						
+RDD_Page_1			Page_1	DETECT		Text	43295	75000	11250	3181						
+RDD_Logo			Logo	REMOVE		Image	32033	566	26440	5593						
+Frst_Addr_Line				INDEX		Text	7575	14642	21666	2738						
+RDD_Act_Zone				INDEX		Text	47175	17100	10875	2775						
+Sefas_Act_Zone				INDEX		TEXT	25476	11428	10714	3928						
