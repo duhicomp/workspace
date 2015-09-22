@@ -13,6 +13,8 @@ from multiprocessing import Process, Queue, Lock, Value,JoinableQueue
 import logging
 import traceback
 
+#test
+
 class dedup():
     
     def __init__(self, wd, out_file_lst = 'C:\\Users\\Duhi\\Documents\\Dedup_OUT.csv'):
