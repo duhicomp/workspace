@@ -1,0 +1,27 @@
+
+
+
+Requirements
+============
+aniso8601 (0.92)
+argparse (1.2.1)
+Flask (0.10.1)
+Flask-LDAP (0.1.6)
+Flask-RESTful (0.3.1)
+Flask-Script (2.0.5)
+Flask-SQLAlchemy (2.0)
+itsdangerous (0.24)
+Jinja2 (2.7.3)
+MarkupSafe (0.23)
+pg8000 (1.10.1)
+pip (1.5.4)
+psycopg2 (2.5.4)
+python-ldap (2.4.19)
+pytz (2014.10)
+requests (2.6.0)
+setuptools (2.2)
+six (1.9.0)
+SQLAlchemy (0.9.8)
+Werkzeug (0.9.6)
+wsgiref (0.1.2)
+
