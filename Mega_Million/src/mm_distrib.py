@@ -18,8 +18,7 @@ Draw #     Draw Date             Number_1    Number_2    Number_3    Number_4   
 
 def get_new_file(mm_filename):
     #txt_file = urlopen('http://www.calottery.com/sitecore/content/Miscellaneous/download-numbers/?GameName=mega-millions')
-    
-    
+
     win_nu_fd=open(mm_filename, "w") #TODO:write the file in a tempdir, calc hash, if different than one already exist, update exisiting file
     
     url = "http://www.calottery.com/sitecore/content/Miscellaneous/download-numbers/?GameName=mega-millions"
