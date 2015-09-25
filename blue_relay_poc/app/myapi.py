@@ -10,6 +10,32 @@ from app import db
 
 import subprocess
 # TODO: Error reproting and error handling
+# TODO: Add a remove enviornment actions?
+# TODO: switch from print statemetns to logging
+# TODO: ensure to log all sql statements
+# TODO: Check return code, and handle error in execute_moconsole_cmd?
+# TODO: Add archive repository action
+
+import requests
+
+
+def call_http(moserver,param_dict):
+    # mologin = current_app.config['MOLOGIN']
+    # mopassword = current_app.config['MOPASSOWRD']
+    protocol = 'http'
+
+    req_url = protocol  +'://' #to be changed to protocol?
+    req_url += moserver
+    req_url += '/servlet/designer'
+
+    param_dict['name'] = current_app.config['MOLOGIN']
+    param_dict['passwd'] = current_app.config['MOPASSOWRD']
+    # param_dict['htmlsource']= protocol +'://' + moserver + '/openprint/middleoffice/dynhtml/MiddleOffice/mocTagsProperties.html'
+    param_dict['htmlsource']= protocol +'://' + moserver + '/openprint/middleoffice/dynhtml/MiddleOffice/moc' + param_dict['html_name'] + '.html'
+
+    r = requests.get(url=req_url,params=param_dict)
+    print(r.url)
+    print r.text
 
 def execute_moconsole_cmd(java_cmd):
     """
@@ -28,7 +54,7 @@ def execute_moconsole_cmd(java_cmd):
     ret_code = subprocess.call(cmd, stdout=stdout_fd, stderr=stderr_fd)
     stdout_fd.close()
     stderr_fd.close()
-    # TODO: Check return code, and handle error, How? you ask?
+
     return
 
 
@@ -81,11 +107,13 @@ def tag_exists(app_name,app_id):
         tags_lst.append( url_for('tag', tag_name = str(app_name) + '_' + str(app_id)) )
     return tags_lst
 
+
 def delete_tag(tag_name,tag_id, version_id):
     hostname = current_app.config['DESIGNER_HOSTNAME']
     mo_consol_port = current_app.config['MO_CONSOLE_PORT']
     mo_hostname = hostname + ':' + str(mo_consol_port)
-
+    mo_consol_jar = current_app.config['MOCONSOL_JAR']
+    mo_conso_class = current_app.config['MOCONSOL_CLASS']
     # TODO: Check if tag is deploy to an environment
     # Check if Tag is deployed in an environment
     result = db.session.execute('select ENVIRONNEMENT_PARENT from environnement_tag_lnk where TAG_CHILD = ' + str(tag_id))
@@ -94,6 +122,7 @@ def delete_tag(tag_name,tag_id, version_id):
         row = result.first()
         env_parent_id = row['ENVIRONNEMENT_PARENT']
         print('env_parent_id = ' + str(env_parent_id))
+
         result = db.session.execute('select NAME from ENVIRONNEMENT where ID= "' + str(env_parent_id) + '"')
         if result.rowcount != 0:
             # implement a loop
@@ -102,37 +131,63 @@ def delete_tag(tag_name,tag_id, version_id):
             hostname = current_app.config['DESIGNER_HOSTNAME']
 
             ###### REMOVE CODE FROM ENV FIRST #####
-            java_cmd = ''
-            java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
-            java_cmd += ' -Xms64m'
-            java_cmd += ' -Xmx256m'
-            java_cmd += ' -DcryptedPassword=true'
-            #TODO: Tag is in remote env
-            java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt'
-            java_cmd += ' RemoveTagFromEnv'
-            java_cmd += ' http'
-            java_cmd += ' ' + mo_hostname
-            java_cmd += " " + env_name
-            java_cmd += ' "' + tag_name + '" '
-            java_cmd += '"' + str(version_id)+ '" '
+            # java_cmd = ''
+            # java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
+            # java_cmd += ' -Xms64m'
+            # java_cmd += ' -Xmx256m'
+            # java_cmd += ' -DcryptedPassword=true'
+            # #TODO: Tag is in remote env
+            # # java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt'
+            # java_cmd += ' -classpath "' + mo_consol_jar + '"'
+            # java_cmd += ' ' + mo_conso_class
+            # java_cmd += ' RemoveTagFromEnv'
+            # java_cmd += ' http'
+            # java_cmd += ' ' + mo_hostname
+            # java_cmd += " " + env_name
+            # java_cmd += ' "' + tag_name + '" '
+            # java_cmd += '"' + str(version_id)+ '" '
+            #
+            # execute_moconsole_cmd(java_cmd)
+            param_dict = {}
+            param_dict['action'] = 'RemoveTagFromEnv'
+            #param_dict['action'] = ''
+            param_dict['html_name'] = 'RemoveTagFromEnv'
+            param_dict['envName'] = env_name
+            param_dict['userTagName'] = tag_name
+            param_dict['version'] = version_id
+            param_dict['user'] = '' #user?
+            param_dict['password'] = '' #user?
+            param_dict['loginpassthrough'] = 'true'
 
-            execute_moconsole_cmd(java_cmd)
+            call_http(mo_hostname, param_dict)
+
 
     # ###### THEN REMOVE TAG ###
     # "%JAVA_HOME%\bin\java" -Xms64m -Xmx256m -DcryptedPassword=%cryptedPassword% -classpath "%class%" com.sefas.service.integration.moconsole.MoConsoleClt RemoveTag %protocol% %serverName% "%tagUserName%"  "%tagVersion%" %MOlogin% "%MOpassword%"
-    java_cmd = ''
-    java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
-    java_cmd += ' -Xms64m'
-    java_cmd += ' -Xmx256m'
-    java_cmd += ' -DcryptedPassword=true'
-    java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt'
-    java_cmd += ' RemoveTag'
-    java_cmd += ' http'
-    java_cmd += ' ' +mo_hostname
-    java_cmd += ' "' + tag_name + '" '
-    java_cmd += '"' + str(version_id)+ '" '
+    # java_cmd = ''
+    # java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
+    # java_cmd += ' -Xms64m'
+    # java_cmd += ' -Xmx256m'
+    # java_cmd += ' -DcryptedPassword=true'
+    # # java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt'
+    # java_cmd += ' -classpath "' + mo_consol_jar + '"'
+    # java_cmd += ' ' + mo_conso_class
+    # java_cmd += ' RemoveTag'
+    # java_cmd += ' http'
+    # java_cmd += ' ' + mo_hostname
+    # java_cmd += ' "' + tag_name + '" '
+    # java_cmd += '"' + str(version_id)+ '" '
 
-    execute_moconsole_cmd(java_cmd)
+    # execute_moconsole_cmd(java_cmd)
+    param_dict = {}
+    # param_dict['action'] = 'RemoveTag'
+    param_dict['html_name'] = 'RemoveTag'
+    param_dict['userTagName'] = tag_name
+    param_dict['version'] = str(version_id)
+    param_dict['loginpassthrough'] = 'true'
+
+    call_http(mo_hostname, param_dict)
+
     return
 
 class Echo(Resource):
@@ -149,6 +204,14 @@ class CreateEnv(Resource):
         env_name = request.args.get('env_name')
         env_type = 'ENV_TEST'
         env_opwd = request.args.get('env_opwd')
+
+        hostname = current_app.config['DESIGNER_HOSTNAME']
+        mo_consol_port = current_app.config['MO_CONSOLE_PORT']
+        opInstallDir = current_app.config['OPINSTALLDIR']
+        # mo_conso_class = current_app.config['MOCONSOL_CLASS']
+        # mo_consol_jar = current_app.config['MOCONSOL_JAR']
+        mo_hostname = hostname + ':' + str(mo_consol_port)
+
         print('env_name : ' + env_name )
         print('env_opwd: ' + env_opwd)
         if not os.path.exists(env_opwd):
@@ -157,35 +220,56 @@ class CreateEnv(Resource):
         result = db.session.execute('select * from ENVIRONNEMENT where NAME="' + env_name + '"')
 
         if result.rowcount == 0:
-            hostname = current_app.config['DESIGNER_HOSTNAME']
-            mo_consol_port = current_app.config['MO_CONSOLE_PORT']
-            opInstallDir = current_app.config['OPINSTALLDIR']
-            opWD = current_app.config['OPWD']
-            mo_hostname = hostname + ':' + str(mo_consol_port)
-            # "%JAVA_HOME%\bin\java" -Xms64m -Xmx256m -DcryptedPassword=%cryptedPassword% -classpath "%class%" com.sefas.service.integration.moconsole.MoConsoleClt CreateEnvironment %protocol% %serverName% "%EnvironmentName%" "%Description%" "%ProductionEngine%" "%EnvironmentType%" "%opWD%" "%StandAlone%" %MOlogin% "%MOpassword%"
-            java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
-            java_cmd += ' -Xms64m'
-            java_cmd += ' -Xmx256m'
-            java_cmd += ' -DcryptedPassword=true'
-            java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt'
-            java_cmd += ' CreateEnvironment'
-            java_cmd += ' http '
-            # TODO: To deploy the code to an enviornment other than local host
-            java_cmd += mo_hostname
-            java_cmd += ' "' + env_name + '"'
-            # Description
-            java_cmd += ' " The API created environement ' + env_name + '"'
-            java_cmd += ' "' + opInstallDir + '"'
-            #env_type = ENV_TEST or ENV_PRODUCTION
-            java_cmd += ' "' + env_type + '"'
-            java_cmd += ' "' + env_opwd + '"'
-            java_cmd += ' "true"'
+            # # "%JAVA_HOME%\bin\java" -Xms64m -Xmx256m -DcryptedPassword=%cryptedPassword% -classpath "%class%" com.sefas.service.integration.moconsole.MoConsoleClt CreateEnvironment %protocol% %serverName% "%EnvironmentName%" "%Description%" "%ProductionEngine%" "%EnvironmentType%" "%opWD%" "%StandAlone%" %MOlogin% "%MOpassword%"
+            # java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
+            # java_cmd += ' -Xms64m'
+            # java_cmd += ' -Xmx256m'
+            # java_cmd += ' -DcryptedPassword=true'
+            # # java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt'
+            # java_cmd += ' -classpath "' + mo_consol_jar + '"'
+            # java_cmd += ' ' + mo_conso_class
+            # java_cmd += ' CreateEnvironment'
+            # java_cmd += ' http'
+            # # TODO: To deploy the code to an enviornment other than local host
+            # java_cmd += ' ' + mo_hostname
+            # java_cmd += ' "' + env_name + '"'
+            # # Description
+            # java_cmd += ' " The API created environement ' + env_name + '"'
+            # java_cmd += ' "' + opInstallDir + '"'
+            # java_cmd += ' "' + env_type + '"'
+            # java_cmd += ' "' + env_opwd + '"'
+            # java_cmd += ' "true"'
+            #
+            # execute_moconsole_cmd(java_cmd)
 
-            execute_moconsole_cmd(java_cmd)
+            param_dict = {}
+            param_dict['action'] = 'AddEnvironnement'
+            param_dict['html_name'] = 'EnvironnementAction'
+            #TODO: Check about loginpassthrough
+            param_dict['loginpassthrough'] = 'true'
+            param_dict['envID'] = ''
+            param_dict['nameEnv'] = env_name
+            param_dict['description'] = 'The API created environement ' + env_name
+            param_dict['hprodEngine'] = opInstallDir
+            param_dict['htype'] = env_type
+            param_dict['opWD'] = env_opwd
+            #Standalone enviornment configurable?
+            param_dict['A_standalone'] = 'true'
+            # A_remote is a value of 0 or 1, are we creating a remote enviornemnte
+            param_dict['A_remote'] = '0'
+            param_dict['remote'] = ''
+            #remote OS configurable?
+            param_dict['os'] = ''
+            # remote smd configurable?
+            param_dict['remote_SMD'] = ''
+            #remote Python configurable?
+            param_dict['remote_Python'] = ''
+            param_dict['hfunctions'] = ''
+            param_dict['hdomaines'] = ''
+            param_dict['hressources'] = ''
 
-            #logic to return enviornment link
+            call_http(mo_hostname, param_dict)
 
-            #/api/v1.0/environments/62
         result_b = db.engine.execute('select * from ENVIRONNEMENT where NAME="' + env_name + '"')
         row = result_b.first()
         env_id = row['ID']
@@ -203,9 +287,6 @@ class Environments(Resource):
         for row in result:
             dict_row={}
             dict_row['ID'] = row['ID']
-            # dict_row['NAME'] = row['NAME']
-            print(str(dict_row))
-            # env_list.append( {'Enviornment Name:' : dict_row['NAME'] , 'URL' : url_for('enviornment', env_id=dict_row['ID'])} )
             env_list.append(url_for('enviornment', env_id=dict_row['ID']))
         return jsonify({'environments':env_list})
 
@@ -222,12 +303,8 @@ class Enviornment(Resource):
         for row in result:
             print('TAG_ID = ' + str(row['TAG_CHILD']))
             tag_result = db.session.execute('select USER_NAME, VERSION from TAG where ID = ' + str(row['TAG_CHILD']))
-            #for row_t in tag_result:
             row_t =tag_result.first()
-            #dict_row={}
-            #dict_row['USER_NAME'] = row_t['USER_NAME']
             tags_lst.append(url_for('tag_version', tag_name = row_t['USER_NAME'], version_id =  row_t['VERSION']))
-            # tags_lst.append(url_for('tag', tag_name=row_t['USER_NAME']))
         print(str(tags_lst))
         return jsonify({'tags': tags_lst,'NAME':env_name, 'TYPE':env_type, 'PATH':env_path})
 
@@ -275,6 +352,10 @@ class TagDeploy(Resource):
         hostname = current_app.config['DESIGNER_HOSTNAME']
         mo_consol_port = current_app.config['MO_CONSOLE_PORT']
         mo_hostname = hostname + ':' + str(mo_consol_port)
+        mo_conso_class = current_app.config['MOCONSOL_CLASS']
+        mo_consol_jar = current_app.config['MOCONSOL_JAR']
+
+        print('Executing SQL statement: select distinct NAME from environnement where ID = ' + str(env_id))
         result = db.session.execute('select distinct NAME from environnement where ID = :env_id', {'env_id': env_id})
         if result.rowcount == 0:
             abort(404)
@@ -282,27 +363,42 @@ class TagDeploy(Resource):
         env_name = row['NAME']
         #CMD
         #"%JAVA_HOME%\bin\java" -Xms64m -Xmx256m -DcryptedPassword=%cryptedPassword% -classpath "%class%" com.sefas.service.integration.moconsole.MoConsoleClt TransfertTag %protocol% %serverName% "%TagName%" "%TagVersion%" "%EnvironmentName%" "%WithCompil%" "%GenerateProjectorTree%" %MOlogin% "%MOpassword%"
-        java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
-        java_cmd += ' -Xms64m'
-        java_cmd += ' -Xmx256m'
-        java_cmd += ' -DcryptedPassword=true'
-        java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt'
-        java_cmd += ' TransfertTag'
-        java_cmd += ' http '
-        # TODO: To deploy the code to an enviornment other than local host
-        java_cmd += mo_hostname
-        java_cmd += ' "' + tagname + '"'
-        java_cmd += ' "' + str(version_id) + '"'
-        java_cmd += ' "' + env_name + '"'
-        #"%WithCompil%"
-        java_cmd += ' "1"'
-        # "%GenerateProjectorTree%"
-        # TODO: Do we really need to GenerateProjectorTree? it is enabled for now per transfertTag.bat
-        java_cmd += ' "1"'
+        # java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
+        # java_cmd += ' -Xms64m'
+        # java_cmd += ' -Xmx256m'
+        # java_cmd += ' -DcryptedPassword=true'
+        # # java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt'
+        # java_cmd += ' -classpath "' + mo_consol_jar + '"'
+        # java_cmd += ' ' + mo_conso_class
+        # java_cmd += ' TransfertTag'
+        # java_cmd += ' http'
+        # # TODO: To deploy the code to an enviornment other than local host
+        # java_cmd += ' ' + mo_hostname
+        # java_cmd += ' "' + tagname + '"'
+        # java_cmd += ' "' + str(version_id) + '"'
+        # java_cmd += ' "' + env_name + '"'
+        # #"%WithCompil%"
+        # java_cmd += ' "1"'
+        # # "%GenerateProjectorTree%"
+        # # TODO: Do we really need to GenerateProjectorTree? it is enabled for now per transfertTag.bat
+        # java_cmd += ' "1"'
+        #
+        # execute_moconsole_cmd(java_cmd)
 
-        execute_moconsole_cmd(java_cmd)
+        param_dict = {}
+        param_dict['action'] = 'TransfertTag'
+        param_dict['html_name'] = 'TagAction'
+        param_dict['tagName'] = tagname
+        param_dict['tagVersion'] = version_id
+        param_dict['env'] = env_name
+        param_dict['withCompil'] = '1'
+        param_dict['genProjTree'] = '1'
+        param_dict['loginpassthrough'] = 'true'
 
-        return url_for('enviornment', env_id=env_id)
+        call_http(mo_hostname, param_dict)
+
+        #TODO: return something here
+        return {}
 
 
 class TagNewVersion(Resource):
@@ -310,6 +406,8 @@ class TagNewVersion(Resource):
         hostname = current_app.config['DESIGNER_HOSTNAME']
         mo_consol_port = current_app.config['MO_CONSOLE_PORT']
         mo_hostname = hostname + ':' + str(mo_consol_port)
+        mo_conso_class = current_app.config['MOCONSOL_CLASS']
+        mo_consol_jar = current_app.config['MOCONSOL_JAR']
 
         result = db.session.execute('select ID from TAG where USER_NAME = :tag_name and VERSION = :version_id', {'tag_name': tag_name, 'version_id':version_id})
         if result.rowcount == 0:
@@ -319,21 +417,31 @@ class TagNewVersion(Resource):
         dict_row = dict([(x, row[x]) for x in result.keys()])
         tag_id = dict_row ['ID']
 
-        java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
-        java_cmd += ' -Xms64m'
-        java_cmd += ' -Xmx256m'
-        java_cmd += ' -DcryptedPassword=true'
-        java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt'
-        java_cmd += ' TagNewVersion'
-        java_cmd += ' ' + mo_hostname
-        java_cmd += ' http'
-        java_cmd += ' "' + str(tag_id) + '"'
-        #java_cmd += ' "' + tag_name + '"'
-        java_cmd += ' " "'
+        # java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
+        # java_cmd += ' -Xms64m'
+        # java_cmd += ' -Xmx256m'
+        # java_cmd += ' -DcryptedPassword=true'
+        # # java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt'
+        # java_cmd += ' -classpath "' + mo_consol_jar + '"'
+        # java_cmd += ' ' + mo_conso_class
+        # java_cmd += ' TagNewVersion'
+        # java_cmd += ' ' + mo_hostname
+        # java_cmd += ' http'
+        # java_cmd += ' "' + str(tag_id) + '"'
+        # #java_cmd += ' "' + tag_name + '"'
+        # java_cmd += ' " "'
+        #
+        # execute_moconsole_cmd(java_cmd)
 
-        execute_moconsole_cmd(java_cmd)
+        param_dict = {}
+        param_dict['action'] = 'TagNewVersion'
+        param_dict['html_name'] = 'TagsProperties'
+        param_dict['tagIdList'] = str(tag_id)
+        param_dict['tagNameOrOpAppliList'] = tag_name
+        param_dict['loginpassthrough'] = 'true'
 
-        #potential bug here, when we have version 1.1 and 1.2, and then we create version from 1.1, we should end up with 1.2, but the created tag will be 1.3
+        call_http(mo_hostname, param_dict)
+
         result_max = db.session.execute('select max(VERSION) from TAG where USER_NAME ="' + tag_name + '"')
         if result_max.rowcount == 0:
             print("No result_max returned?")
@@ -363,6 +471,8 @@ class TagUpdate(Resource):
         print('Tag name = ' + tag_name)
         hostname = current_app.config['DESIGNER_HOSTNAME']
         mo_consol_port = current_app.config['MO_CONSOLE_PORT']
+        mo_conso_class = current_app.config['MOCONSOL_CLASS']
+        mo_consol_jar = current_app.config['MOCONSOL_JAR']
         mo_hostname = hostname + ':' + str(mo_consol_port)
         app_name = tag_name[:-4]
         print('Application name = ' + app_name )
@@ -384,49 +494,88 @@ class TagUpdate(Resource):
         app_type = dict_row ['RESTYP_PARENT']
         # updateTagManageResources.bat, to update the dataloader
         # "%JAVA_HOME%\bin\java" -Xms64m -Xmx256m -DcryptedPassword=%cryptedPassword% -classpath "%class%" com.sefas.service.integration.moconsole.MoConsoleClt %action% %serverName% %protocol% "%tagIdList%" "%tagNameOrOpAppliList%" "%resIdList%" "%MOlogin%" "%MOpassword%"
-        java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
-        java_cmd += ' -Xms64m'
-        java_cmd += ' -Xmx256m'
-        java_cmd += ' -DcryptedPassword=true'
-        java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt UpdateTagElements '
-        java_cmd += mo_hostname
-        java_cmd += ' http'
-        java_cmd += ' "' + str(tag_id) + '"'
-        java_cmd += ' "' + tag_name + '"'
-        java_cmd += ' "DATALOADERS"'
+        # java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
+        # java_cmd += ' -Xms64m'
+        # java_cmd += ' -Xmx256m'
+        # java_cmd += ' -DcryptedPassword=true'
+        # # java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt UpdateTagElements '
+        # java_cmd += ' -classpath "' + mo_consol_jar + '"'
+        # java_cmd += ' ' + mo_conso_class
+        # java_cmd += ' UpdateTagElements'
+        # java_cmd += ' ' + mo_hostname
+        # java_cmd += ' http'
+        # java_cmd += ' "' + str(tag_id) + '"'
+        # java_cmd += ' "' + tag_name + '"'
+        # java_cmd += ' "DATALOADERS"'
+        #
+        # execute_moconsole_cmd(java_cmd)
 
-        execute_moconsole_cmd(java_cmd)
+        param_dict = {}
+        param_dict['action'] = 'UpdateTagElements'
+        param_dict['html_name'] = 'TagManageResources'
+        param_dict['tagIdList'] = str(tag_id)
+        param_dict['tagNameOrOpAppliList'] = tag_name
+        param_dict['resIdList'] = ''
+        param_dict['loginpassthrough'] = 'true'
+
+        call_http(mo_hostname, param_dict)
 
         #to update the tage, first remove the primary resource (applicaton), then add it back in
         #remove application from tag
         #"%JAVA_HOME%\bin\java" -Xms64m -Xmx256m -DcryptedPassword=%cryptedPassword% -classpath "%class%" com.sefas.service.integration.moconsole.MoConsoleClt %action% %serverName% %protocol% "%tagIdList%" "%tagNameOrOpAppliList%" "%resIdList%" "%MOlogin%" "%MOpassword%"
-        java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
-        java_cmd += ' -Xms64m'
-        java_cmd += ' -Xmx256m'
-        java_cmd += ' -DcryptedPassword=true'
-        java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt RemoveResourcesInTag '
-        java_cmd +=  mo_hostname
-        java_cmd += ' http'
-        java_cmd += ' "' + str(tag_id) + '"'
-        java_cmd += ' "' + tag_name + '"'
-        java_cmd += ' "' + str(app_id) + '"'
+        # java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
+        # java_cmd += ' -Xms64m'
+        # java_cmd += ' -Xmx256m'
+        # java_cmd += ' -DcryptedPassword=true'
+        # # java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt RemoveResourcesInTag '
+        # java_cmd += ' -classpath "' + mo_consol_jar + '"'
+        # java_cmd += ' ' + mo_conso_class
+        # java_cmd += ' RemoveResourcesInTag'
+        # java_cmd +=  ' ' + mo_hostname
+        # java_cmd += ' http'
+        # java_cmd += ' "' + str(tag_id) + '"'
+        # java_cmd += ' "' + tag_name + '"'
+        # java_cmd += ' "' + str(app_id) + '"'
+        #
+        # execute_moconsole_cmd(java_cmd)
 
-        execute_moconsole_cmd(java_cmd)
+        param_dict = {}
+        param_dict['action'] = 'RemoveResourcesInTag'
+        param_dict['html_name'] = 'TagManageResources'
+        param_dict['tagIdList'] = str(tag_id)
+        param_dict['tagNameOrOpAppliList'] = tag_name
+        param_dict['resIdList'] = str(app_id)
+        param_dict['loginpassthrough'] = 'true'
+
+        call_http(mo_hostname, param_dict)
 
         #Insert applicaiton into the tag
         #"%JAVA_HOME%\bin\java" -Xms64m -Xmx256m -DcryptedPassword=%cryptedPassword% -classpath "%class%" com.sefas.service.integration.moconsole.MoConsoleClt CreateNewTag %serverName% %protocol% "%TagName%" "%TagDescription%" "%DataLoaderNameID%" "%MOlogin%" "%MOpassword%"
-        java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
-        java_cmd += ' -Xms64m'
-        java_cmd += ' -Xmx256m'
-        java_cmd += ' -DcryptedPassword=true'
-        java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt AddResourcesInTag '
-        java_cmd += mo_hostname
-        java_cmd += ' http'
-        java_cmd += ' "' + str(tag_id) + '"'
-        java_cmd += ' "' + tag_name + '"'
-        java_cmd += ' "' + str(app_id) + '"'
+        # java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
+        # java_cmd += ' -Xms64m'
+        # java_cmd += ' -Xmx256m'
+        # java_cmd += ' -DcryptedPassword=true'
+        # # java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt AddResourcesInTag '
+        # java_cmd += ' -classpath "' + mo_consol_jar + '"'
+        # java_cmd += ' ' + mo_conso_class
+        # java_cmd += ' AddResourcesInTag'
+        # java_cmd += ' ' + mo_hostname
+        # java_cmd += ' http'
+        # java_cmd += ' "' + str(tag_id) + '"'
+        # java_cmd += ' "' + tag_name + '"'
+        # java_cmd += ' "' + str(app_id) + '"'
+        #
+        # execute_moconsole_cmd(java_cmd)
 
-        execute_moconsole_cmd(java_cmd)
+        param_dict = {}
+        param_dict['action'] = 'AddResourcesInTag'
+        param_dict['html_name'] = 'TagManageResources'
+        param_dict['tagIdList'] = str(tag_id)
+        param_dict['tagNameOrOpAppliList'] = tag_name
+        param_dict['resIdList'] = str(app_id)
+        param_dict['loginpassthrough'] = 'true'
+
+        call_http(mo_hostname, param_dict)
 
         return url_for('tag_version', tag_name=tag_name, version_id=version_id)
 
@@ -506,6 +655,8 @@ class AppCreateTag(Resource):
         hostname = current_app.config['DESIGNER_HOSTNAME']
         mo_consol_port = current_app.config['MO_CONSOLE_PORT']
         mo_hostname = hostname + ':' + str(mo_consol_port)
+        mo_conso_class = current_app.config['MOCONSOL_CLASS']
+        mo_consol_jar = current_app.config['MOCONSOL_JAR']
 
         print('app_id = ' + str(app_id))
         result = db.session.execute('select RESTYP_PARENT from RES_DESC where ID = "' + str(app_id) + '"')
@@ -529,18 +680,30 @@ class AppCreateTag(Resource):
         tag_name = application_name  + '_' + str(app_id) # TODO: replace _TAG with _res_id
 
         #"%JAVA_HOME%\bin\java" -Xms64m -Xmx256m -DcryptedPassword=%cryptedPassword% -classpath "%class%" com.sefas.service.integration.moconsole.MoConsoleClt CreateNewTag %serverName% %protocol% "%TagName%" "%TagDescription%" "%DataLoaderNameID%" "%MOlogin%" "%MOpassword%"
-        java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
-        java_cmd += ' -Xms64m'
-        java_cmd += ' -Xmx256m'
-        java_cmd += ' -DcryptedPassword=true'
-        java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt CreateNewTag '
-        java_cmd += mo_hostname
-        java_cmd += ' http'
-        java_cmd += ' "' + tag_name + '"'
-        java_cmd += ' "The Application ' + application_name  + ' Tag"'
-        java_cmd += ' ' + dataloader_name + ':' +  str(dataloader_id)
+        # java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
+        # java_cmd += ' -Xms64m'
+        # java_cmd += ' -Xmx256m'
+        # java_cmd += ' -DcryptedPassword=true'
+        # # java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt CreateNewTag '
+        # java_cmd += ' -classpath "' + mo_consol_jar + '"'
+        # java_cmd += ' ' + mo_conso_class
+        # java_cmd += ' CreateNewTag'
+        # java_cmd += ' ' + mo_hostname
+        # java_cmd += ' http'
+        # java_cmd += ' "' + tag_name + '"'
+        # java_cmd += ' "The Application ' + application_name  + ' Tag"'
+        # java_cmd += ' ' + dataloader_name + ':' +  str(dataloader_id)
+        #
+        # execute_moconsole_cmd(java_cmd)
+        param_dict = {}
+        param_dict['action'] = 'CreateNewTag'
+        param_dict['html_name'] = 'TagsProperties'
+        param_dict['tagName'] = tag_name
+        param_dict['tagDesc'] = 'The Application ' + application_name + ' Tag'
+        param_dict['dataloaderNameID'] = dataloader_name
+        param_dict['loginpassthrough'] = 'true'
 
-        execute_moconsole_cmd(java_cmd)
+        call_http(mo_hostname, param_dict)
 
         #updateTagManageResources
         #"%JAVA_HOME%\bin\java" -Xms64m -Xmx256m -DcryptedPassword=%cryptedPassword% -classpath "%class%" com.sefas.service.integration.moconsole.MoConsoleClt %action% %serverName% %protocol% "%tagIdList%" "%tagNameOrOpAppliList%" "%resIdList%" "%MOlogin%" "%MOpassword%"
@@ -552,18 +715,30 @@ class AppCreateTag(Resource):
         dict_row = dict([(x, row[x]) for x in result.keys()])
         tag_id = dict_row['ID']
 
-        java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
-        java_cmd += ' -Xms64m'
-        java_cmd += ' -Xmx256m'
-        java_cmd += ' -DcryptedPassword=true'
-        java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt AddResourcesInTag '
-        java_cmd += hostname + ':' + str(mo_consol_port)
-        java_cmd += ' http'
-        java_cmd += ' "' + str(tag_id) + '"'
-        java_cmd += ' "' + tag_name + '"'
-        java_cmd += ' "' + str(app_id) + '"'
+        # java_cmd = '"' + os.path.join(current_app.config['JAVA_HOME'], 'bin', 'java') + '"'
+        # java_cmd += ' -Xms64m'
+        # java_cmd += ' -Xmx256m'
+        # java_cmd += ' -DcryptedPassword=true'
+        # # java_cmd += ' -classpath "' + os.path.join(current_app.config['DESIGNER_HOME'], 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar') + '" com.sefas.service.integration.moconsole.MoConsoleClt AddResourcesInTag '
+        # java_cmd += ' -classpath "' + mo_consol_jar + '"'
+        # java_cmd += ' ' + mo_conso_class
+        # java_cmd += ' AddResourcesInTag '
+        # java_cmd += hostname + ':' + str(mo_consol_port)
+        # java_cmd += ' http'
+        # java_cmd += ' "' + str(tag_id) + '"'
+        # java_cmd += ' "' + tag_name + '"'
+        # java_cmd += ' "' + str(app_id) + '"'
+        #
+        # execute_moconsole_cmd(java_cmd)
+        param_dict = {}
+        param_dict['action'] = 'AddResourcesInTag'
+        param_dict['html_name'] = 'TagManageResources'
+        param_dict['tagIdList'] = str(tag_id)
+        param_dict['tagNameOrOpAppliList'] = tag_name
+        param_dict['resIdList'] = str(app_id)
+        param_dict['loginpassthrough'] = 'true'
 
-        execute_moconsole_cmd(java_cmd)
+        call_http(mo_hostname, param_dict)
 
         return url_for('tag', tag_name=tag_name )
 
