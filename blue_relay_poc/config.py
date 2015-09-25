@@ -22,13 +22,15 @@ class DevelopmentConfigMySQL(Config):
     JAVA_HOME = 'C:\Program Files (x86)\Java\jdk1.8.0_25' #os.path.join('C:\Program Files (x86)', 'Java', 'jdk1.8.0_25') #
     DESIGNER_HOSTNAME = 'localhost'
     #DESIGNER_HOSTNAME = '10.6.71.1'
-    MOPASSOWRD = ' '
+    MOPASSOWRD = ''
     MOLOGIN = 'mabdul-aziz'
     LOG_PATH = 'D:\\MA_Sefas\\Clients\\BlueRelay\\temp'
     TEMPLATES_PATH = os.path.join(DESIGNER_HOME, 'home', 'opWD', 'default', 'common', 'template')
     MO_CONSOLE_PORT = 9080
     OPINSTALLDIR = 'C:\\OpenPrint\\Designer_7_1_2_8\\bin\\backstage\\windows'
     OPWD = 'D:\\MA_Sefas\\Clients\\BlueRelay\\Test_Env'
+    MOCONSOL_JAR=os.path.join(DESIGNER_HOME, 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar')
+    MOCONSOL_CLASS = 'com.sefas.service.integration.moconsole.MoConsoleClt'
 
 class TestingConfig(Config):
     TESTING = True
