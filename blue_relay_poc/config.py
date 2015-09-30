@@ -24,13 +24,12 @@ class DevelopmentConfigMySQL(Config):
     #DESIGNER_HOSTNAME = '10.6.71.1'
     MOPASSOWRD = ''
     MOLOGIN = 'mabdul-aziz'
-    LOG_PATH = 'D:\\MA_Sefas\\Clients\\BlueRelay\\temp'
+    LOG_FILE_PATH = 'D:\\MA_Sefas\\Clients\\BlueRelay\\temp\\api.log'
     TEMPLATES_PATH = os.path.join(DESIGNER_HOME, 'home', 'opWD', 'default', 'common', 'template')
     MO_CONSOLE_PORT = 9080
     OPINSTALLDIR = 'C:\\OpenPrint\\Designer_7_1_2_8\\bin\\backstage\\windows'
     OPWD = 'D:\\MA_Sefas\\Clients\\BlueRelay\\Test_Env'
-    MOCONSOL_JAR=os.path.join(DESIGNER_HOME, 'home', 'html', 'MiddleOffice', 'applet','swasdksrv.jar')
-    MOCONSOL_CLASS = 'com.sefas.service.integration.moconsole.MoConsoleClt'
+    PROTOCOL = 'http'
 
 class TestingConfig(Config):
     TESTING = True
