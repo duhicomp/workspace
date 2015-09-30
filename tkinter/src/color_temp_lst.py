@@ -1,17 +1,19 @@
-__author__ = 'Mohammed'
-__author__ = 'mabdul-aziz'
+__author__ = 'duhicomp'
 import Tkinter as tk
-
 COLORS_DICT_TEMP = [
-                 'DarkOliveGreen1',
-                 'DarkOliveGreen2',
-                 'DarkOliveGreen3',
-                 'DarkSeaGreen1',
-                 'PaleGreen1',
-                 'PaleGreen2',
-                 'PaleGreen3',
+                    'DarkSeaGreen1',
+                    'DarkOliveGreen1',
+                    'DarkOliveGreen2',
+                    'PaleGreen1',
+                    'PaleGreen2',
+                    'SpringGreen2',
+                    'PaleGreen3',
+                    'DarkOliveGreen3',
+
+
+
                  'PaleGreen4',
-                 'SpringGreen2',
+
                  'SpringGreen3',
                  'SpringGreen4',
                  'green2',
@@ -102,6 +104,7 @@ COLORS_DICT_TEMP = [
                ]
 
 
+
 class VerticalScrolledFrame(tk.Frame):
     """A pure Tkinter scrollable frame that actually works!
 
@@ -156,7 +159,7 @@ scframe = VerticalScrolledFrame(root)
 scframe.pack()
 
 lis = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
-for i in range(1,len(COLORS_DICT_TEMP)):
+for i in range(0,len(COLORS_DICT_TEMP)):
     btn = tk.Button(scframe.interior, height=1, width=20, relief=tk.FLAT,
         bg=COLORS_DICT_TEMP[i], fg='ghost white',
         font="Dosis", text=COLORS_DICT_TEMP[i])
